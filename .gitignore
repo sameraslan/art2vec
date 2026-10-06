@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Tooling
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Local data: artefacts, embeddings and model weights never enter the repo
+.cache/
+data/
+*.npz
+*.parquet
+*.mp3
+*.m4a
+*.wav
+.env
