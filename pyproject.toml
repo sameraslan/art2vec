@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "art2vec"
+version = "0.0.1"
+description = "Content-only similarity for art: albums first, paintings, films and books later."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Samer Aslan" }]
+# licence: to be chosen (FRAMEWORK.md section 11)
+dependencies = [
+  "numpy>=1.26",
+  "platformdirs>=4",
+]
+
+[project.optional-dependencies]
+# Each medium's heavy dependencies arrive with its code. `album` grows as album2vec is extracted.
+album = []
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.10"]
+
+[project.urls]
+Repository = "https://github.com/sameraslan/art2vec"
+
+[tool.hatch.build.targets.wheel]
+packages = ["art2vec", "album2vec"]
+exclude = ["**/FRAMEWORK.md"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.format]
+exclude = ["*.md"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["art2vec"]
+
+[[tool.mypy.overrides]]
+module = ["album2vec.*"]
+strict = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

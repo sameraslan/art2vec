@@ -2,7 +2,7 @@
 
 Content-only similarity for art. Start from a work you love, see what sits next to it, and walk outward one small step at a time.
 
-This document is the constitution of the art2vec library and of every product built on it. It says what the library is for, the two rules it enforces, the one exception it allows, and what is still open. System design, interfaces and code answer to it. Each medium has its own extension of this document in its folder (`album2vec/FRAMEWORK.md` is the first) that applies these rules to one art form and may not contradict them.
+This document holds the rules the art2vec library and every product built on it follow; design and code answer to it. It says what the library is for, the two rules it enforces, the one exception it allows, and what is still open. System design, interfaces and code answer to it. Each medium has its own extension of this document in its folder (`album2vec/FRAMEWORK.md` is the first) that applies these rules to one art form and may not contradict them.
 
 Status: adopted 6 October 2026 with the descriptor rule settled (section 5). Open questions are in section 11.
 
@@ -24,7 +24,7 @@ Not goals: accounts, personalisation, play tracking, or anything that learns abo
 
 ### Rule 1. Reception picks the set
 
-All the art ever made is far too much to go through, and there are only so many hours in a day. Each medium starts from a canon: a list of works that many people, over time, have claimed to be worth the time. Crowd-sourced charts, critics' polls, combined "best of" lists. Within that set the person explores freely.
+Nobody can go through everything, so each medium starts from a canon: a list of works that many people, over time, have claimed to be worth the time. Crowd-sourced charts, critics' polls, combined "best of" lists. Within that set the person explores freely.
 
 The canon is a quality filter and nothing more. Ratings, vote counts and rankings decide what is in the set and nothing else. They never decide where anything sits in it. (Where a pipeline keeps works in chart order, that order may break ties and seed a layout; it may not move a neighbour.)
 
@@ -56,7 +56,7 @@ Reception data has two legitimate uses besides the canon: evaluation (section 7)
 
 Collaborative filtering recommends what people like you already like. It is good at the first job in section 1 and bad at the other two: it keeps everyone inside the circle they started in and amplifies whatever is already popular. Genre labels are coarse, social and historical; two albums that sound alike sit in different genres because of who made them and when. Both approaches describe the audience, and the person already knows their audience.
 
-The work itself does not care about any of that. An encoder that only hears the audio will put a 1970s Ethiopian jazz record next to a 2010s electronic one if they share a texture, and that is exactly the step across a boundary that a person could never have planned. The recmyrecord genre-crossing report chose to let the sonic side cross genres freely rather than force lists to stay inside one.
+The work itself does not care about any of that. An encoder that only hears the audio will put a 1970s Ethiopian jazz record next to a 2010s electronic one if they share a texture, a step no genre browser would offer. The recmyrecord genre-crossing report chose to let the sonic side cross genres freely rather than force lists to stay inside one.
 
 The canon exists because content-only similarity over everything would be noise: most of what exists is not worth anyone's hour, and a space is only explorable if most of what you land on rewards the landing. Reception is the cheapest reliable signal that something is there, so it decides the set and nothing else.
 

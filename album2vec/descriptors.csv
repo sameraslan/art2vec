@@ -1,0 +1,177 @@
+word,kind,reason
+aggressive,1,aggression felt
+angry,1,anger felt
+anthemic,1,"rousing, sing-along feel; borderline texture"
+anxious,1,unease the music puts you in
+apocalyptic,1,doom atmosphere; could be depicted end-times subject
+aquatic,1,underwater atmosphere; water as subject possible
+autumn,1,seasonal atmosphere
+bittersweet,1,mixed feeling induced
+calm,1,calm induced
+cold,1,chilly atmosphere; could read as texture
+dark,1,darkness felt
+depressive,1,low mood induced
+desert,1,"arid, open atmosphere; depicted desert possible"
+disturbing,1,unsettles the listener
+energetic,1,energy felt
+forest,1,woodland atmosphere; depicted forest possible
+funereal,1,mournful atmosphere; funerals as subject possible
+happy,1,joy felt
+humorous,1,it makes you laugh: an effect felt; from lyrics mostly
+hypnotic,1,trance effect on listener
+infernal,1,hellish atmosphere; hell as subject possible
+lethargic,1,sluggish feel
+lonely,1,isolation felt while listening
+longing,1,yearning felt
+manic,1,frantic state induced
+meditative,1,contemplative state induced
+melancholic,1,names a sadness the listener feels
+mellow,1,relaxed feel
+mysterious,1,sense of mystery felt; borderline style judgement
+nocturnal,1,night atmosphere
+ominous,1,foreboding felt
+party,1,festive feel; also a function (music for parties)
+passionate,1,fervour felt
+pastoral,1,countryside calm atmosphere; borderline subject
+peaceful,1,peace felt
+playful,1,playfulness felt
+rain,1,rainy-day atmosphere; depicted rain possible
+ritualistic,1,ceremonial trance atmosphere; borderline texture
+romantic,1,romance felt; not the era
+sad,1,sadness felt
+scary,1,fear induced
+seasonal,1,"atmosphere of a season, per brief; borderline subject"
+sensual,1,"bodily, seductive feel"
+sentimental,1,tender feeling induced
+sombre,1,grave mood induced
+soothing,1,calms the listener
+space,1,"cosmic, weightless atmosphere; outer space as subject possible"
+spiritual,1,transcendent feel; subject reading (religion) possible
+spring,1,seasonal atmosphere
+summer,1,seasonal atmosphere
+surreal,1,dreamlike disorientation as effect; style reading possible
+suspenseful,1,tension felt
+triumphant,1,triumph felt
+tropical,1,sun-soaked atmosphere; borderline style (tropical rhythms)
+uplifting,1,lifts the listener
+urban,1,"city-night atmosphere, not a depicted city; borderline subject"
+warm,1,warmth felt; could read as texture
+winter,1,seasonal atmosphere
+Wall of Sound,2,production technique
+acoustic,2,instrumentation
+androgynous vocals,2,voice quality
+atmospheric,2,"texture-led sound, per brief"
+atonal,2,harmonic content
+chamber music,2,small-ensemble instrumentation; also a classical form
+chaotic,2,disordered arrangement; borderline felt
+choral,2,instrumentation
+deadpan,2,vocal delivery; RYM files it with lyric attitude
+dense,2,thick arrangement
+dissonant,2,harmonic content
+ensemble,2,group instrumentation
+ethereal,2,"airy texture, per brief"
+female vocals,2,who sings
+heavy,2,sonic weight and distortion; borderline felt
+improvisation,2,how it was made
+instrumental,2,no vocals
+lo-fi,2,recording fidelity
+lush,2,"rich texture, per brief"
+lyrics,2,has words; counterpart of instrumental
+male vocals,2,who sings
+martial,2,march rhythms and snares; borderline felt
+mashup,2,built from existing records
+mechanical,2,machine-like sound; borderline felt coldness
+medley,2,several tunes stitched
+melodic,2,melody-forward construction
+minimalistic,2,few elements
+monologue,2,spoken passage
+natural,2,"organic, unprocessed sound"
+noisy,2,noise content
+orchestral,2,instrumentation
+polyphonic,2,many independent lines
+raw,2,unpolished production
+repetitive,2,structural repetition
+rhythmic,2,rhythm-forward construction
+sampling,2,built from samples
+skit,2,spoken comic interlude
+soft,2,"quiet, gentle dynamics; borderline felt"
+sparse,2,"thin texture, per brief"
+string quartet,2,instrumentation; also a classical form
+suite,2,multi-movement structure
+tribal,2,chant and percussion sound; cultural-position tinge
+uncommon time signatures,2,metric construction
+vocal group,2,several voices
+Christian,3,lyric theme
+Halloween,3,occasion as theme; borderline spooky atmosphere
+Islamic,3,lyric theme
+LGBT,3,lyric theme
+abstract,3,abstract lyrics; RYM lyric descriptor
+alcohol,3,lyric theme
+alienation,3,lyric theme
+anarchism,3,lyric theme
+anti-religious,3,lyric theme
+apathetic,3,lyric stance; borderline delivery
+boastful,3,lyric stance
+breakup,3,lyric theme
+concept album,3,"form: unified theme; form, filed with subject per brief"
+conscious,3,lyric theme
+crime,3,lyric theme
+death,3,lyric theme
+drugs,3,lyric theme
+educational,3,lyric purpose
+existential,3,lyric theme
+fairy tale,3,lyric theme
+fantasy,3,lyric theme
+folklore,3,lyric theme
+hateful,3,lyric stance
+hedonistic,3,lyric theme
+history,3,lyric theme
+ideology,3,lyric theme
+introspective,3,lyric stance; borderline felt
+love,3,lyric theme
+misanthropic,3,lyric outlook
+mythology,3,lyric theme
+nature,3,depicted subject; RYM lyric descriptor
+nihilistic,3,lyric outlook
+occult,3,lyric theme
+optimistic,3,"lyric outlook, not a felt mood"
+pagan,3,lyric theme
+paranormal,3,lyric theme
+parody,3,mocks a target; mode of address
+pessimistic,3,"lyric outlook, not a felt mood"
+philosophical,3,lyric theme
+political,3,lyric theme
+protest,3,lyric theme
+rebellious,3,lyric stance
+religious,3,lyric theme
+sarcastic,3,lyric tone
+satanic,3,lyric theme
+satirical,3,lyric mode
+science fiction,3,lyric theme
+self-hatred,3,lyric theme
+serious,3,lyric tone; borderline judgement
+sexual,3,lyric theme
+sports,3,lyric theme
+suicide,3,lyric theme
+violence,3,lyric theme
+vulgar,3,lyric content
+war,3,lyric theme
+avant-garde,4,movement word
+ballad,4,song form
+complex,4,"judgement of standing, per brief"
+cryptic,4,"judgement of lyric standing, per brief"
+eclectic,4,genre-mixing judgement
+epic,4,"scale judgement, per brief"
+futuristic,4,"style word, per brief"
+jingle,4,advertising form and function
+medieval,4,era
+opera,4,classical form
+oratorio,4,classical form
+poetic,4,judgement of lyric standing
+progressive,4,"movement word, per brief"
+psychedelic,4,genre family more than effect; hypnotic/surreal carry the effect
+quirky,4,"judgement, per brief"
+rock opera,4,genre form
+symphony,4,classical form
+technical,4,"skill judgement, per brief"
+waltz,4,dance form
