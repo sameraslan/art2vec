@@ -4,7 +4,7 @@ Content-only similarity for art. Start from a work you love, see what sits next 
 
 Two rules and one exception: reception picks the set, the work picks the neighbours, and the one human signal allowed in a distance is how the work makes people feel. Every work gets two positions, one by what it is made of and one by what it does to people (for an album, **sounds like** and **feels like**), and one control between them. The reasoning is in [FRAMEWORK.md](FRAMEWORK.md); the design is in [ARCHITECTURE.md](ARCHITECTURE.md).
 
-Media are plugins that answer three questions: `canon()` which works are in the set, `encode()` what a work is as content vectors, `describe()` how it makes people feel. One chore, `fetch()`, puts the artefacts in the cache first. The first medium is [album2vec](album2vec/FRAMEWORK.md), extracted from [recmyrecord](https://github.com/sameraslan/recmyrecord).
+Media are plugins that answer three questions: `canon()` which works are in the set, `encode()` what a work is as content vectors, `describe()` how it makes people feel. One chore, `fetch()`, puts the artefacts in the cache first. The first medium is [album2vec](src/art2vec/album2vec/FRAMEWORK.md), extracted from [recmyrecord](https://github.com/sameraslan/recmyrecord).
 
 ## Status
 
@@ -24,7 +24,7 @@ What works today:
 
 ```python
 from art2vec import load_medium
-from album2vec import felt
+from art2vec.album2vec import felt
 
 album = load_medium("album")      # the Medium protocol, lazily imported
 felt.felt_words()                 # the descriptors that enter the distance
@@ -43,11 +43,11 @@ neighbours(space, work_id=..., k=10)
 ## Layout
 
 ```
-FRAMEWORK.md      the rules
-ARCHITECTURE.md   the design
-art2vec/          the core
-album2vec/        the first medium: its framework, its descriptor table, its code
-tests/            mirrors the packages
+FRAMEWORK.md              the rules
+ARCHITECTURE.md           the design
+src/art2vec/              the core
+src/art2vec/album2vec/    the first medium: its framework, its descriptor table, its code
+tests/                    mirrors the package
 ```
 
 ## Contributing

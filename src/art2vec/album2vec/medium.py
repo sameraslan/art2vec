@@ -13,21 +13,21 @@ class AlbumMedium:
     version = "0.0.1"  # bumps when the encoder, the artefact or descriptors.csv changes
 
     def canon(self) -> list[Work]:
-        from album2vec import canon
+        from art2vec.album2vec import canon
 
         return canon.works()
 
     def fetch(self, works: Sequence[Work]) -> None:
-        from album2vec import fetch
+        from art2vec.album2vec import fetch
 
         fetch.clips(works)
 
     def encode(self, works: Sequence[Work]) -> list[Block]:
-        from album2vec import sound
+        from art2vec.album2vec import sound
 
         return [sound.block(works)]  # the words block joins once built
 
     def describe(self, works: Sequence[Work]) -> Block:
-        from album2vec import felt
+        from art2vec.album2vec import felt
 
         return felt.block(works)

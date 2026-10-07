@@ -6,19 +6,23 @@ Status: layout adopted 6 October 2026. Code is being extracted from recmyrecord'
 
 ## 1. Shape
 
-One distribution, `art2vec`, with one package per concern at the top of the repository:
+One distribution, one import name, `art2vec`, in a `src/` layout:
 
 ```
-art2vec/            the core: works, blocks, the medium protocol, the registry, the cache
-album2vec/          the first medium: its FRAMEWORK.md, its descriptor table, its code
-tests/              mirrors the packages
+FRAMEWORK.md              the rules
+ARCHITECTURE.md           the design
+src/art2vec/              the core: works, blocks, the medium protocol, the registry, the cache
+src/art2vec/album2vec/    the first medium: its FRAMEWORK.md, its descriptor table, its code
+tests/                    mirrors the package
 ```
 
-Later media are siblings of `album2vec/` (`painting2vec/`, `film2vec/`, `book2vec/`), each a self-contained folder holding its framework extension, its committed tables and its code. The convention is the name: a top-level folder ending in `2vec` other than `art2vec` is a medium, and `tests/test_layering.py` finds media that way. The core never imports a medium except by name through the registry (section 3); the same test enforces the direction.
+Later media are siblings of `album2vec/` inside the package (`painting2vec/`, `film2vec/`, `book2vec/`), each a self-contained folder holding its framework extension, its committed tables and its code. The convention is the name: a folder in `src/art2vec/` ending in `2vec` is a medium, and `tests/test_layering.py` finds media that way. Three directions are enforced by that test: the core never imports a medium (it loads one by name through the registry, section 3), media never import each other, and every medium folder carries a `FRAMEWORK.md`. A medium imports the core freely.
 
-Why one distribution and not one per medium: at one to four media, separate packages add release and pinning work and give nothing that optional extras do not. `art2vec` alone depends on numpy and platformdirs; each medium's heavy dependencies arrive with its code as the extra of the same name (`art2vec[album]`). The cost of two top-level packages in one wheel is that `pip install art2vec` also claims the import name `album2vec`; accepted, because the folder is the unit a reader opens. If an outside party ever ships a medium, the registry grows an entry-point group; not before.
+Why one package and not a top-level package per medium: `pip install art2vec` should claim one import name, and `art2vec.album2vec` says what it is and where it belongs. Why one distribution and not one per medium: at one to four media, separate distributions add release and pinning work and give nothing that optional extras do not. `art2vec` alone depends on numpy and platformdirs; each medium's heavy dependencies arrive with its code as an extra (`art2vec[album]`), and nothing in a medium is imported until it is asked for. If an outside party ever ships a medium, the registry grows an entry-point group; not before.
 
-Why a flat layout and not `src/`: so that `album2vec/` is one folder a reader opens to find everything about albums, framework included.
+Why `src/`: tests run against the installed package, not the working directory, so a file missing from the wheel fails a test instead of a user.
+
+Module paths in the tables below are relative to `src/art2vec/`.
 
 ## 2. The three questions, and one chore, as code
 
@@ -44,7 +48,7 @@ A `Protocol` rather than a base class: a medium inherits nothing and the core on
 ## 3. Registry
 
 ```python
-MEDIA = {"album": "album2vec.medium:AlbumMedium"}   # art2vec/registry.py
+MEDIA = {"album": "art2vec.album2vec.medium:AlbumMedium"}   # registry.py
 load_medium("album")                                # imports the dotted path on demand
 ```
 
@@ -56,21 +60,21 @@ Exists:
 
 | Module | Does | Extracted from |
 |---|---|---|
-| `art2vec/work.py` | `Work` | `rmr_catalog` rows |
-| `art2vec/medium.py` | `Medium`, `Block`, `LeakNote` | new |
-| `art2vec/registry.py` | `MEDIA` and `load_medium` | new |
-| `art2vec/cache.py` | `ART2VEC_HOME`, default from platformdirs, `CACHEDIR.TAG` | `.cache/` conventions |
+| `work.py` | `Work` | `rmr_catalog` rows |
+| `medium.py` | `Medium`, `Block`, `LeakNote` | new |
+| `registry.py` | `MEDIA` and `load_medium` | new |
+| `cache.py` | `ART2VEC_HOME`, default from platformdirs, `CACHEDIR.TAG` | `.cache/` conventions |
 
 Planned, in extraction order:
 
 | Module | Does | Extracted from |
 |---|---|---|
-| `art2vec/store.py` | vectors on disk: safetensors shards of about 1,000 works per block with the ids in the shard's string metadata, a manifest naming medium, model and version, the fitted transform beside them; append-only, temp-file-then-rename | `rmr_pipeline/audio_store.py` (npz shards), `audio.py` (transform) |
-| `art2vec/fusion.py` | load blocks, refuse mixed versions of one medium, scale every block to the same total variance, combine content blocks and the felt block with one weight, honour absent rows | `rmr_pipeline/audio.py site_matrix`, `table.py rec_matrix` (the same formula written twice; one copy survives) |
-| `art2vec/neighbours.py` | k nearest by Euclidean distance; filters that never alter distances; optional hub correction | `rmr_pipeline/recs.py` |
-| `art2vec/layout.py` | 2D projection per stop, aligned across stops; extra `layout` | `rmr_pipeline/layout.py` |
-| `art2vec/export.py` | parquet for vectors and metadata; compact JSON of neighbours and positions for a site | `rmr_pipeline/build.py` (the general half) |
-| `art2vec/cli.py` | `art2vec build`, `neighbours`, `export`; argparse; a re-run resumes by shard | `python -m rmr_pipeline` |
+| `store.py` | vectors on disk: safetensors shards of about 1,000 works per block with the ids in the shard's string metadata, a manifest naming medium, model and version, the fitted transform beside them; append-only, temp-file-then-rename | `rmr_pipeline/audio_store.py` (npz shards), `audio.py` (transform) |
+| `fusion.py` | load blocks, refuse mixed versions of one medium, scale every block to the same total variance, combine content blocks and the felt block with one weight, honour absent rows | `rmr_pipeline/audio.py site_matrix`, `table.py rec_matrix` (the same formula written twice; one copy survives) |
+| `neighbours.py` | k nearest by Euclidean distance; filters that never alter distances; optional hub correction | `rmr_pipeline/recs.py` |
+| `layout.py` | 2D projection per stop, aligned across stops; extra `layout` | `rmr_pipeline/layout.py` |
+| `export.py` | parquet for vectors and metadata; compact JSON of neighbours and positions for a site | `rmr_pipeline/build.py` (the general half) |
+| `cli.py` | `art2vec build`, `neighbours`, `export`; argparse; a re-run resumes by shard | `python -m rmr_pipeline` |
 
 Later, when needed: `paths.py` (chains of small steps between works), `align.py` (cross-medium anchors). Configuration is environment variables read where they are needed (`ART2VEC_HOME`, later `ART2VEC_ALBUM_*`); there is no settings object and no config file until two modules need the same value.
 
@@ -90,7 +94,7 @@ Exists (`canon`, `fetch` and `sound` raise `NotImplementedError` until extracted
 
 Planned: `album2vec/words.py`, speech recognition over the clips and a text embedder on the words only (decided 6 October 2026, built after the extraction). Its dependencies and scikit-learn for the PCA join the `album` extra with the code.
 
-What stays in recmyrecord and does not enter the library: cover sprites and atlases, slugs, ambient colours, clusters, the frontend data contract and its validator, the In Rainbows regression row, Spotify-era keys. The site calls `art2vec` for vectors, neighbours, positions and the felt words, and adds its own presentation on top. One wheel ships `album2vec/descriptors.csv` (the code reads it) and not the Markdown.
+What stays in recmyrecord and does not enter the library: cover sprites and atlases, slugs, ambient colours, clusters, the frontend data contract and its validator, the In Rainbows regression row, Spotify-era keys. The site calls `art2vec` for vectors, neighbours, positions and the felt words, and adds its own presentation on top. One wheel ships `src/art2vec/album2vec/descriptors.csv` (the code reads it) and not the Markdown.
 
 ## 6. Storage
 
@@ -117,7 +121,7 @@ Model weights stay in their own hub caches; only derived data goes under `ART2VE
 
 ## 8. Weights and dimensions
 
-- Default felt weight: the medium's choice, recorded with its vectors. album2vec ships recmyrecord's three stops (`s` = 5, 1.765, 0.5 on a cube curve) until the experiments in `album2vec/FRAMEWORK.md` section 6 say otherwise.
+- Default felt weight: the medium's choice, recorded with its vectors. album2vec ships recmyrecord's three stops (`s` = 5, 1.765, 0.5 on a cube curve) until the experiments in `src/art2vec/album2vec/FRAMEWORK.md` section 6 say otherwise.
 - Dimension reduction is a medium's choice and part of its `encode`: the sound block is PCA to 64 with a frozen basis. The core never reduces.
 
 ## 9. Evaluation protocol
@@ -135,7 +139,7 @@ A pull request that adds a medium contains: its folder with `FRAMEWORK.md` (the 
 
 ## 11. Tooling
 
-uv for environments (`uv.lock` is committed), hatchling to build, ruff to lint and format, pytest, mypy strict on `art2vec/` and basic on media, `py.typed` shipped. One GitHub Actions workflow: lint, type-check and test on Python 3.11 and 3.13. A job for the `album` extra is added when the extra has contents. No pre-commit.
+uv for environments (`uv.lock` is committed), hatchling to build, ruff to lint and format, pytest, mypy strict on the core and basic on media, `py.typed` shipped. One GitHub Actions workflow: lint, type-check and test on Python 3.11 and 3.13. A job for the `album` extra is added when the extra has contents. No pre-commit.
 
 ## 12. Glossary
 

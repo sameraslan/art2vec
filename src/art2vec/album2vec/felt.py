@@ -1,6 +1,6 @@
 """The felt block: RateYourMusic descriptors of kind 1 only, weighted by page position.
 
-The sorting of all 176 descriptors lives in album2vec/descriptors.csv (word, kind, reason)
+The sorting of all 176 descriptors lives in descriptors.csv beside this file (word, kind, reason)
 and is changed in pull requests like code. Not yet extracted. Source: recmyrecord
 `data-pipeline/rmr_pipeline/audio.py` `descriptors` and `vocab.py`.
 """
@@ -24,7 +24,7 @@ POSITION = 4
 
 def table() -> dict[str, int]:
     """Every descriptor and its kind, from descriptors.csv."""
-    text = resources.files("album2vec").joinpath("descriptors.csv").read_text()
+    text = resources.files("art2vec.album2vec").joinpath("descriptors.csv").read_text()
     return {row["word"]: int(row["kind"]) for row in csv.DictReader(text.splitlines())}
 
 

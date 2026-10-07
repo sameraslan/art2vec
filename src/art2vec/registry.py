@@ -7,7 +7,7 @@ from importlib import import_module
 from art2vec.medium import Medium
 
 MEDIA: dict[str, str] = {
-    "album": "album2vec.medium:AlbumMedium",
+    "album": "art2vec.album2vec.medium:AlbumMedium",
 }
 
 

@@ -24,7 +24,7 @@ dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.10"]
 Repository = "https://github.com/sameraslan/art2vec"
 
 [tool.hatch.build.targets.wheel]
-packages = ["art2vec", "album2vec"]
+packages = ["src/art2vec"]
 exclude = ["**/FRAMEWORK.md"]
 
 [tool.ruff]
@@ -43,7 +43,7 @@ strict = true
 packages = ["art2vec"]
 
 [[tool.mypy.overrides]]
-module = ["album2vec.*"]
+module = ["art2vec.album2vec.*"]
 strict = false
 
 [tool.pytest.ini_options]

@@ -1,6 +1,6 @@
 """The descriptor table is complete, consistent and sorted into the four kinds."""
 
-from album2vec import felt
+from art2vec.album2vec import felt
 
 
 def test_table_has_every_rym_descriptor_once() -> None:

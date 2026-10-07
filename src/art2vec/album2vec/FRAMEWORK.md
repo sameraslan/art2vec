@@ -28,7 +28,7 @@ An album with no audio has no sound block and is placed by its felt block alone.
 
 The source is RateYourMusic's descriptors, 176 words. The pipeline today drops the 56 lyric and theme words and keeps 120 in the distance, six of them hidden from the site (vocal type, instrumental, concept album). The 114 shown as mood words mix feelings with texture, style and setting words, so today the mood side is partly a style side.
 
-The rule from now on: felt-response words only. The committed table `album2vec/descriptors.csv` sorts all 176 words into the four kinds of the root's section 5 with a reason each, and only kind 1 enters the block. Setting words that name an atmosphere (nocturnal, wintry) are kind 1; words that name a subject (nature, urban as a theme) are kind 3. Style and movement words (progressive, psychedelic) are kind 4 and are out; the sonic half of what they mean is already in the sound block.
+The rule from now on: felt-response words only. The committed table `src/art2vec/album2vec/descriptors.csv` sorts all 176 words into the four kinds of the root's section 5 with a reason each, and only kind 1 enters the block. Setting words that name an atmosphere (nocturnal, wintry) are kind 1; words that name a subject (nature, urban as a theme) are kind 3. Style and movement words (progressive, psychedelic) are kind 4 and are out; the sonic half of what they mean is already in the sound block.
 
 Weighting stays as today until the comparison below says otherwise: each word weighted by its place on the album's page, (63 minus position) divided by 42. For albums beyond the chart, the top eight words.
 

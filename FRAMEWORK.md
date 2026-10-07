@@ -2,7 +2,7 @@
 
 Content-only similarity for art. Start from a work you love, see what sits next to it, and walk outward one small step at a time.
 
-This document holds the rules the art2vec library and every product built on it follow; design and code answer to it. It says what the library is for, the two rules it enforces, the one exception it allows, and what is still open. System design, interfaces and code answer to it. Each medium has its own extension of this document in its folder (`album2vec/FRAMEWORK.md` is the first) that applies these rules to one art form and may not contradict them.
+This document holds the rules the art2vec library and every product built on it follow; design and code answer to it. It says what the library is for, the two rules it enforces, the one exception it allows, and what is still open. System design, interfaces and code answer to it. Each medium has its own extension of this document in its folder (`src/art2vec/album2vec/FRAMEWORK.md` is the first) that applies these rules to one art form and may not contradict them.
 
 Status: adopted 6 October 2026 with the descriptor rule settled (section 5). Open questions are in section 11.
 
@@ -177,7 +177,7 @@ Each with a recommendation.
 2. **Artist identity.** Should the library ever use it, even as a filter? Recommend yes as a filter the person can switch on ("not this artist again"), never in a distance.
 3. **Licence.** Code licence for the library (MIT or Apache 2.0; recommend Apache 2.0 for the patent clause) and a separate statement for any shipped vectors.
 
-Decided on 6 October 2026: the felt block is kind 1 only (section 5); words are a content block for music (`album2vec/FRAMEWORK.md`); this repository is where the library and this document live.
+Decided on 6 October 2026: the felt block is kind 1 only (section 5); words are a content block for music (`src/art2vec/album2vec/FRAMEWORK.md`); this repository is where the library and this document live.
 
 ## 12. Changing this document
 
