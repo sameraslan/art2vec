@@ -1,0 +1,4 @@
+key,title,author,year,translator,orig_language,source,source_id,url,group_tags,notes
+austen_pride,Pride and Prejudice,Jane Austen,1813,,en,pg,1342,https://www.gutenberg.org/ebooks/1342,dev,
+dostoevsky_crime,Crime and Punishment,Fyodor Dostoevsky,1866,Constance Garnett,ru,pg,2554,https://www.gutenberg.org/ebooks/2554,dev,
+austen_pride_se,Pride and Prejudice,Jane Austen,1813,,en,se,jane-austen/pride-and-prejudice,https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice,dev,pg:1342

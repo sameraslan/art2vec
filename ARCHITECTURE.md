@@ -70,7 +70,7 @@ Planned, in extraction order:
 | Module | Does | Extracted from |
 |---|---|---|
 | `store.py` | vectors on disk: safetensors shards of about 1,000 works per block with the ids in the shard's string metadata, a manifest naming medium, model and version, the fitted transform beside them; append-only, temp-file-then-rename | `rmr_pipeline/audio_store.py` (npz shards), `audio.py` (transform) |
-| `fusion.py` | load blocks, refuse mixed versions of one medium, scale every block to the same total variance, combine content blocks and the felt block with one weight, honour absent rows | `rmr_pipeline/audio.py site_matrix`, `table.py rec_matrix` (the same formula written twice; one copy survives) |
+| `fusion.py` | load blocks, refuse mixed versions of one medium, scale every block to the same total variance, combine content blocks and the felt block with one weight, apply a weight per content block where the medium offers them (framework section 6), honour absent rows | `rmr_pipeline/audio.py site_matrix`, `table.py rec_matrix` (the same formula written twice; one copy survives) |
 | `neighbours.py` | k nearest by Euclidean distance; filters that never alter distances; optional hub correction | `rmr_pipeline/recs.py` |
 | `layout.py` | 2D projection per stop, aligned across stops; extra `layout` | `rmr_pipeline/layout.py` |
 | `export.py` | parquet for vectors and metadata; compact JSON of neighbours and positions for a site | `rmr_pipeline/build.py` (the general half) |

@@ -1,0 +1,11 @@
+,,W0_tfidf_maskB,W0_tfidf_clean,W0_tfidf_maskB_nostop,W0_tfidf_clean_nostop,P4_mfw500_tag3_rhythm
+all,W0_tfidf_maskB,1.0000,0.9824,0.9999,0.9823,0.4735
+all,W0_tfidf_clean,0.9824,1.0000,0.9825,0.9999,0.4571
+all,W0_tfidf_maskB_nostop,0.9999,0.9825,1.0000,0.9826,0.4719
+all,W0_tfidf_clean_nostop,0.9823,0.9999,0.9826,1.0000,0.4556
+all,P4_mfw500_tag3_rhythm,0.4735,0.4571,0.4719,0.4556,1.0000
+diff_author,W0_tfidf_maskB,1.0000,0.9817,0.9999,0.9816,0.4475
+diff_author,W0_tfidf_clean,0.9817,1.0000,0.9818,0.9999,0.4294
+diff_author,W0_tfidf_maskB_nostop,0.9999,0.9818,1.0000,0.9819,0.4458
+diff_author,W0_tfidf_clean_nostop,0.9816,0.9999,0.9819,1.0000,0.4278
+diff_author,P4_mfw500_tag3_rhythm,0.4475,0.4294,0.4458,0.4278,1.0000

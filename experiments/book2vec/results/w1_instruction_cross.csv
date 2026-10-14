@@ -1,0 +1,13 @@
+,,W1_qwen_maskB_c,W1_qwen_maskB_instr_c,W1_qwen_maskB_raw,W1_qwen_maskB_instr_raw,W1_qwen_maskB_pc1,W1_qwen_maskB_instr_pc1
+all,W1_qwen_maskB_c,1.0000,0.9319,0.6510,0.6154,0.4899,0.4527
+all,W1_qwen_maskB_instr_c,0.9319,1.0000,0.6437,0.6861,0.4263,0.5151
+all,W1_qwen_maskB_raw,0.6510,0.6437,1.0000,0.9283,0.3225,0.2927
+all,W1_qwen_maskB_instr_raw,0.6154,0.6861,0.9283,1.0000,0.2808,0.3211
+all,W1_qwen_maskB_pc1,0.4899,0.4263,0.3225,0.2808,1.0000,0.8533
+all,W1_qwen_maskB_instr_pc1,0.4527,0.5151,0.2927,0.3211,0.8533,1.0000
+diff_author,W1_qwen_maskB_c,1.0000,0.9289,0.6405,0.6039,0.4655,0.4279
+diff_author,W1_qwen_maskB_instr_c,0.9289,1.0000,0.6321,0.6764,0.3995,0.4930
+diff_author,W1_qwen_maskB_raw,0.6405,0.6321,1.0000,0.9262,0.2965,0.2662
+diff_author,W1_qwen_maskB_instr_raw,0.6039,0.6764,0.9262,1.0000,0.2538,0.2952
+diff_author,W1_qwen_maskB_pc1,0.4655,0.3995,0.2965,0.2538,1.0000,0.8474
+diff_author,W1_qwen_maskB_instr_pc1,0.4279,0.4930,0.2662,0.2952,0.8474,1.0000

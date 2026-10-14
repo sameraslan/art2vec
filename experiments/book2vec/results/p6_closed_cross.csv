@@ -1,0 +1,11 @@
+,,P4_mfw500_tag3_rhythm,P1_mfw500_all_noprop_nocull,P6_closed_nopron,P6_closed_pron,P6_pron_only
+all,P4_mfw500_tag3_rhythm,1.0000,0.7393,0.6738,0.6909,0.3862
+all,P1_mfw500_all_noprop_nocull,0.7393,1.0000,0.8591,0.8785,0.4575
+all,P6_closed_nopron,0.6738,0.8591,1.0000,0.9516,0.3247
+all,P6_closed_pron,0.6909,0.8785,0.9516,1.0000,0.5695
+all,P6_pron_only,0.3862,0.4575,0.3247,0.5695,1.0000
+diff_author,P4_mfw500_tag3_rhythm,1.0000,0.7241,0.6554,0.6731,0.3595
+diff_author,P1_mfw500_all_noprop_nocull,0.7241,1.0000,0.8512,0.8716,0.4345
+diff_author,P6_closed_nopron,0.6554,0.8512,1.0000,0.9490,0.2961
+diff_author,P6_closed_pron,0.6731,0.8716,0.9490,1.0000,0.5521
+diff_author,P6_pron_only,0.3595,0.4345,0.2961,0.5521,1.0000
