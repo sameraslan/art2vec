@@ -1,0 +1,53 @@
+{
+ "default": "whole",
+ "lenses": [
+  {
+   "id": "whole",
+   "name": "Whole picture",
+   "blurb": "What is shown and how it looks, with the arrangement at full weight and the palette at half.",
+   "weights": {
+    "picture": 1.0,
+    "composition": 1.0,
+    "colour": 0.5
+   }
+  },
+  {
+   "id": "picture",
+   "name": "Picture only",
+   "blurb": "What is shown and how it is painted, as one learned block. Carries period.",
+   "weights": {
+    "picture": 1.0
+   }
+  },
+  {
+   "id": "form",
+   "name": "Form",
+   "blurb": "Arrangement and palette with the picture block off. Crosses subject and period.",
+   "weights": {
+    "composition": 1.4,
+    "colour": 1.0
+   }
+  },
+  {
+   "id": "composition",
+   "name": "Composition",
+   "blurb": "Where light, colour and edges sit on the surface. Nothing else.",
+   "weights": {
+    "composition": 1.0
+   }
+  },
+  {
+   "id": "colour",
+   "name": "Colour",
+   "blurb": "Palette alone. About two thirds of each list depends on the photograph, so treat it as a suggestion.",
+   "weights": {
+    "colour": 1.0
+   }
+  }
+ ],
+ "k": 100,
+ "far_gap_years": 150,
+ "scaling_rule": "variance",
+ "n": 1972,
+ "note": "Neighbour lists and map positions are precomputed; filters hide entries and never change distances."
+}

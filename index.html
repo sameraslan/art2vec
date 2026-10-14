@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>painting2vec: proof of concept</title>
+<style>
+  :root {
+    --bg: #15171a; --panel: #1d2024; --line: #30343a; --text: #e8e6e1; --dim: #9a9890;
+    --accent: #e0b354; --accent-ink: #1b1608; --chip: #262a2f;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bg); color: var(--text); font: 14px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif;
+         display: flex; flex-direction: column; overflow: hidden; }
+  header { display: flex; align-items: center; gap: 16px; padding: 8px 14px; border-bottom: 1px solid var(--line);
+           background: var(--panel); flex-wrap: wrap; }
+  header h1 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: .01em; white-space: nowrap; }
+  header h1 span { color: var(--dim); font-weight: 400; }
+  .lenses { display: flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+  .lenses button { background: transparent; color: var(--text); border: 0; padding: 6px 12px; font: inherit; cursor: pointer;
+                   border-right: 1px solid var(--line); }
+  .lenses button:last-child { border-right: 0; }
+  .lenses button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+  .lenses button:focus-visible, input:focus-visible, .nb:focus-visible, .tool:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  #blurb { color: var(--dim); font-size: 12.5px; flex: 1 1 220px; min-width: 180px; }
+  #search { position: relative; }
+  #search input { width: 220px; }
+  input[type=text], input[type=number] { background: var(--chip); border: 1px solid var(--line); color: var(--text);
+         border-radius: 6px; padding: 5px 8px; font: inherit; }
+  input[type=number] { width: 74px; }
+  #hits { position: absolute; top: 34px; right: 0; width: 340px; max-height: 60vh; overflow: auto; background: var(--panel);
+          border: 1px solid var(--line); border-radius: 8px; z-index: 20; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+  #hits div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid var(--line); }
+  #hits div:hover, #hits div.on { background: var(--chip); }
+  #hits small { color: var(--dim); }
+  main { flex: 1; display: flex; min-height: 0; }
+  #mapwrap { position: relative; flex: 1; min-width: 0; }
+  canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+  canvas.drag { cursor: grabbing; }
+  #tip { position: absolute; pointer-events: none; background: rgba(20,22,25,.94); border: 1px solid var(--line);
+         border-radius: 6px; padding: 5px 8px; font-size: 12.5px; max-width: 280px; display: none; z-index: 5; }
+  #tip small { color: var(--dim); }
+  .tools { position: absolute; left: 12px; bottom: 12px; display: flex; gap: 6px; }
+  .tool { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; min-width: 32px;
+          height: 32px; font: inherit; font-size: 16px; cursor: pointer; padding: 0 9px; }
+  #mapnote { position: absolute; right: 12px; bottom: 12px; color: var(--dim); font-size: 12px; background: rgba(20,22,25,.8);
+             padding: 4px 8px; border-radius: 6px; max-width: 60%; text-align: right; }
+  aside { width: 440px; max-width: 46vw; border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 14px; }
+  #empty { color: var(--dim); padding: 30px 6px; }
+  #detail { display: none; }
+  #big { width: 100%; background: #0e0f11; border-radius: 6px; display: flex; justify-content: center; }
+  #big img { max-width: 100%; max-height: 46vh; display: block; }
+  h2 { font-size: 18px; margin: 12px 0 2px; font-weight: 600; text-wrap: balance; }
+  #by { color: var(--dim); margin-bottom: 8px; }
+  #pal { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 8px 0 10px; }
+  #pal i { flex: 1; }
+  dl { display: grid; grid-template-columns: 86px 1fr; gap: 3px 10px; margin: 0 0 8px; font-size: 13px; }
+  dt { color: var(--dim); } dd { margin: 0; overflow-wrap: anywhere; }
+  a { color: var(--accent); }
+  .filters { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 12px -14px; padding: 10px 14px;
+             display: grid; gap: 8px; font-size: 13px; }
+  .filters .row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .filters label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+  .linkbtn { background: none; border: 0; color: var(--accent); font: inherit; cursor: pointer; padding: 0; text-decoration: underline; }
+  h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--dim); margin: 10px 0 4px; font-weight: 600; }
+  #status { color: var(--dim); font-size: 12.5px; margin-bottom: 8px; }
+  #nbs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .nb { background: var(--chip); border: 1px solid var(--line); border-radius: 7px; padding: 6px; cursor: pointer; text-align: left;
+        color: var(--text); font: inherit; display: flex; flex-direction: column; gap: 5px; }
+  .nb:hover { border-color: var(--accent); }
+  .nb .im { height: 130px; display: flex; align-items: center; justify-content: center; background: #0e0f11; border-radius: 4px; overflow: hidden; }
+  .nb img { max-width: 100%; max-height: 130px; display: block; }
+  .nb b { font-weight: 600; font-size: 12.5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .nb small { color: var(--dim); font-size: 12px; }
+  .nb .rk { color: var(--accent); font-variant-numeric: tabular-nums; }
+  #trail { display: flex; gap: 4px; overflow-x: auto; padding: 2px 0 8px; }
+  #trail img { height: 34px; border-radius: 3px; cursor: pointer; opacity: .75; border: 1px solid var(--line); }
+  #trail img:hover { opacity: 1; }
+  #err { padding: 40px; max-width: 640px; line-height: 1.6; display: none; }
+  code { background: var(--chip); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>painting2vec <span>proof of concept</span></h1>
+  <div class="lenses" id="lenses" role="group" aria-label="Lens"></div>
+  <div id="blurb"></div>
+  <div id="search"><input type="text" id="q" placeholder="Find a painting or painter" autocomplete="off" aria-label="Find a painting or painter"><div id="hits"></div></div>
+</header>
+<div id="err"></div>
+<main id="main">
+  <div id="mapwrap">
+    <canvas id="map" aria-label="Map of paintings"></canvas>
+    <div id="tip"></div>
+    <div class="tools">
+      <button class="tool" id="zin" title="Zoom in" aria-label="Zoom in">+</button>
+      <button class="tool" id="zout" title="Zoom out" aria-label="Zoom out">&minus;</button>
+      <button class="tool" id="zfit" title="Show everything">Fit</button>
+      <button class="tool" id="zsel" title="Centre on the selected painting">Centre</button>
+    </div>
+    <div id="mapnote">The map is a flat projection and distorts. The neighbour list is the truth; lines join a painting to its listed neighbours.</div>
+  </div>
+  <aside>
+    <div id="empty">Click a painting on the map, or search for one. Scroll to zoom, drag to move.</div>
+    <div id="detail">
+      <div id="trail" aria-label="Paintings visited"></div>
+      <div id="big"><img id="bigimg" alt=""></div>
+      <h2 id="title"></h2>
+      <div id="by"></div>
+      <div id="pal" title="Five-colour summary of this image (shown, not used for distance)"></div>
+      <dl id="facts"></dl>
+      <a id="wd" target="_blank" rel="noopener">Wikidata page</a>
+      <div class="filters">
+        <div class="row">Years <input type="number" id="y0" placeholder="from" aria-label="Year from"> to
+          <input type="number" id="y1" placeholder="to" aria-label="Year to">
+          <button class="linkbtn" id="clear">clear filters</button></div>
+        <label><input type="checkbox" id="nopainter"> Not this painter again</label>
+        <label><input type="checkbox" id="far"> Other eras only (at least <span id="fargap">150</span> years away)</label>
+      </div>
+      <h3 id="nbh">Ten nearest</h3>
+      <div id="status"></div>
+      <div id="nbs"></div>
+    </div>
+  </aside>
+</main>
+<script>
+"use strict";
+// No distance is computed here. Lists and positions come precomputed; filters only hide list entries.
+const $ = id => document.getElementById(id);
+const S = { P: null, info: null, L: {}, lens: null, sel: -1, trail: [], pos: null, from: null, to: null, t0: 0,
+            view: { cx: 0, cy: 0, k: 1 }, shown: [], hover: -1 };
+const cv = $("map"), ctx = cv.getContext("2d");
+const atlas = new Image();
+const thumbs = new Map();
+let W = 0, H = 0, DPR = 1, raf = 0;
+
+async function boot() {
+  try {
+    const [P, info] = await Promise.all([fetch("data/paintings.json").then(r => r.json()), fetch("data/lenses.json").then(r => r.json())]);
+    S.P = P; S.info = info;
+    const files = await Promise.all(info.lenses.map(l => fetch(`data/lens_${l.id}.json`).then(r => r.json())));
+    info.lenses.forEach((l, i) => S.L[l.id] = files[i]);
+  } catch (e) {
+    $("main").style.display = "none";
+    const el = $("err"); el.style.display = "block";
+    el.textContent = "The data files could not be read. A browser will not load them from a file:// address. From the repository root run:  python3 -m http.server 8765 --directory data/painting2vec/demo   and then open http://localhost:8765/";
+    return;
+  }
+  $("fargap").textContent = S.info.far_gap_years;
+  S.P.search = S.P.qid.map((_, i) => ((S.P.title[i] || "") + " " + (S.P.painter[i] || "")).toLowerCase());
+  S.index = new Map(S.P.qid.map((q, i) => [q, i]));
+  for (const l of S.info.lenses) {
+    const b = document.createElement("button");
+    b.textContent = l.name; b.dataset.id = l.id; b.title = l.blurb;
+    b.onclick = () => setLens(l.id, true);
+    $("lenses").appendChild(b);
+  }
+  atlas.onload = draw; atlas.src = "atlas.jpg";
+  const h = readHash();
+  setLens(h.lens && S.L[h.lens] ? h.lens : S.info.default, false);
+  if (h.q && S.index.has(h.q)) select(S.index.get(h.q), false, false);
+  layoutChanged();
+  new ResizeObserver(layoutChanged).observe($("mapwrap"));
+  window.addEventListener("hashchange", () => {
+    const h = readHash();
+    if (h.lens && S.L[h.lens] && h.lens !== S.lens) setLens(h.lens, false);
+    if (h.q && S.index.has(h.q) && S.index.get(h.q) !== S.sel) select(S.index.get(h.q), false, false);
+  });
+}
+
+function readHash() { const o = {}; for (const kv of location.hash.slice(1).split("&")) { const [k, v] = kv.split("="); if (k) o[k] = decodeURIComponent(v || ""); } return o; }
+function writeHash() { const h = `#lens=${S.lens}` + (S.sel >= 0 ? `&q=${S.P.qid[S.sel]}` : ""); if (location.hash !== h) history.pushState(null, "", h); }
+
+function setLens(id, user) {
+  const xy = S.L[id].xy, n = S.P.n;
+  const target = new Float32Array(2 * n);
+  for (let i = 0; i < 2 * n; i++) target[i] = xy[i];
+  if (S.pos && user) { S.from = S.pos.slice(); S.to = target; S.t0 = performance.now(); }
+  else { S.pos = target; S.from = S.to = null; }
+  S.lens = id;
+  for (const b of $("lenses").children) b.setAttribute("aria-pressed", b.dataset.id === id);
+  $("blurb").textContent = S.info.lenses.find(l => l.id === id).blurb;
+  renderList(); if (user) writeHash(); draw();
+}
+
+// ---------- filters and the list
+function filters() {
+  const a = parseInt($("y0").value, 10), b = parseInt($("y1").value, 10);
+  return { y0: Number.isFinite(a) ? a : null, y1: Number.isFinite(b) ? b : null, nop: $("nopainter").checked, far: $("far").checked };
+}
+function yearOk(i, f) {
+  if (f.y0 === null && f.y1 === null) return true;
+  const y = S.P.year[i];
+  if (y === null) return false;
+  return (f.y0 === null || y >= f.y0) && (f.y1 === null || y <= f.y1);
+}
+function renderList() {
+  const box = $("nbs"); box.textContent = ""; S.shown = [];
+  if (S.sel < 0) return;
+  const f = filters(), P = S.P, L = S.L[S.lens];
+  const src = f.far ? L.far[S.sel] : L.nn[S.sel];
+  const me = P.painter_id[S.sel];
+  let hidden = 0;
+  const out = [];
+  for (let r = 0; r < src.length && out.length < 10; r++) {
+    const j = src[r];
+    if ((f.nop && me && P.painter_id[j] === me) || !yearOk(j, f)) { hidden++; continue; }
+    out.push([j, r + 1]);
+  }
+  S.shown = out.map(o => o[0]);
+  $("nbh").textContent = f.far ? `Nearest from other eras` : `Ten nearest`;
+  const lensName = S.info.lenses.find(l => l.id === S.lens).name;
+  let msg = `${lensName} lens. `;
+  if (f.far && P.year[S.sel] === null) msg += "This painting has no recorded year, so there is no other-era list.";
+  else if (out.length < 10) msg += `Only ${out.length} of the ${src.length} precomputed neighbours pass the filters (${hidden} hidden).`;
+  else if (hidden) msg += `${hidden} nearer neighbours hidden by filters; the number on each card is its true rank.`;
+  else msg += f.far ? `Ranks are among paintings at least ${S.info.far_gap_years} years away.` : "No filter active.";
+  $("status").textContent = msg;
+  for (const [j, rank] of out) {
+    const b = document.createElement("button"); b.className = "nb";
+    const im = document.createElement("div"); im.className = "im";
+    const img = document.createElement("img"); img.loading = "lazy"; img.src = `thumbs/${P.qid[j]}.jpg`; img.alt = "";
+    im.appendChild(img);
+    const t = document.createElement("b"); t.textContent = P.title[j] || P.qid[j];
+    const s = document.createElement("small");
+    const rk = document.createElement("span"); rk.className = "rk"; rk.textContent = `#${rank} `;
+    s.appendChild(rk); s.appendChild(document.createTextNode([P.painter[j] || "Unknown painter", P.year[j]].filter(v => v !== null).join(", ")));
+    b.append(im, t, s);
+    b.onclick = () => select(j, true, true);
+    b.onmouseenter = () => { S.hover = j; draw(); };
+    b.onmouseleave = () => { S.hover = -1; draw(); };
+    box.appendChild(b);
+  }
+  draw();
+}
+for (const id of ["y0", "y1"]) $(id).addEventListener("input", renderList);
+for (const id of ["nopainter", "far"]) $(id).addEventListener("change", renderList);
+$("clear").onclick = () => { $("y0").value = ""; $("y1").value = ""; $("nopainter").checked = false; $("far").checked = false; renderList(); };
+
+// ---------- detail
+function select(i, user, centre) {
+  S.sel = i; const P = S.P;
+  $("empty").style.display = "none"; $("detail").style.display = "block";
+  $("bigimg").src = `large/${P.qid[i]}.jpg`; $("bigimg").alt = P.title[i] || "";
+  $("title").textContent = P.title[i] || "(untitled)";
+  $("by").textContent = [P.painter[i] || "Unknown painter", P.year[i]].filter(v => v !== null).join(", ");
+  const pal = $("pal"); pal.textContent = "";
+  for (const c of P.palette[i]) { const s = document.createElement("i"); s.style.background = c; pal.appendChild(s); }
+  const facts = $("facts"); facts.textContent = "";
+  const size = P.height_cm[i] && P.width_cm[i] ? `${P.height_cm[i]} × ${P.width_cm[i]} cm` : null;
+  for (const [k, v] of [["Medium", P.medium[i]], ["Size", size], ["Collection", P.collection[i]], ["Made in", P.country[i]], ["Genre", P.genre[i]]]) {
+    if (!v) continue;
+    const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = v; facts.append(dt, dd);
+  }
+  $("wd").href = `https://www.wikidata.org/wiki/${P.qid[i]}`; $("wd").textContent = `Wikidata page (${P.qid[i]})`;
+  if (S.trail[S.trail.length - 1] !== i) S.trail.push(i);
+  if (S.trail.length > 30) S.trail.shift();
+  const tr = $("trail"); tr.textContent = "";
+  S.trail.slice(0, -1).forEach(j => { const im = document.createElement("img"); im.src = `thumbs/${P.qid[j]}.jpg`; im.title = P.title[j] || ""; im.alt = P.title[j] || ""; im.onclick = () => select(j, true, true); tr.appendChild(im); });
+  tr.scrollLeft = 1e6;
+  document.querySelector("aside").scrollTop = 0;
+  renderList();
+  if (user) writeHash();
+  if (centre && !onScreen(i)) { S.view.cx = S.pos[2 * i]; S.view.cy = S.pos[2 * i + 1]; }
+  draw();
+}
+
+// ---------- map
+function resize() { const r = cv.getBoundingClientRect(); DPR = window.devicePixelRatio || 1; W = r.width; H = r.height; cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR); }
+function fit() { S.view = { cx: 0, cy: 0, k: 0.46 * Math.min(W, H) }; }
+let fitted = false;
+function layoutChanged() { resize(); if (W > 0 && H > 0 && (!fitted || !(S.view.k > 0))) { fit(); fitted = true; } draw(); }
+function sx(x) { return (x - S.view.cx) * S.view.k + W / 2; }
+function sy(y) { return (y - S.view.cy) * S.view.k + H / 2; }
+function onScreen(i) { const x = sx(S.pos[2 * i]), y = sy(S.pos[2 * i + 1]); return x > 40 && y > 40 && x < W - 40 && y < H - 40; }
+function cell() { const z = S.view.k / (0.46 * Math.min(W, H)); return Math.max(9, Math.min(150, 11 * Math.pow(z, 0.85))); }
+function draw() { if (!raf) raf = requestAnimationFrame(paint); }
+function thumb(i) {
+  let t = thumbs.get(i);
+  if (!t) { if (thumbs.size > 600) thumbs.clear(); t = new Image(); t.onload = draw; t.src = `thumbs/${S.P.qid[i]}.jpg`; thumbs.set(i, t); }
+  return t.complete && t.naturalWidth ? t : null;
+}
+function paint(now) {
+  raf = 0;
+  if (!S.P || !S.pos || !(W > 0 && H > 0)) return;
+  if (S.from) {
+    let t = Math.min(1, (now - S.t0) / 650); const e = t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    for (let i = 0; i < S.pos.length; i++) S.pos[i] = S.from[i] + (S.to[i] - S.from[i]) * e;
+    if (t >= 1) { S.from = S.to = null; } else draw();
+  }
+  const P = S.P, n = P.n, c = cell(), f = filters(), A = P.atlas, big = c > 70;
+  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  ctx.fillStyle = "#15171a"; ctx.fillRect(0, 0, W, H);
+  const vis = [];
+  for (let i = 0; i < n; i++) { const x = sx(S.pos[2 * i]), y = sy(S.pos[2 * i + 1]); if (x > -c && y > -c && x < W + c && y < H + c) vis.push(i); }
+  const useBig = big && vis.length < 220;
+  const one = (i, scale) => {
+    const x = sx(S.pos[2 * i]), y = sy(S.pos[2 * i + 1]);
+    const m = Math.max(P.tw[i], P.th[i]), w = c * scale * P.tw[i] / m, h = c * scale * P.th[i] / m;
+    const t = useBig || scale > 1 ? thumb(i) : null;
+    if (t) ctx.drawImage(t, x - w / 2, y - h / 2, w, h);
+    else if (atlas.complete && atlas.naturalWidth) {
+      const aw = A.cell * P.tw[i] / m, ah = A.cell * P.th[i] / m;
+      ctx.drawImage(atlas, (i % A.cols) * A.cell, Math.floor(i / A.cols) * A.cell, Math.round(aw), Math.round(ah), x - w / 2, y - h / 2, w, h);
+    } else { ctx.fillStyle = P.palette[i][0]; ctx.fillRect(x - w / 2, y - h / 2, w, h); }
+    return [x, y, w, h];
+  };
+  const filt = f.y0 !== null || f.y1 !== null;
+  const special = new Set(S.shown); if (S.sel >= 0) special.add(S.sel);
+  ctx.globalAlpha = S.sel >= 0 ? 0.55 : 1;
+  for (const i of vis) { if (special.has(i)) continue; if (filt && !yearOk(i, f)) { ctx.globalAlpha = 0.1; one(i, 1); ctx.globalAlpha = S.sel >= 0 ? 0.55 : 1; } else one(i, 1); }
+  ctx.globalAlpha = 1;
+  if (S.sel >= 0) {
+    const x0 = sx(S.pos[2 * S.sel]), y0 = sy(S.pos[2 * S.sel + 1]);
+    ctx.strokeStyle = "rgba(224,179,84,.55)"; ctx.lineWidth = 1;
+    for (const j of S.shown) { ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(sx(S.pos[2 * j]), sy(S.pos[2 * j + 1])); ctx.stroke(); }
+    const g = Math.max(1, 26 / c);
+    for (const j of S.shown) { const [x, y, w, h] = one(j, Math.min(g, 2.4)); ctx.strokeStyle = j === S.hover ? "#fff" : "#e0b354"; ctx.lineWidth = j === S.hover ? 2.5 : 1.5; ctx.strokeRect(x - w / 2 - 1, y - h / 2 - 1, w + 2, h + 2); }
+    const [x, y, w, h] = one(S.sel, Math.min(Math.max(1, 40 / c), 3.6)); ctx.strokeStyle = "#fff"; ctx.lineWidth = 2.5; ctx.strokeRect(x - w / 2 - 1.5, y - h / 2 - 1.5, w + 3, h + 3);
+  }
+}
+function pick(px, py) {
+  const c = cell(), P = S.P; let best = -1, bd = Infinity;
+  for (let i = 0; i < P.n; i++) {
+    const dx = Math.abs(px - sx(S.pos[2 * i])), dy = Math.abs(py - sy(S.pos[2 * i + 1]));
+    const m = Math.max(P.tw[i], P.th[i]), w = Math.max(c * P.tw[i] / m, 8) / 2 + 2, h = Math.max(c * P.th[i] / m, 8) / 2 + 2;
+    if (dx <= w && dy <= h) { const d = dx * dx + dy * dy; if (d <= bd) { bd = d; best = i; } }
+  }
+  return best;
+}
+let drag = null;
+cv.addEventListener("pointerdown", e => { drag = { x: e.clientX, y: e.clientY, cx: S.view.cx, cy: S.view.cy, moved: false }; cv.setPointerCapture(e.pointerId); });
+cv.addEventListener("pointermove", e => {
+  const r = cv.getBoundingClientRect(), px = e.clientX - r.left, py = e.clientY - r.top;
+  if (drag) {
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 4) { drag.moved = true; cv.classList.add("drag"); }
+    if (drag.moved) { S.view.cx = drag.cx - dx / S.view.k; S.view.cy = drag.cy - dy / S.view.k; $("tip").style.display = "none"; draw(); }
+    return;
+  }
+  const i = pick(px, py), tip = $("tip");
+  if (i < 0) { tip.style.display = "none"; cv.style.cursor = ""; return; }
+  cv.style.cursor = "pointer"; tip.textContent = "";
+  const b = document.createElement("b"); b.textContent = S.P.title[i] || S.P.qid[i];
+  const s = document.createElement("small"); s.textContent = [S.P.painter[i] || "Unknown painter", S.P.year[i]].filter(v => v !== null).join(", ");
+  tip.append(b, document.createElement("br"), s);
+  tip.style.display = "block"; tip.style.left = Math.min(px + 14, W - 290) + "px"; tip.style.top = (py + 14) + "px";
+});
+cv.addEventListener("pointerup", e => {
+  const d = drag; drag = null; cv.classList.remove("drag");
+  if (d && !d.moved) { const r = cv.getBoundingClientRect(); const i = pick(e.clientX - r.left, e.clientY - r.top); if (i >= 0) select(i, true, false); }
+});
+cv.addEventListener("pointerleave", () => { $("tip").style.display = "none"; });
+function zoomAt(px, py, factor) {
+  const k0 = S.view.k, k1 = Math.max(0.3 * Math.min(W, H), Math.min(60 * Math.min(W, H), k0 * factor));
+  const wx = (px - W / 2) / k0 + S.view.cx, wy = (py - H / 2) / k0 + S.view.cy;
+  S.view.k = k1; S.view.cx = wx - (px - W / 2) / k1; S.view.cy = wy - (py - H / 2) / k1; draw();
+}
+cv.addEventListener("wheel", e => { e.preventDefault(); const r = cv.getBoundingClientRect(); zoomAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * 0.0018)); }, { passive: false });
+cv.addEventListener("dblclick", e => { const r = cv.getBoundingClientRect(); zoomAt(e.clientX - r.left, e.clientY - r.top, 1.8); });
+$("zin").onclick = () => zoomAt(W / 2, H / 2, 1.5);
+$("zout").onclick = () => zoomAt(W / 2, H / 2, 1 / 1.5);
+$("zfit").onclick = () => { fit(); draw(); };
+$("zsel").onclick = () => { if (S.sel >= 0) { S.view.cx = S.pos[2 * S.sel]; S.view.cy = S.pos[2 * S.sel + 1]; draw(); } };
+
+// ---------- search
+const q = $("q"), hits = $("hits");
+q.addEventListener("input", () => {
+  const s = q.value.trim().toLowerCase(); hits.textContent = "";
+  if (s.length < 2) { hits.style.display = "none"; return; }
+  let k = 0;
+  for (let i = 0; i < S.P.n && k < 30; i++) {
+    if (!S.P.search[i].includes(s)) continue; k++;
+    const d = document.createElement("div"); const b = document.createElement("span"); b.textContent = S.P.title[i] || S.P.qid[i];
+    const sm = document.createElement("small"); sm.textContent = "  " + [S.P.painter[i], S.P.year[i]].filter(v => v !== null).join(", ");
+    d.append(b, sm); d.onmousedown = ev => { ev.preventDefault(); hits.style.display = "none"; q.value = ""; select(i, true, true); };
+    hits.appendChild(d);
+  }
+  hits.style.display = k ? "block" : "none";
+});
+q.addEventListener("keydown", e => { if (e.key === "Enter" && hits.firstChild) hits.firstChild.onmousedown(e); if (e.key === "Escape") { hits.style.display = "none"; q.blur(); } });
+q.addEventListener("blur", () => setTimeout(() => hits.style.display = "none", 120));
+boot();
+</script>
+</body>
+</html>
