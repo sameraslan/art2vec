@@ -6,6 +6,18 @@ Two rules and one exception: reception picks the set, the work picks the neighbo
 
 Media are plugins that answer three questions: `canon()` which works are in the set, `encode()` what a work is as content vectors, `describe()` how it makes people feel. One chore, `fetch()`, puts the artefacts in the cache first. The first medium is [album2vec](src/art2vec/album2vec/FRAMEWORK.md), extracted from [recmyrecord](https://github.com/sameraslan/recmyrecord).
 
+## book2vec proof of concept
+
+book2vec is the novels medium. A proof of concept on 87 public-domain novels compares separate blocks: Prose, Telling, World, Story and Felt. Story and Felt cover 24 of the novels. The setup and results are in [experiments/book2vec](experiments/book2vec/README.md), and more figures are in the [gallery](experiments/book2vec/figures/README.md).
+
+![Heatmap of AUC by pair type for four book2vec blocks](experiments/book2vec/figures/block_scorecard.png)
+
+Each block passes different tests: two translations of one novel are near in Telling and World, and the style encoder puts them apart.
+
+![Position of the other translation in each novel's neighbour list, by block](experiments/book2vec/figures/translation_ranks.png)
+
+Where a novel's other translation ranks among the 86 other novels, under each block.
+
 ## Status
 
 Early. The framework, the layout, the medium protocol and the descriptor table are in place; the album code is being extracted from recmyrecord's pipeline with no behaviour change, and `canon`, `fetch` and `sound` raise until it lands. Nothing is on PyPI yet and the licence is still to be chosen.
