@@ -6,6 +6,20 @@ Two rules and one exception: reception picks the set, the work picks the neighbo
 
 Media are plugins that answer three questions: `canon()` which works are in the set, `encode()` what a work is as content vectors, `describe()` how it makes people feel. One chore, `fetch()`, puts the artefacts in the cache first. The first medium is [album2vec](src/art2vec/album2vec/FRAMEWORK.md), extracted from [recmyrecord](https://github.com/sameraslan/recmyrecord).
 
+## painting2vec proof of concept
+
+[experiments/painting2vec](experiments/painting2vec/README.md) tests a draft framework for paintings on 2,000 public-domain paintings. It is experiment code, not library code.
+
+![Birth of Venus contact sheet](experiments/painting2vec/figures/separation_birth_of_venus.jpg)
+
+Botticelli's *Birth of Venus* (left) and its eight nearest neighbours under eight candidate blocks: row A (DINOv2) returns other standing nudes by the sea, row F (CSD) returns four more Botticellis.
+
+![Mona Lisa period sheet](experiments/painting2vec/figures/fusion_period_mona_lisa.jpg)
+
+The *Mona Lisa* under five lenses, each also limited to paintings at least 150 years away; under Whole picture the far list is half-length portraits from 1665 to 1874.
+
+More sheets and plots, with captions, are in the [figures gallery](experiments/painting2vec/figures/README.md).
+
 ## Status
 
 Early. The framework, the layout, the medium protocol and the descriptor table are in place; the album code is being extracted from recmyrecord's pipeline with no behaviour change, and `canon`, `fetch` and `sound` raise until it lands. Nothing is on PyPI yet and the licence is still to be chosen.
