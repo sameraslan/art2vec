@@ -10,6 +10,8 @@ Media are plugins that answer three questions: `canon()` which works are in the 
 
 [experiments/painting2vec](experiments/painting2vec/README.md) tests a draft framework for paintings on 2,000 public-domain paintings. It is experiment code, not library code.
 
+**[Interactive demo](https://sameraslan.github.io/art2vec/)**: a map of the 1,972 paintings. Pick one, switch lens, and walk from neighbour to neighbour.
+
 ![Birth of Venus contact sheet](experiments/painting2vec/figures/separation_birth_of_venus.jpg)
 
 Botticelli's *Birth of Venus* (left) and its eight nearest neighbours under eight candidate blocks: row A (DINOv2) returns other standing nudes by the sea, row F (CSD) returns four more Botticellis.

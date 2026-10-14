@@ -1,5 +1,7 @@
 # painting2vec figures
 
+**[Interactive demo](https://sameraslan.github.io/art2vec/)**: a map of the 1,972 paintings. Pick one, switch lens, and walk from neighbour to neighbour.
+
 A selection of the contact sheets and plots from the experiments, small enough to commit. The full sets are written under `data/painting2vec/` (gitignored) by each experiment's sheet script. `make_figures.py` copies the sheets below into this folder at 1,400 px on the long side.
 
 Every number and observation in the captions comes from the experiment's own README. The sheets were looked at by a model, not a person.
