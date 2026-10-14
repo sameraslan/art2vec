@@ -1,0 +1,1786 @@
+{
+ "whole": {
+  "name": "Whole picture",
+  "weights": {
+   "picture": 1.0,
+   "composition": 1.0,
+   "colour": 0.5
+  },
+  "genre_p10": 0.5577738515901061,
+  "broad_p10": 0.7654199877375844,
+  "depicts_j10": 0.09342502057552338,
+  "painter10": 0.1244811069717935,
+  "year_gap": 56.5,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.7358743023708075,
+  "hub_zero": 0.009634888438133874,
+  "hub_max": 35,
+  "within50": 0.49240837696335077,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.28340314136125655,
+  "same_tradition10": 0.7831643002028398,
+  "ver_top1": 0.9318181818181818,
+  "ver_top10": 1.0,
+  "ver_variant_med": 1.0,
+  "ver_series_med": 1.0,
+  "repro_r1": 0.985981308411215,
+  "repro_kept10": 0.7065420560747663,
+  "repro_under_step": 0.985981308411215,
+  "repro_r1_all_primary": 0.945054945054945,
+  "repro_kept10_all_primary": 0.6780219780219781,
+  "hubs": [
+   {
+    "qid": "Q42573725",
+    "title": "Paisagem com rio e barco ao seco em S\u00e3o Paulo (Pon",
+    "painter": "Giovanni Battista Castagneto",
+    "year": 1895,
+    "tradition": "other_non_european",
+    "in_lists": 35
+   },
+   {
+    "qid": "Q656434",
+    "title": "La Belle Ferronni\u00e8re",
+    "painter": "Leonardo da Vinci",
+    "year": 1495,
+    "tradition": "european_american",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q9019417",
+    "title": "The Death of Adonis",
+    "painter": "Peter Paul Rubens",
+    "year": 1614,
+    "tradition": "european_american",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q3784247",
+    "title": "La Bella",
+    "painter": "Titian",
+    "year": 1537,
+    "tradition": "european_american",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q1134060",
+    "title": "Susanna and the Elders",
+    "painter": "Peter Paul Rubens",
+    "year": 1606,
+    "tradition": "european_american",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q8030760",
+    "title": "Woman with a Parrot",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 30
+   },
+   {
+    "qid": "Q4808368",
+    "title": "Femme nue couch\u00e9e",
+    "painter": "Gustave Courbet",
+    "year": 1862,
+    "tradition": "european_american",
+    "in_lists": 30
+   },
+   {
+    "qid": "Q3630731",
+    "title": "Self-portrait",
+    "painter": "Peter Paul Rubens",
+    "year": 1638,
+    "tradition": "european_american",
+    "in_lists": 30
+   }
+  ],
+  "probes": {
+   "year_r2_eu": 0.5304803967127412,
+   "fame_r2": -0.05860040862577698,
+   "fame_rho": 0.039772369277459134,
+   "fame_within_rho": 0.19630605923572197,
+   "museum_acc": 0.2441077441077441,
+   "museum_base": 0.3956228956228956,
+   "museum_base_plus": 0.39225589225589225,
+   "museum_majority": 0.18013468013468015,
+   "painter_acc": 0.3696763202725724
+  },
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.3780669144981413
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.7638271604938272
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.6527186761229314
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.5916666666666667
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.6384146341463415
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.40425531914893614
+   }
+  }
+ },
+ "picture": {
+  "name": "Picture only",
+  "weights": {
+   "picture": 1.0
+  },
+  "genre_p10": 0.5777974087161366,
+  "broad_p10": 0.7817290006131208,
+  "depicts_j10": 0.1016269251704216,
+  "painter10": 0.12527940393826503,
+  "year_gap": 58.0,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.8522645760991445,
+  "hub_zero": 0.015720081135902637,
+  "hub_max": 38,
+  "within50": 0.4907853403141361,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.278848167539267,
+  "same_tradition10": 0.7813894523326572,
+  "ver_top1": 0.8939393939393939,
+  "ver_top10": 0.9848484848484849,
+  "ver_variant_med": 1.0,
+  "ver_series_med": 1.0,
+  "repro_r1": 0.9906542056074766,
+  "repro_kept10": 0.8299065420560748,
+  "repro_under_step": 0.9813084112149533,
+  "repro_r1_all_primary": 0.9578754578754579,
+  "repro_kept10_all_primary": 0.8084249084249083,
+  "hubs": [
+   {
+    "qid": "Q3784247",
+    "title": "La Bella",
+    "painter": "Titian",
+    "year": 1537,
+    "tradition": "european_american",
+    "in_lists": 38
+   },
+   {
+    "qid": "Q3228387",
+    "title": "Portrait of Susanna Lunden",
+    "painter": "Peter Paul Rubens",
+    "year": 1622,
+    "tradition": "european_american",
+    "in_lists": 36
+   },
+   {
+    "qid": "Q1115423",
+    "title": "Lamentation over the Dead Christ with Saints",
+    "painter": "Sandro Botticelli",
+    "year": 1490,
+    "tradition": "european_american",
+    "in_lists": 36
+   },
+   {
+    "qid": "Q4013804",
+    "title": "Violante",
+    "painter": "Titian",
+    "year": 1515,
+    "tradition": "european_american",
+    "in_lists": 36
+   },
+   {
+    "qid": "Q656434",
+    "title": "La Belle Ferronni\u00e8re",
+    "painter": "Leonardo da Vinci",
+    "year": 1495,
+    "tradition": "european_american",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q4993494",
+    "title": "Femme couch\u00e9e",
+    "painter": "Gustave Courbet",
+    "year": 1860,
+    "tradition": "european_american",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q8030760",
+    "title": "Woman with a Parrot",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q327780",
+    "title": "Colonna Madonna",
+    "painter": "Raphael",
+    "year": 1500,
+    "tradition": "european_american",
+    "in_lists": 32
+   }
+  ],
+  "probes": {
+   "year_r2_eu": 0.5725858615841817,
+   "fame_r2": -0.05570791073055337,
+   "fame_rho": 0.05028130636439354,
+   "fame_within_rho": 0.22542598474170256,
+   "museum_acc": 0.2037037037037037,
+   "museum_base": 0.3956228956228956,
+   "museum_base_plus": 0.3838383838383838,
+   "museum_majority": 0.18013468013468015,
+   "painter_acc": 0.3841567291311755
+  },
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.38438661710037175
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.7655555555555555
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.6813238770685579
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.6113636363636363
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.6548780487804878
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.4851063829787234
+   }
+  }
+ },
+ "form": {
+  "name": "Form",
+  "weights": {
+   "composition": 1.4,
+   "colour": 1.0
+  },
+  "genre_p10": 0.2607773851590106,
+  "broad_p10": 0.4611281422440221,
+  "depicts_j10": 0.039569005370140076,
+  "painter10": 0.05226184140500266,
+  "year_gap": 122.25,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.7124451298867636,
+  "hub_zero": 0.0005070993914807302,
+  "hub_max": 28,
+  "within50": 0.33842931937172777,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.44157068062827226,
+  "same_tradition10": 0.6926470588235294,
+  "ver_top1": 0.75,
+  "ver_top10": 0.8939393939393939,
+  "ver_variant_med": 22.75,
+  "ver_series_med": 44.5,
+  "repro_r1": 0.9766355140186916,
+  "repro_kept10": 0.41542056074766354,
+  "repro_under_step": 0.9813084112149533,
+  "repro_r1_all_primary": 0.9010989010989011,
+  "repro_kept10_all_primary": 0.4073260073260073,
+  "hubs": [
+   {
+    "qid": "Q29910832",
+    "title": "Quail and Millet",
+    "painter": "Kiyohara Yukinobu",
+    "year": 1700,
+    "tradition": "japanese",
+    "in_lists": 28
+   },
+   {
+    "qid": "Q78666712",
+    "title": "Amitabha Buddha\u2019s assembly in the Western Paradise",
+    "painter": "nan",
+    "year": 1800,
+    "tradition": "korean",
+    "in_lists": 28
+   },
+   {
+    "qid": "Q78707296",
+    "title": "Diagram for a Pichawai Depicting the Sharad Purnim",
+    "painter": "nan",
+    "year": 1853,
+    "tradition": "south_asian",
+    "in_lists": 27
+   },
+   {
+    "qid": "Q58023239",
+    "title": "The Greedy Dog, from a lost manuscript based on th",
+    "painter": "Farrukh Chela",
+    "year": 1587,
+    "tradition": "south_asian",
+    "in_lists": 27
+   },
+   {
+    "qid": "Q1167796",
+    "title": "An Experiment on a Bird in the Air Pump",
+    "painter": "Joseph Wright of Derby",
+    "year": 1768,
+    "tradition": "european_american",
+    "in_lists": 24
+   },
+   {
+    "qid": "Q632603",
+    "title": "Dante's Dream",
+    "painter": "Dante Gabriel Rossetti",
+    "year": 1871,
+    "tradition": "european_american",
+    "in_lists": 24
+   },
+   {
+    "qid": "Q2067336",
+    "title": "Assumption of the Virgin",
+    "painter": "Peter Paul Rubens",
+    "year": 1501,
+    "tradition": "european_american",
+    "in_lists": 23
+   },
+   {
+    "qid": "Q17338051",
+    "title": "Allegory of the Dutch victory over the Spanish fle",
+    "painter": "Adam Willaerts",
+    "year": 1615,
+    "tradition": "european_american",
+    "in_lists": 23
+   }
+  ],
+  "probes": {
+   "year_r2_eu": 0.11715183958915587,
+   "fame_r2": -0.0571841114136864,
+   "fame_rho": 0.043205073484930245,
+   "fame_within_rho": 0.050182724122528485,
+   "museum_acc": 0.2356902356902357,
+   "museum_base": 0.3956228956228956,
+   "museum_base_plus": 0.4292929292929293,
+   "museum_majority": 0.18013468013468015,
+   "painter_acc": 0.19931856899488926
+  },
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.17806691449814127
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.532716049382716
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.30898345153664303
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.14015151515151514
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.26097560975609757
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.06595744680851064
+   }
+  }
+ },
+ "composition": {
+  "name": "Composition",
+  "weights": {
+   "composition": 1.0
+  },
+  "genre_p10": 0.22461719670200236,
+  "broad_p10": 0.42225628448804414,
+  "depicts_j10": 0.034210581332445145,
+  "painter10": 0.02581160191591272,
+  "year_gap": 145.5,
+  "year_gap_rand": 173.75,
+  "hub_skew": 1.1282621434263338,
+  "hub_zero": 0.0,
+  "hub_max": 40,
+  "within50": 0.28089005235602094,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.49031413612565444,
+  "same_tradition10": 0.6573529411764706,
+  "ver_top1": 0.8257575757575758,
+  "ver_top10": 0.9090909090909091,
+  "ver_variant_med": 26.5,
+  "ver_series_med": 108.5,
+  "repro_r1": 0.9719626168224299,
+  "repro_kept10": 0.5602803738317758,
+  "repro_under_step": 0.9766355140186916,
+  "repro_r1_all_primary": 0.8901098901098901,
+  "repro_kept10_all_primary": 0.5241758241758243,
+  "hubs": [
+   {
+    "qid": "Q78666712",
+    "title": "Amitabha Buddha\u2019s assembly in the Western Paradise",
+    "painter": "nan",
+    "year": 1800,
+    "tradition": "korean",
+    "in_lists": 40
+   },
+   {
+    "qid": "Q1569622",
+    "title": "Madonna and Child Enthroned with Angels and Prophe",
+    "painter": "Cimabue",
+    "year": 1290,
+    "tradition": "european_american",
+    "in_lists": 28
+   },
+   {
+    "qid": "Q78820693",
+    "title": "Evening bell from mist-shrouded temple (left); Aut",
+    "painter": "An Ky\u014fn",
+    "year": 1450,
+    "tradition": "korean",
+    "in_lists": 27
+   },
+   {
+    "qid": "Q4113083",
+    "title": "The Vladimirka",
+    "painter": "Isaac Levitan",
+    "year": 1892,
+    "tradition": "european_american",
+    "in_lists": 27
+   },
+   {
+    "qid": "Q78614771",
+    "title": "Vasudhara Mandala",
+    "painter": "nan",
+    "year": 1777,
+    "tradition": "south_asian",
+    "in_lists": 27
+   },
+   {
+    "qid": "Q29910832",
+    "title": "Quail and Millet",
+    "painter": "Kiyohara Yukinobu",
+    "year": 1700,
+    "tradition": "japanese",
+    "in_lists": 26
+   },
+   {
+    "qid": "Q838214",
+    "title": "Thirteen Emperors Scroll",
+    "painter": "Yan Liben",
+    "year": 650,
+    "tradition": "chinese",
+    "in_lists": 25
+   },
+   {
+    "qid": "Q3065237",
+    "title": "Madonna of Humility",
+    "painter": "Fra Angelico",
+    "year": 1433,
+    "tradition": "european_american",
+    "in_lists": 24
+   }
+  ],
+  "probes": {
+   "year_r2_eu": -0.08269948343129596,
+   "fame_r2": -0.04494387717319581,
+   "fame_rho": 0.011165827760839275,
+   "fame_within_rho": 0.052150165638603765,
+   "museum_acc": 0.17845117845117844,
+   "museum_base": 0.3956228956228956,
+   "museum_base_plus": 0.40404040404040403,
+   "museum_majority": 0.18013468013468015,
+   "painter_acc": 0.08517887563884156
+  },
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.15092936802973977
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.48098765432098767
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.3108747044917258
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.08863636363636364
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.14878048780487804
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.04468085106382979
+   }
+  }
+ },
+ "colour": {
+  "name": "Colour",
+  "weights": {
+   "colour": 1.0
+  },
+  "genre_p10": 0.25123674911660776,
+  "broad_p10": 0.4497240956468424,
+  "depicts_j10": 0.037933312356472015,
+  "painter10": 0.05918041511442256,
+  "year_gap": 119.0,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.4168759757588424,
+  "hub_zero": 0.0005070993914807302,
+  "hub_max": 24,
+  "within50": 0.34596858638743455,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.4376439790575916,
+  "same_tradition10": 0.7021805273833671,
+  "ver_top1": 0.045454545454545456,
+  "ver_top10": 0.30303030303030304,
+  "ver_variant_med": 367.5,
+  "ver_series_med": 48.5,
+  "repro_r1": 0.572429906542056,
+  "repro_kept10": 0.30934579439252335,
+  "repro_under_step": 0.5794392523364486,
+  "repro_r1_all_primary": 0.5622710622710623,
+  "repro_kept10_all_primary": 0.32344322344322346,
+  "hubs": [
+   {
+    "qid": "Q3055367",
+    "title": "Entry of the Crusaders in Constantinople",
+    "painter": "Eug\u00e8ne Delacroix",
+    "year": 1840,
+    "tradition": "european_american",
+    "in_lists": 24
+   },
+   {
+    "qid": "Q3210835",
+    "title": "The Death of Leonardo da Vinci",
+    "painter": "Jean-Auguste-Dominique Ingres",
+    "year": 1818,
+    "tradition": "european_american",
+    "in_lists": 22
+   },
+   {
+    "qid": "Q1167796",
+    "title": "An Experiment on a Bird in the Air Pump",
+    "painter": "Joseph Wright of Derby",
+    "year": 1768,
+    "tradition": "european_american",
+    "in_lists": 22
+   },
+   {
+    "qid": "Q1213151",
+    "title": "The Entombment of Christ",
+    "painter": "Caravaggio",
+    "year": 1600,
+    "tradition": "european_american",
+    "in_lists": 22
+   },
+   {
+    "qid": "Q3937621",
+    "title": "Marie Antoinette and Her Children",
+    "painter": "\u00c9lisabeth Louise Vig\u00e9e Le Brun",
+    "year": 1787,
+    "tradition": "european_american",
+    "in_lists": 22
+   },
+   {
+    "qid": "Q7536969",
+    "title": "Skull of a Skeleton with Burning Cigarette",
+    "painter": "Vincent van Gogh",
+    "year": 1884,
+    "tradition": "european_american",
+    "in_lists": 21
+   },
+   {
+    "qid": "Q29910832",
+    "title": "Quail and Millet",
+    "painter": "Kiyohara Yukinobu",
+    "year": 1700,
+    "tradition": "japanese",
+    "in_lists": 21
+   },
+   {
+    "qid": "Q138034980",
+    "title": "Bulls",
+    "painter": "Tawara S\u014dtatsu",
+    "year": 1700,
+    "tradition": "japanese",
+    "in_lists": 21
+   }
+  ],
+  "probes": {
+   "year_r2_eu": 0.20046651537436988,
+   "fame_r2": -0.055666431255126714,
+   "fame_rho": 0.04597337913011517,
+   "fame_within_rho": 0.027928649450537434,
+   "museum_acc": 0.27441077441077444,
+   "museum_base": 0.3956228956228956,
+   "museum_base_plus": 0.41919191919191917,
+   "museum_majority": 0.18013468013468015,
+   "painter_acc": 0.217206132879046
+  },
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.1721189591078067
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.5335802469135802
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.27470449172576833
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.13636363636363635
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.27134146341463417
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.07872340425531915
+   }
+  }
+ },
+ "whole_equal": {
+  "name": "Whole, colour at full weight",
+  "weights": {
+   "picture": 1.0,
+   "composition": 1.0,
+   "colour": 1.0
+  },
+  "genre_p10": 0.5306831566548881,
+  "broad_p10": 0.7428571428571429,
+  "depicts_j10": 0.08695252239704132,
+  "painter10": 0.12442788717402874,
+  "year_gap": 57.75,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.852432866456718,
+  "hub_zero": 0.005578093306288032,
+  "hub_max": 40,
+  "within50": 0.4859162303664921,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.2937696335078534,
+  "same_tradition10": 0.7776876267748478,
+  "ver_top1": 0.8939393939393939,
+  "ver_top10": 0.9924242424242424,
+  "ver_variant_med": 1.5,
+  "ver_series_med": 1.5,
+  "repro_r1": 0.9789719626168224,
+  "repro_kept10": 0.5378504672897196,
+  "repro_under_step": 0.9906542056074766,
+  "repro_r1_all_primary": 0.9322344322344323,
+  "repro_kept10_all_primary": 0.5252747252747253,
+  "hubs": [
+   {
+    "qid": "Q656434",
+    "title": "La Belle Ferronni\u00e8re",
+    "painter": "Leonardo da Vinci",
+    "year": 1495,
+    "tradition": "european_american",
+    "in_lists": 40
+   },
+   {
+    "qid": "Q9019417",
+    "title": "The Death of Adonis",
+    "painter": "Peter Paul Rubens",
+    "year": 1614,
+    "tradition": "european_american",
+    "in_lists": 36
+   },
+   {
+    "qid": "Q1134060",
+    "title": "Susanna and the Elders",
+    "painter": "Peter Paul Rubens",
+    "year": 1606,
+    "tradition": "european_american",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q611583",
+    "title": "Minerva Protects Pax from Mars",
+    "painter": "Peter Paul Rubens",
+    "year": 1629,
+    "tradition": "european_american",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q2479220",
+    "title": "Judith at the Banquet of Holofernes",
+    "painter": "Rembrandt",
+    "year": 1634,
+    "tradition": "european_american",
+    "in_lists": 31
+   },
+   {
+    "qid": "Q14866847",
+    "title": "Sunset at Montmajour",
+    "painter": "Vincent van Gogh",
+    "year": 1888,
+    "tradition": "european_american",
+    "in_lists": 31
+   },
+   {
+    "qid": "Q1990128",
+    "title": "Portrait of Lucrezia Panciatichi",
+    "painter": "Bronzino",
+    "year": 1545,
+    "tradition": "unknown",
+    "in_lists": 30
+   },
+   {
+    "qid": "Q18655609",
+    "title": "Self-portrait with breastplate",
+    "painter": "Rembrandt",
+    "year": 1629,
+    "tradition": "european_american",
+    "in_lists": 30
+   }
+  ],
+  "probes": {},
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.3412639405204461
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.7562962962962962
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.6257683215130023
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.5643939393939394
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.6103658536585366
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.3148936170212766
+   }
+  }
+ },
+ "whole_nocolour": {
+  "name": "Whole, no colour",
+  "weights": {
+   "picture": 1.0,
+   "composition": 1.0
+  },
+  "genre_p10": 0.5545347467608952,
+  "broad_p10": 0.7662170447578173,
+  "depicts_j10": 0.09449335187673569,
+  "painter10": 0.11761575306013837,
+  "year_gap": 58.0,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.686802514140536,
+  "hub_zero": 0.008620689655172414,
+  "hub_max": 33,
+  "within50": 0.4833507853403141,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.28832460732984294,
+  "same_tradition10": 0.7773326572008113,
+  "ver_top1": 0.9545454545454546,
+  "ver_top10": 1.0,
+  "ver_variant_med": 1.0,
+  "ver_series_med": 1.0,
+  "repro_r1": 0.985981308411215,
+  "repro_kept10": 0.746728971962617,
+  "repro_under_step": 0.9813084112149533,
+  "repro_r1_all_primary": 0.9432234432234432,
+  "repro_kept10_all_primary": 0.715018315018315,
+  "hubs": [
+   {
+    "qid": "Q3784247",
+    "title": "La Bella",
+    "painter": "Titian",
+    "year": 1537,
+    "tradition": "european_american",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q123004249",
+    "title": "Portr\u00e4t der Krystyna z Gerhard\u00f3w Frankowa.",
+    "painter": "Jan Rustem",
+    "year": 1819,
+    "tradition": "persian_ottoman",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q42573725",
+    "title": "Paisagem com rio e barco ao seco em S\u00e3o Paulo (Pon",
+    "painter": "Giovanni Battista Castagneto",
+    "year": 1895,
+    "tradition": "other_non_european",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q4993494",
+    "title": "Femme couch\u00e9e",
+    "painter": "Gustave Courbet",
+    "year": 1860,
+    "tradition": "european_american",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q3276176",
+    "title": "Medici Madonna",
+    "painter": "Rogier van der Weyden",
+    "year": 1460,
+    "tradition": "european_american",
+    "in_lists": 30
+   },
+   {
+    "qid": "Q656434",
+    "title": "La Belle Ferronni\u00e8re",
+    "painter": "Leonardo da Vinci",
+    "year": 1495,
+    "tradition": "european_american",
+    "in_lists": 30
+   },
+   {
+    "qid": "Q4808368",
+    "title": "Femme nue couch\u00e9e",
+    "painter": "Gustave Courbet",
+    "year": 1862,
+    "tradition": "european_american",
+    "in_lists": 29
+   },
+   {
+    "qid": "Q8030760",
+    "title": "Woman with a Parrot",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 29
+   }
+  ],
+  "probes": {},
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.38178438661710035
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.7630864197530864
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.650354609929078
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.5727272727272728
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.6298780487804878
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.4127659574468085
+   }
+  }
+ },
+ "whole_texture": {
+  "name": "Whole + texture 0.7",
+  "weights": {
+   "picture": 1.0,
+   "composition": 1.0,
+   "colour": 0.5,
+   "texture": 0.7
+  },
+  "genre_p10": 0.5660188457008245,
+  "broad_p10": 0.7724708767627223,
+  "depicts_j10": 0.09945027530193329,
+  "painter10": 0.13608302288451304,
+  "year_gap": 51.5,
+  "year_gap_rand": 173.75,
+  "hub_skew": 0.9558105163812206,
+  "hub_zero": 0.012170385395537525,
+  "hub_max": 43,
+  "within50": 0.508848167539267,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.26979057591623035,
+  "same_tradition10": 0.7913286004056795,
+  "ver_top1": 0.9696969696969697,
+  "ver_top10": 1.0,
+  "ver_variant_med": 1.0,
+  "ver_series_med": 1.0,
+  "repro_r1": 0.9836448598130841,
+  "repro_kept10": 0.7514018691588785,
+  "repro_under_step": 0.985981308411215,
+  "repro_r1_all_primary": 0.945054945054945,
+  "repro_kept10_all_primary": 0.7227106227106228,
+  "hubs": [
+   {
+    "qid": "Q8030760",
+    "title": "Woman with a Parrot",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 43
+   },
+   {
+    "qid": "Q9019417",
+    "title": "The Death of Adonis",
+    "painter": "Peter Paul Rubens",
+    "year": 1614,
+    "tradition": "european_american",
+    "in_lists": 42
+   },
+   {
+    "qid": "Q656434",
+    "title": "La Belle Ferronni\u00e8re",
+    "painter": "Leonardo da Vinci",
+    "year": 1495,
+    "tradition": "european_american",
+    "in_lists": 40
+   },
+   {
+    "qid": "Q3784247",
+    "title": "La Bella",
+    "painter": "Titian",
+    "year": 1537,
+    "tradition": "european_american",
+    "in_lists": 39
+   },
+   {
+    "qid": "Q1990128",
+    "title": "Portrait of Lucrezia Panciatichi",
+    "painter": "Bronzino",
+    "year": 1545,
+    "tradition": "unknown",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q42573725",
+    "title": "Paisagem com rio e barco ao seco em S\u00e3o Paulo (Pon",
+    "painter": "Giovanni Battista Castagneto",
+    "year": 1895,
+    "tradition": "other_non_european",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q2479220",
+    "title": "Judith at the Banquet of Holofernes",
+    "painter": "Rembrandt",
+    "year": 1634,
+    "tradition": "european_american",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q4993494",
+    "title": "Femme couch\u00e9e",
+    "painter": "Gustave Courbet",
+    "year": 1860,
+    "tradition": "european_american",
+    "in_lists": 33
+   }
+  ],
+  "probes": {},
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.3858736059479554
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.774320987654321
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.6576832151300236
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.6121212121212121
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.6634146341463415
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.4021276595744681
+   }
+  }
+ },
+ "picture_texture": {
+  "name": "Picture + texture 1.0",
+  "weights": {
+   "picture": 1.0,
+   "texture": 1.0
+  },
+  "genre_p10": 0.5694935217903416,
+  "broad_p10": 0.776824034334764,
+  "depicts_j10": 0.10237333178520203,
+  "painter10": 0.13320915380521553,
+  "year_gap": 54.0,
+  "year_gap_rand": 173.75,
+  "hub_skew": 1.1111686369159526,
+  "hub_zero": 0.017748478701825558,
+  "hub_max": 47,
+  "within50": 0.5017801047120419,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.2782198952879581,
+  "same_tradition10": 0.790314401622718,
+  "ver_top1": 0.9242424242424242,
+  "ver_top10": 1.0,
+  "ver_variant_med": 1.0,
+  "ver_series_med": 1.0,
+  "repro_r1": 0.9836448598130841,
+  "repro_kept10": 0.8051401869158881,
+  "repro_under_step": 0.985981308411215,
+  "repro_r1_all_primary": 0.9377289377289377,
+  "repro_kept10_all_primary": 0.7805860805860806,
+  "hubs": [
+   {
+    "qid": "Q8030760",
+    "title": "Woman with a Parrot",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 47
+   },
+   {
+    "qid": "Q23009835",
+    "title": "Self-portrait",
+    "painter": "Sofonisba Anguissola",
+    "year": 1554,
+    "tradition": "european_american",
+    "in_lists": 45
+   },
+   {
+    "qid": "Q656434",
+    "title": "La Belle Ferronni\u00e8re",
+    "painter": "Leonardo da Vinci",
+    "year": 1495,
+    "tradition": "european_american",
+    "in_lists": 43
+   },
+   {
+    "qid": "Q3784247",
+    "title": "La Bella",
+    "painter": "Titian",
+    "year": 1537,
+    "tradition": "european_american",
+    "in_lists": 40
+   },
+   {
+    "qid": "Q919861",
+    "title": "Portrait of a Young Woman",
+    "painter": "Raphael",
+    "year": 1507,
+    "tradition": "european_american",
+    "in_lists": 37
+   },
+   {
+    "qid": "Q1990128",
+    "title": "Portrait of Lucrezia Panciatichi",
+    "painter": "Bronzino",
+    "year": 1545,
+    "tradition": "unknown",
+    "in_lists": 36
+   },
+   {
+    "qid": "Q3220204",
+    "title": "The Stolen Kiss",
+    "painter": "Marguerite G\u00e9rard|Jean-Honor\u00e9 ",
+    "year": 1787,
+    "tradition": "european_american",
+    "in_lists": 35
+   },
+   {
+    "qid": "Q9019417",
+    "title": "The Death of Adonis",
+    "painter": "Peter Paul Rubens",
+    "year": 1614,
+    "tradition": "european_american",
+    "in_lists": 34
+   }
+  ],
+  "probes": {},
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.38513011152416354
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.7708641975308642
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.6692671394799055
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.6015151515151516
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.6707317073170732
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.39361702127659576
+   }
+  }
+ },
+ "texture": {
+  "name": "Texture alone",
+  "weights": {
+   "texture": 1.0
+  },
+  "genre_p10": 0.48062426383981155,
+  "broad_p10": 0.6970570202329859,
+  "depicts_j10": 0.08402501046657562,
+  "painter10": 0.10835550824906866,
+  "year_gap": 69.25,
+  "year_gap_rand": 173.75,
+  "hub_skew": 1.0866852219196859,
+  "hub_zero": 0.009127789046653144,
+  "hub_max": 43,
+  "within50": 0.444869109947644,
+  "within50_rand": 0.22463803075573585,
+  "beyond150": 0.3332984293193717,
+  "same_tradition10": 0.7679513184584178,
+  "ver_top1": 0.8333333333333334,
+  "ver_top10": 0.9696969696969697,
+  "ver_variant_med": 1.25,
+  "ver_series_med": 1.5,
+  "repro_r1": 0.9789719626168224,
+  "repro_kept10": 0.7116822429906541,
+  "repro_under_step": 0.985981308411215,
+  "repro_r1_all_primary": 0.9102564102564102,
+  "repro_kept10_all_primary": 0.6798534798534799,
+  "hubs": [
+   {
+    "qid": "Q8030760",
+    "title": "Woman with a Parrot",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 43
+   },
+   {
+    "qid": "Q23009835",
+    "title": "Self-portrait",
+    "painter": "Sofonisba Anguissola",
+    "year": 1554,
+    "tradition": "european_american",
+    "in_lists": 42
+   },
+   {
+    "qid": "Q919861",
+    "title": "Portrait of a Young Woman",
+    "painter": "Raphael",
+    "year": 1507,
+    "tradition": "european_american",
+    "in_lists": 34
+   },
+   {
+    "qid": "Q132600730",
+    "title": "nan",
+    "painter": "Guo Xi",
+    "year": null,
+    "tradition": "chinese",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q538243",
+    "title": "Holy Family with Saint Elizabeth and the infant St",
+    "painter": "Raphael",
+    "year": 1517,
+    "tradition": "european_american",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q507120",
+    "title": "Mountain Landscape with Rainbow",
+    "painter": "Caspar David Friedrich",
+    "year": 1809,
+    "tradition": "european_american",
+    "in_lists": 33
+   },
+   {
+    "qid": "Q326503",
+    "title": "The Sleepers",
+    "painter": "Gustave Courbet",
+    "year": 1866,
+    "tradition": "european_american",
+    "in_lists": 32
+   },
+   {
+    "qid": "Q3784247",
+    "title": "La Bella",
+    "painter": "Titian",
+    "year": 1537,
+    "tradition": "european_american",
+    "in_lists": 32
+   }
+  ],
+  "probes": {},
+  "genre_makeup": {
+   "genre": {
+    "n": 269,
+    "base": 0.13640973630831643,
+    "neighbours": 0.30408921933085503
+   },
+   "narrative": {
+    "n": 810,
+    "base": 0.4107505070993915,
+    "neighbours": 0.7198765432098766
+   },
+   "portrait": {
+    "n": 423,
+    "base": 0.2145030425963489,
+    "neighbours": 0.5910165484633569
+   },
+   "nude": {
+    "n": 132,
+    "base": 0.06693711967545639,
+    "neighbours": 0.4765151515151515
+   },
+   "landscape": {
+    "n": 164,
+    "base": 0.08316430020283976,
+    "neighbours": 0.5957317073170731
+   },
+   "stilllife": {
+    "n": 47,
+    "base": 0.02383367139959432,
+    "neighbours": 0.14468085106382977
+   }
+  }
+ },
+ "_overlap": {
+  "whole": {
+   "whole": 1.0,
+   "picture": 0.49604462474645034,
+   "form": 0.16769776876267747,
+   "composition": 0.12403651115618661,
+   "colour": 0.07900608519269778,
+   "whole_equal": 0.577028397565923,
+   "whole_nocolour": 0.8142494929006086,
+   "whole_texture": 0.7331135902636917,
+   "picture_texture": 0.40299188640973627,
+   "texture": 0.21414807302231237
+  },
+  "picture": {
+   "whole": 0.49604462474645034,
+   "picture": 1.0,
+   "form": 0.040973630831643,
+   "composition": 0.02550709939148073,
+   "colour": 0.0372210953346856,
+   "whole_equal": 0.318052738336714,
+   "whole_nocolour": 0.5145030425963488,
+   "whole_texture": 0.5194219066937119,
+   "picture_texture": 0.5575557809330629,
+   "texture": 0.254868154158215
+  },
+  "form": {
+   "whole": 0.16769776876267747,
+   "picture": 0.040973630831643,
+   "form": 1.0,
+   "composition": 0.3137931034482758,
+   "colour": 0.28412778904665315,
+   "whole_equal": 0.27378296146044623,
+   "whole_nocolour": 0.1242393509127789,
+   "whole_texture": 0.13656186612576066,
+   "picture_texture": 0.04650101419878296,
+   "texture": 0.04066937119675456
+  },
+  "composition": {
+   "whole": 0.12403651115618661,
+   "picture": 0.02550709939148073,
+   "form": 0.3137931034482758,
+   "composition": 1.0,
+   "colour": 0.022920892494929006,
+   "whole_equal": 0.0973630831643002,
+   "whole_nocolour": 0.1257606490872211,
+   "whole_texture": 0.09969574036511156,
+   "picture_texture": 0.029614604462474648,
+   "texture": 0.02799188640973631
+  },
+  "colour": {
+   "whole": 0.07900608519269778,
+   "picture": 0.0372210953346856,
+   "form": 0.28412778904665315,
+   "composition": 0.022920892494929006,
+   "colour": 1.0,
+   "whole_equal": 0.23108519269776875,
+   "whole_nocolour": 0.04148073022312373,
+   "whole_texture": 0.07099391480730223,
+   "picture_texture": 0.0404158215010142,
+   "texture": 0.03387423935091278
+  },
+  "whole_equal": {
+   "whole": 0.577028397565923,
+   "picture": 0.318052738336714,
+   "form": 0.27378296146044623,
+   "composition": 0.0973630831643002,
+   "colour": 0.23108519269776875,
+   "whole_equal": 1.0,
+   "whole_nocolour": 0.4292089249492901,
+   "whole_texture": 0.5071501014198783,
+   "picture_texture": 0.2849391480730223,
+   "texture": 0.17079107505070995
+  },
+  "whole_nocolour": {
+   "whole": 0.8142494929006086,
+   "picture": 0.5145030425963488,
+   "form": 0.1242393509127789,
+   "composition": 0.1257606490872211,
+   "colour": 0.04148073022312373,
+   "whole_equal": 0.4292089249492901,
+   "whole_nocolour": 1.0,
+   "whole_texture": 0.6901115618661258,
+   "picture_texture": 0.41019269776876266,
+   "texture": 0.21384381338742395
+  },
+  "whole_texture": {
+   "whole": 0.7331135902636917,
+   "picture": 0.5194219066937119,
+   "form": 0.13656186612576066,
+   "composition": 0.09969574036511156,
+   "colour": 0.07099391480730223,
+   "whole_equal": 0.5071501014198783,
+   "whole_nocolour": 0.6901115618661258,
+   "whole_texture": 1.0,
+   "picture_texture": 0.5884381338742394,
+   "texture": 0.3546653144016227
+  },
+  "picture_texture": {
+   "whole": 0.40299188640973627,
+   "picture": 0.5575557809330629,
+   "form": 0.04650101419878296,
+   "composition": 0.029614604462474648,
+   "colour": 0.0404158215010142,
+   "whole_equal": 0.2849391480730223,
+   "whole_nocolour": 0.41019269776876266,
+   "whole_texture": 0.5884381338742394,
+   "picture_texture": 1.0,
+   "texture": 0.5404158215010142
+  },
+  "texture": {
+   "whole": 0.21414807302231237,
+   "picture": 0.254868154158215,
+   "form": 0.04066937119675456,
+   "composition": 0.02799188640973631,
+   "colour": 0.03387423935091278,
+   "whole_equal": 0.17079107505070995,
+   "whole_nocolour": 0.21384381338742395,
+   "whole_texture": 0.3546653144016227,
+   "picture_texture": 0.5404158215010142,
+   "texture": 1.0
+  }
+ },
+ "_hubness": {
+  "whole": {
+   "none": {
+    "genre_p10": 0.5577738515901061,
+    "broad_p10": 0.7654199877375844,
+    "depicts_j10": 0.09342502057552338,
+    "painter10": 0.1244811069717935,
+    "year_gap": 56.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.7358743023708075,
+    "hub_zero": 0.009634888438133874,
+    "hub_max": 35,
+    "within50": 0.49240837696335077,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.28340314136125655,
+    "same_tradition10": 0.7831643002028398,
+    "overlap_with_plain": 1.0
+   },
+   "local scaling": {
+    "genre_p10": 0.5449941107184924,
+    "broad_p10": 0.754199877375843,
+    "depicts_j10": 0.091196209192276,
+    "painter10": 0.12538584353379456,
+    "year_gap": 54.0,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.12075357890857455,
+    "hub_zero": 0.0,
+    "hub_max": 22,
+    "within50": 0.4970157068062827,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.28539267015706804,
+    "same_tradition10": 0.7865111561866126,
+    "overlap_with_plain": 0.8168356997971603
+   },
+   "CSLS": {
+    "genre_p10": 0.5452296819787986,
+    "broad_p10": 0.7548129981606376,
+    "depicts_j10": 0.09039357304573059,
+    "painter10": 0.12336349121873337,
+    "year_gap": 54.75,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.4683644367165053,
+    "hub_zero": 0.0,
+    "hub_max": 25,
+    "within50": 0.4943979057591623,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.2867015706806283,
+    "same_tradition10": 0.7848884381338742,
+    "overlap_with_plain": 0.797971602434077
+   },
+   "mutual proximity": {
+    "genre_p10": 0.5547114252061248,
+    "broad_p10": 0.7619865113427345,
+    "depicts_j10": 0.09344478696584702,
+    "painter10": 0.12490686535391166,
+    "year_gap": 57.25,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.504356585469557,
+    "hub_zero": 0.0010141987829614604,
+    "hub_max": 29,
+    "within50": 0.4935602094240838,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.2875392670157068,
+    "same_tradition10": 0.7837728194726167,
+    "overlap_with_plain": 0.8151622718052739
+   }
+  },
+  "picture": {
+   "none": {
+    "genre_p10": 0.5777974087161366,
+    "broad_p10": 0.7817290006131208,
+    "depicts_j10": 0.1016269251704216,
+    "painter10": 0.12527940393826503,
+    "year_gap": 58.0,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.8522645760991445,
+    "hub_zero": 0.015720081135902637,
+    "hub_max": 38,
+    "within50": 0.4907853403141361,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.278848167539267,
+    "same_tradition10": 0.7813894523326572,
+    "overlap_with_plain": 1.0
+   },
+   "local scaling": {
+    "genre_p10": 0.5656654888103652,
+    "broad_p10": 0.7709380748007357,
+    "depicts_j10": 0.0984472781419754,
+    "painter10": 0.12714209686003194,
+    "year_gap": 58.0,
+    "year_gap_rand": 173.75,
+    "hub_skew": -0.01701944968868382,
+    "hub_zero": 0.0010141987829614604,
+    "hub_max": 21,
+    "within50": 0.49523560209424083,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.2812565445026178,
+    "same_tradition10": 0.7868661257606491,
+    "overlap_with_plain": 0.7719574036511156
+   },
+   "CSLS": {
+    "genre_p10": 0.5638398115429918,
+    "broad_p10": 0.7695278969957081,
+    "depicts_j10": 0.09824269264936447,
+    "painter10": 0.12511974454497074,
+    "year_gap": 60.0,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.3603513586425757,
+    "hub_zero": 0.0005070993914807302,
+    "hub_max": 22,
+    "within50": 0.4914659685863874,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.28319371727748693,
+    "same_tradition10": 0.7843306288032454,
+    "overlap_with_plain": 0.770892494929006
+   },
+   "mutual proximity": {
+    "genre_p10": 0.5713780918727915,
+    "broad_p10": 0.776701410177805,
+    "depicts_j10": 0.10086114704608917,
+    "painter10": 0.1244811069717935,
+    "year_gap": 59.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.582626915035853,
+    "hub_zero": 0.005578093306288032,
+    "hub_max": 27,
+    "within50": 0.4886910994764398,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.2850785340314136,
+    "same_tradition10": 0.7850912778904665,
+    "overlap_with_plain": 0.7990872210953347
+   }
+  },
+  "form": {
+   "none": {
+    "genre_p10": 0.2607773851590106,
+    "broad_p10": 0.4611281422440221,
+    "depicts_j10": 0.039569005370140076,
+    "painter10": 0.05226184140500266,
+    "year_gap": 122.25,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.7124451298867636,
+    "hub_zero": 0.0005070993914807302,
+    "hub_max": 28,
+    "within50": 0.33842931937172777,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.44157068062827226,
+    "same_tradition10": 0.6926470588235294,
+    "overlap_with_plain": 1.0
+   },
+   "local scaling": {
+    "genre_p10": 0.25954063604240285,
+    "broad_p10": 0.46082158185162475,
+    "depicts_j10": 0.03924347460269928,
+    "painter10": 0.05130388504523683,
+    "year_gap": 119.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.16166795161627054,
+    "hub_zero": 0.0,
+    "hub_max": 18,
+    "within50": 0.34020942408376964,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.44010471204188484,
+    "same_tradition10": 0.6990365111561866,
+    "overlap_with_plain": 0.8963995943204868
+   },
+   "CSLS": {
+    "genre_p10": 0.2571260306242638,
+    "broad_p10": 0.4590435315757204,
+    "depicts_j10": 0.03921210393309593,
+    "painter10": 0.05093134646088345,
+    "year_gap": 119.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.5164471773369418,
+    "hub_zero": 0.0,
+    "hub_max": 22,
+    "within50": 0.3412041884816754,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.44036649214659684,
+    "same_tradition10": 0.7018255578093306,
+    "overlap_with_plain": 0.8586713995943205
+   },
+   "mutual proximity": {
+    "genre_p10": 0.26036513545347467,
+    "broad_p10": 0.46057633353770694,
+    "depicts_j10": 0.039704304188489914,
+    "painter10": 0.052368281000532195,
+    "year_gap": 122.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.5497625271953648,
+    "hub_zero": 0.0005070993914807302,
+    "hub_max": 26,
+    "within50": 0.34172774869109945,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.4395287958115183,
+    "same_tradition10": 0.6950811359026369,
+    "overlap_with_plain": 0.9631845841784991
+   }
+  },
+  "composition": {
+   "none": {
+    "genre_p10": 0.22461719670200236,
+    "broad_p10": 0.42225628448804414,
+    "depicts_j10": 0.034210581332445145,
+    "painter10": 0.02581160191591272,
+    "year_gap": 145.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 1.1282621434263338,
+    "hub_zero": 0.0,
+    "hub_max": 40,
+    "within50": 0.28089005235602094,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.49031413612565444,
+    "same_tradition10": 0.6573529411764706,
+    "overlap_with_plain": 1.0
+   },
+   "local scaling": {
+    "genre_p10": 0.22444051825677266,
+    "broad_p10": 0.42244022072348253,
+    "depicts_j10": 0.034228917211294174,
+    "painter10": 0.025492283129324108,
+    "year_gap": 143.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.22231529647031703,
+    "hub_zero": 0.0,
+    "hub_max": 20,
+    "within50": 0.2832984293193717,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.4868586387434555,
+    "same_tradition10": 0.6652129817444219,
+    "overlap_with_plain": 0.9109026369168356
+   },
+   "CSLS": {
+    "genre_p10": 0.22273262661955243,
+    "broad_p10": 0.4192519926425506,
+    "depicts_j10": 0.03370950371026993,
+    "painter10": 0.02575838211814795,
+    "year_gap": 143.0,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.2771292012026652,
+    "hub_zero": 0.0,
+    "hub_max": 19,
+    "within50": 0.2837696335078534,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.4863350785340314,
+    "same_tradition10": 0.6697261663286004,
+    "overlap_with_plain": 0.8770283975659229
+   },
+   "mutual proximity": {
+    "genre_p10": 0.22614840989399293,
+    "broad_p10": 0.422501532801962,
+    "depicts_j10": 0.03431779518723488,
+    "painter10": 0.025651942522618414,
+    "year_gap": 144.25,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.8398807179826375,
+    "hub_zero": 0.0,
+    "hub_max": 32,
+    "within50": 0.28209424083769635,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.4881675392670157,
+    "same_tradition10": 0.6606490872210954,
+    "overlap_with_plain": 0.9727180527383368
+   }
+  },
+  "colour": {
+   "none": {
+    "genre_p10": 0.25123674911660776,
+    "broad_p10": 0.4497240956468424,
+    "depicts_j10": 0.037933312356472015,
+    "painter10": 0.05918041511442256,
+    "year_gap": 119.0,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.4168759757588424,
+    "hub_zero": 0.0005070993914807302,
+    "hub_max": 24,
+    "within50": 0.34596858638743455,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.4376439790575916,
+    "same_tradition10": 0.7021805273833671,
+    "overlap_with_plain": 1.0
+   },
+   "local scaling": {
+    "genre_p10": 0.2510600706713781,
+    "broad_p10": 0.4500919681177192,
+    "depicts_j10": 0.0381002351641655,
+    "painter10": 0.057637040979244276,
+    "year_gap": 118.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.04500986859989138,
+    "hub_zero": 0.0,
+    "hub_max": 18,
+    "within50": 0.34534031413612565,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.43926701570680626,
+    "same_tradition10": 0.7016227180527383,
+    "overlap_with_plain": 0.8876774847870182
+   },
+   "CSLS": {
+    "genre_p10": 0.2516489988221437,
+    "broad_p10": 0.4488044144696505,
+    "depicts_j10": 0.038158707320690155,
+    "painter10": 0.05769026077700905,
+    "year_gap": 119.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.397117918110872,
+    "hub_zero": 0.0,
+    "hub_max": 18,
+    "within50": 0.3468586387434555,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.43785340314136123,
+    "same_tradition10": 0.7029411764705882,
+    "overlap_with_plain": 0.8553752535496958
+   },
+   "mutual proximity": {
+    "genre_p10": 0.25100117785630155,
+    "broad_p10": 0.448068669527897,
+    "depicts_j10": 0.03813131898641586,
+    "painter10": 0.05870143693453965,
+    "year_gap": 118.5,
+    "year_gap_rand": 173.75,
+    "hub_skew": 0.33813173652803885,
+    "hub_zero": 0.0005070993914807302,
+    "hub_max": 24,
+    "within50": 0.34664921465968584,
+    "within50_rand": 0.22463803075573585,
+    "beyond150": 0.43732984293193716,
+    "same_tradition10": 0.7017241379310345,
+    "overlap_with_plain": 0.9589249492900608
+   }
+  }
+ }
+}

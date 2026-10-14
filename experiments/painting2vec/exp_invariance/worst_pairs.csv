@@ -1,0 +1,106 @@
+block,qid,a,b,flag,lab_diff,rank_ab,rank_ba,rnn,rstep,ov10,title,worst_rank
+subject: DINOv2-L cls,Q1430990,Q1430990__commons2,Q1430990__commons3,high_diff_check_frame_or_crop,14.878,260.000,91.000,1.422,1.306,0.000,"Venus, Cupid, Folly and Time",260.000
+subject: DINOv2-L cls,Q2627056,Q2627056__commons,Q2627056__commons3,none,8.715,157.000,187.000,2.110,1.478,0.000,David with the Head of Goliath,187.000
+subject: DINOv2-L cls,Q185255,Q185255__commons2,Q185255__commons3,high_diff_check_frame_or_crop,17.659,96.000,105.000,1.492,1.433,0.000,The Wedding at Cana,105.000
+subject: DINOv2-L cls,Q1118456,Q1118456__commons,Q1118456__commons3,high_diff_check_frame_or_crop,13.289,1.000,74.000,1.293,1.329,0.000,La Balançoire,74.000
+subject: DINOv2-L cls,Q212616,Q212616__commons2,Q212616__commons3,high_diff_check_frame_or_crop,12.377,33.000,16.000,1.404,1.253,0.200,The Raft of the Medusa,33.000
+subject: DINOv2-L cls,Q3869871,Q3869871__commons,Q3869871__commons2,high_diff_check_frame_or_crop,20.627,31.000,2.000,1.289,1.356,0.400,When Will You Marry?,31.000
+subject: DINOv2-L cls,Q3937623,Q3937623__commons,Q3937623__met,none,11.733,21.000,1.000,1.197,1.049,0.500,Portrait of Maria Portinari,21.000
+subject: DINOv2-L cls,Q78820693,Q78820693__commons,Q78820693__met,high_diff_check_frame_or_crop,14.068,5.000,8.000,1.678,0.834,0.700,Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right),8.000
+subject: DINOv2-L cls,Q60465136,Q60465136__commons,Q60465136__cleveland,none,6.805,1.000,7.000,1.045,1.147,0.100,Dragon; Tiger,7.000
+subject: DINOv2-L cls,Q2338404,Q2338404__commons2,Q2338404__commons3,high_diff_check_frame_or_crop,15.441,6.000,1.000,1.192,0.913,0.400,Portrait of a Musician,6.000
+subject: DINOv2-L cls,Q210277,Q210277__commons2,Q210277__commons3,high_diff_check_frame_or_crop,12.525,2.000,6.000,1.058,1.211,0.300,Music in the Tuileries,6.000
+subject: DINOv2-L cls,Q14866847,Q14866847__commons,Q14866847__commons2,high_diff_check_frame_or_crop,13.968,5.000,1.000,1.136,1.096,0.600,Sunset at Montmajour,5.000
+subject: DINOv2-L cls,Q29383336,Q29383336__commons,Q29383336__met,high_diff_check_frame_or_crop,15.842,1.000,4.000,1.285,0.800,0.600,Old Plum,4.000
+subject: DINOv2-L cls,Q737062,Q737062__commons,Q737062__commons3,none,8.362,4.000,1.000,1.038,0.892,0.800,Olympia,4.000
+subject: DINOv2-L cls,Q44460941,Q44460941__commons,Q44460941__met,none,3.575,3.000,1.000,1.161,0.898,0.800,Birds and Flowers of Summer and Autumn,3.000
+manner: CSD style,Q948034,Q948034__commons,Q948034__commons2,none,10.267,808.000,829.000,1.648,1.528,0.000,La velata,829.000
+manner: CSD style,Q588695,Q588695__commons,Q588695__commons3,bw_reproduction,12.925,367.000,374.000,1.845,1.469,0.000,The Art of Painting,374.000
+manner: CSD style,Q984058,Q984058__commons,Q984058__commons2,high_diff_check_frame_or_crop,17.613,365.000,278.000,2.185,1.453,0.000,Las Hilanderas,365.000
+manner: CSD style,Q700251,Q700251__commons,Q700251__commons2,none,9.681,214.000,228.000,1.667,1.425,0.000,Girl Reading a Letter at an Open Window,228.000
+manner: CSD style,Q152509,Q152509__commons2,Q152509__commons3,bw_reproduction,13.654,127.000,165.000,2.110,1.403,0.000,Luncheon on the Grass,165.000
+manner: CSD style,Q2030685,Q2030685__commons,Q2030685__commons2,high_diff_check_frame_or_crop,15.222,121.000,117.000,1.472,1.373,0.000,The Marriage of the Virgin,121.000
+manner: CSD style,Q2200610,Q2200610__commons2,Q2200610__commons3,bw_reproduction,19.379,84.000,93.000,1.549,1.353,0.000,The Yellow House,93.000
+manner: CSD style,Q2629559,Q2629559__commons2,Q2629559__commons3,high_diff_check_frame_or_crop,16.862,76.000,52.000,1.537,1.332,0.000,The Swing,76.000
+manner: CSD style,Q275349,Q275349__commons,Q275349__commons3,bw_reproduction,11.092,69.000,65.000,1.573,1.323,0.000,Rokeby Venus,69.000
+manner: CSD style,Q1430990,Q1430990__commons,Q1430990__commons3,high_diff_check_frame_or_crop,15.710,69.000,52.000,1.498,1.331,0.100,"Venus, Cupid, Folly and Time",69.000
+manner: CSD style,Q1142058,Q1142058__commons2,Q1142058__commons3,high_diff_check_frame_or_crop,12.469,68.000,46.000,1.605,1.294,0.000,Benois Madonna,68.000
+manner: CSD style,Q1065493,Q1065493__commons2,Q1065493__commons3,high_diff_check_frame_or_crop,16.452,64.000,26.000,1.487,1.306,0.000,Ophelia,64.000
+manner: CSD style,Q1327676,Q1327676__commons,Q1327676__commons3,high_diff_check_frame_or_crop,15.156,61.000,45.000,1.541,1.258,0.200,Madonna Litta,61.000
+manner: CSD style,Q604761,Q604761__commons,Q604761__commons3,none,8.295,35.000,60.000,1.285,1.313,0.100,The Blue Boy,60.000
+manner: CSD style,Q2293953,Q2293953__commons2,Q2293953__commons3,none,8.783,56.000,58.000,1.568,1.319,0.000,Venus and Mars,58.000
+manner (alt.): DINOv2-L gram_late,Q984058,Q984058__commons,Q984058__commons2,high_diff_check_frame_or_crop,17.613,2035.000,149.000,1.537,1.402,0.000,Las Hilanderas,2035.000
+manner (alt.): DINOv2-L gram_late,Q29383336,Q29383336__commons,Q29383336__met,high_diff_check_frame_or_crop,15.842,1642.000,1996.000,1.617,1.643,0.000,Old Plum,1996.000
+manner (alt.): DINOv2-L gram_late,Q44462164,Q44462164__commons,Q44462164__met,high_diff_check_frame_or_crop,29.218,839.000,602.000,1.160,1.520,0.000,Flowers of Spring and Autumn,839.000
+manner (alt.): DINOv2-L gram_late,Q210277,Q210277__commons2,Q210277__commons3,high_diff_check_frame_or_crop,12.525,64.000,700.000,1.296,1.337,0.000,Music in the Tuileries,700.000
+manner (alt.): DINOv2-L gram_late,Q474338,Q474338__commons,Q474338__commons2,none,11.233,665.000,13.000,1.344,1.307,0.000,Lady with an Ermine,665.000
+manner (alt.): DINOv2-L gram_late,Q2629559,Q2629559__commons2,Q2629559__commons3,high_diff_check_frame_or_crop,16.862,37.000,658.000,1.264,1.322,0.000,The Swing,658.000
+manner (alt.): DINOv2-L gram_late,Q185255,Q185255__commons2,Q185255__commons3,high_diff_check_frame_or_crop,17.659,552.000,189.000,1.396,1.265,0.100,The Wedding at Cana,552.000
+manner (alt.): DINOv2-L gram_late,Q1430990,Q1430990__commons,Q1430990__commons3,high_diff_check_frame_or_crop,15.710,515.000,7.000,1.464,1.257,0.000,"Venus, Cupid, Folly and Time",515.000
+manner (alt.): DINOv2-L gram_late,Q43809958,Q43809958__commons,Q43809958__met,high_diff_check_frame_or_crop,12.984,56.000,315.000,1.424,1.555,0.200,Seven Sages of the Bamboo Grove,315.000
+manner (alt.): DINOv2-L gram_late,Q78713996,Q78713996__commons,Q78713996__met,high_diff_check_frame_or_crop,24.222,240.000,4.000,1.175,1.409,0.000,Manuscript Cover with Four Vidyadevis Accompanied by a Protective Deity,240.000
+manner (alt.): DINOv2-L gram_late,Q152509,Q152509__commons,Q152509__commons2,high_diff_check_frame_or_crop,16.141,225.000,8.000,1.326,1.262,0.200,Luncheon on the Grass,225.000
+manner (alt.): DINOv2-L gram_late,Q2627056,Q2627056__commons,Q2627056__commons3,none,8.715,192.000,133.000,1.774,1.221,0.000,David with the Head of Goliath,192.000
+manner (alt.): DINOv2-L gram_late,Q1217003,Q1217003__commons,Q1217003__commons2,high_diff_check_frame_or_crop,13.054,164.000,1.000,1.179,1.396,0.100,Portrait of an Unknown Woman,164.000
+manner (alt.): DINOv2-L gram_late,Q212616,Q212616__commons2,Q212616__commons3,high_diff_check_frame_or_crop,12.377,137.000,152.000,1.496,1.144,0.000,The Raft of the Medusa,152.000
+manner (alt.): DINOv2-L gram_late,Q3531531,Q3531531__commons,Q3531531__nga,high_diff_check_frame_or_crop,18.081,1.000,84.000,1.188,1.202,0.100,Adoration of the Magi,84.000
+colour: std hist+sw,Q78617844,Q78617844__commons,Q78617844__met,none,7.598,1798.000,2413.000,2.855,3.245,0.000,The God Izanagi and Goddess Izanami,2413.000
+colour: std hist+sw,Q78713996,Q78713996__commons,Q78713996__met,high_diff_check_frame_or_crop,24.222,2413.000,2372.000,2.281,3.275,0.000,Manuscript Cover with Four Vidyadevis Accompanied by a Protective Deity,2413.000
+colour: std hist+sw,Q44462164,Q44462164__commons,Q44462164__met,high_diff_check_frame_or_crop,29.218,761.000,2411.000,2.972,3.045,0.000,Flowers of Spring and Autumn,2411.000
+colour: std hist+sw,Q1192570,Q1192570__commons,Q1192570__commons3,bw_reproduction,11.334,2387.000,786.000,6.757,2.355,0.000,The Blind Leading the Blind,2387.000
+colour: std hist+sw,Q1327676,Q1327676__commons2,Q1327676__commons3,high_diff_check_frame_or_crop,13.862,2387.000,1565.000,2.318,2.444,0.000,Madonna Litta,2387.000
+colour: std hist+sw,Q2200610,Q2200610__commons,Q2200610__commons3,bw_reproduction,13.034,2384.000,2191.000,7.676,2.676,0.000,The Yellow House,2384.000
+colour: std hist+sw,Q78820693,Q78820693__commons,Q78820693__met,high_diff_check_frame_or_crop,14.068,2371.000,1552.000,2.108,2.479,0.000,Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right),2371.000
+colour: std hist+sw,Q43809958,Q43809958__commons,Q43809958__met,high_diff_check_frame_or_crop,12.984,2363.000,2266.000,2.187,2.632,0.000,Seven Sages of the Bamboo Grove,2363.000
+colour: std hist+sw,Q3531531,Q3531531__commons,Q3531531__nga,high_diff_check_frame_or_crop,18.081,2326.000,2239.000,1.934,2.341,0.000,Adoration of the Magi,2326.000
+colour: std hist+sw,Q1150997,Q1150997__commons,Q1150997__commons2,none,7.339,2301.000,1698.000,2.269,2.063,0.000,Saturn Devouring His Son,2301.000
+colour: std hist+sw,Q152509,Q152509__commons,Q152509__commons2,high_diff_check_frame_or_crop,16.141,2299.000,324.000,2.345,1.993,0.000,Luncheon on the Grass,2299.000
+colour: std hist+sw,Q546241,Q546241__commons,Q546241__commons2,high_diff_check_frame_or_crop,15.954,2299.000,1203.000,1.994,2.235,0.000,Theotokos of Vladimir,2299.000
+colour: std hist+sw,Q2293905,Q2293905__commons,Q2293905__commons2,high_diff_check_frame_or_crop,12.104,537.000,2281.000,2.419,2.297,0.000,Medusa,2281.000
+colour: std hist+sw,Q2627056,Q2627056__commons2,Q2627056__commons3,none,8.757,2279.000,1055.000,2.512,2.071,0.000,David with the Head of Goliath,2279.000
+colour: std hist+sw,Q275349,Q275349__commons2,Q275349__commons3,bw_reproduction,14.784,2186.000,1348.000,2.155,1.991,0.000,Rokeby Venus,2186.000
+colour (no-flag pairs only),Q78617844,Q78617844__commons,Q78617844__met,none,7.598,1798.000,2413.000,2.855,3.245,0.000,The God Izanagi and Goddess Izanami,2413.000
+colour (no-flag pairs only),Q1150997,Q1150997__commons,Q1150997__commons2,none,7.339,2301.000,1698.000,2.269,2.063,0.000,Saturn Devouring His Son,2301.000
+colour (no-flag pairs only),Q6382435,Q6382435__commons,Q6382435__met,none,11.639,1983.000,300.000,1.878,2.065,0.100,The Bridge at Villeneuve-la-Garenne,1983.000
+colour (no-flag pairs only),Q29385249,Q29385249__commons,Q29385249__met,none,6.420,18.000,1955.000,2.039,2.034,0.100,Black Stork in a Landscape,1955.000
+colour (no-flag pairs only),Q474338,Q474338__commons,Q474338__commons2,none,11.233,984.000,1865.000,1.942,1.696,0.000,Lady with an Ermine,1865.000
+colour (no-flag pairs only),Q1844748,Q1844748__commons,Q1844748__met,none,5.261,1810.000,528.000,1.783,1.715,0.000,Boy Carrying a Sword,1810.000
+colour (no-flag pairs only),Q19912179,Q19912179__commons,Q19912179__met,none,11.759,1786.000,1028.000,1.703,1.907,0.000,The Fishing Boat,1786.000
+colour (no-flag pairs only),Q500812,Q500812__commons,Q500812__commons2,none,10.832,1722.000,1280.000,1.600,1.780,0.000,Sleeping Venus,1722.000
+colour (no-flag pairs only),Q2270778,Q2270778__commons,Q2270778__met,none,11.389,1554.000,124.000,2.284,1.450,0.000,The Denial of Saint Peter,1554.000
+colour (no-flag pairs only),Q969377,Q969377__commons,Q969377__commons2,none,5.308,1492.000,90.000,3.150,1.451,0.100,The Calling of Saint Matthew,1492.000
+colour (no-flag pairs only),Q60465136,Q60465136__commons,Q60465136__cleveland,none,6.805,1257.000,1374.000,2.113,1.745,0.000,Dragon; Tiger,1374.000
+colour (no-flag pairs only),Q700251,Q700251__commons,Q700251__commons2,none,9.681,1284.000,1073.000,2.013,1.593,0.000,Girl Reading a Letter at an Open Window,1284.000
+colour (no-flag pairs only),Q1192570,Q1192570__commons,Q1192570__commons2,none,7.150,1228.000,465.000,1.665,1.499,0.100,The Blind Leading the Blind,1228.000
+colour (no-flag pairs only),Q472037,Q472037__commons,Q472037__met,none,10.983,1174.000,173.000,1.599,1.498,0.100,By the Seashore,1174.000
+colour (no-flag pairs only),Q1926628,Q1926628__commons,Q1926628__commons2,none,9.984,1058.000,45.000,1.570,1.457,0.200,The Red Vineyard,1058.000
+colour (random no-flag failures),Q877191,Q877191__commons,Q877191__commons2,none,5.455,4.000,1.000,1.052,0.833,0.300,The Three Philosophers,4.000
+colour (random no-flag failures),Q15290965,Q15290965__commons,Q15290965__met,none,10.361,733.000,409.000,1.531,1.946,0.200,Boating,733.000
+colour (random no-flag failures),Q1192570,Q1192570__commons,Q1192570__commons2,none,7.150,1228.000,465.000,1.665,1.499,0.100,The Blind Leading the Blind,1228.000
+colour (random no-flag failures),Q2404992,Q2404992__commons,Q2404992__met,none,6.645,31.000,43.000,1.735,0.985,0.300,Aristotle with a Bust of Homer,43.000
+colour (random no-flag failures),Q3210251,Q3210251__commons,Q3210251__met,none,6.525,460.000,193.000,1.733,1.478,0.300,The Penitent Magdalen,460.000
+colour (random no-flag failures),Q210277,Q210277__commons,Q210277__commons2,none,4.989,1.000,2.000,1.017,0.805,0.300,Music in the Tuileries,2.000
+colour (random no-flag failures),Q972196,Q972196__commons,Q972196__commons2,none,9.662,151.000,330.000,1.415,1.318,0.100,Saint Jerome in the Wilderness,330.000
+colour (random no-flag failures),Q28092249,Q28092249__commons,Q28092249__met,none,5.781,4.000,1.000,1.040,1.140,0.100,Night-Shining White,4.000
+colour (random no-flag failures),Q72650,Q72650__commons,Q72650__met,none,6.129,10.000,1.000,1.040,1.033,0.200,Mademoiselle V. . . in the Costume of an Espada,10.000
+colour (random no-flag failures),Q1122842,Q1122842__commons,Q1122842__commons2,none,5.538,427.000,33.000,1.388,1.243,0.000,The Magpie on the Gallows,427.000
+colour (random no-flag failures),Q969377,Q969377__commons,Q969377__commons2,none,5.308,1492.000,90.000,3.150,1.451,0.100,The Calling of Saint Matthew,1492.000
+colour (random no-flag failures),Q5712837,Q5712837__commons,Q5712837__met,none,6.336,1041.000,224.000,1.466,1.599,0.100,Self-Portrait (?),1041.000
+colour (random no-flag failures),Q208758,Q208758__commons,Q208758__commons2,none,5.599,3.000,1.000,1.203,0.716,0.300,Las Meninas,3.000
+colour (random no-flag failures),Q604761,Q604761__commons,Q604761__commons2,none,4.715,2.000,7.000,1.192,1.050,0.300,The Blue Boy,7.000
+colour (random no-flag failures),Q1167178,Q1167178__commons,Q1167178__commons2,none,4.992,12.000,3.000,1.202,0.912,0.200,The Painter's Studio,12.000
+composition: grid8_an,Q78713996,Q78713996__commons,Q78713996__met,high_diff_check_frame_or_crop,24.222,2409.000,1064.000,1.661,1.772,0.000,Manuscript Cover with Four Vidyadevis Accompanied by a Protective Deity,2409.000
+composition: grid8_an,Q2338404,Q2338404__commons2,Q2338404__commons3,high_diff_check_frame_or_crop,15.441,2232.000,2356.000,1.525,1.685,0.200,Portrait of a Musician,2356.000
+composition: grid8_an,Q2627056,Q2627056__commons,Q2627056__commons3,none,8.715,572.000,2340.000,1.697,1.528,0.300,David with the Head of Goliath,2340.000
+composition: grid8_an,Q984058,Q984058__commons,Q984058__commons2,high_diff_check_frame_or_crop,17.613,2218.000,2291.000,1.648,1.645,0.100,Las Hilanderas,2291.000
+composition: grid8_an,Q3869871,Q3869871__commons,Q3869871__commons2,high_diff_check_frame_or_crop,20.627,1108.000,2266.000,1.675,1.464,0.200,When Will You Marry?,2266.000
+composition: grid8_an,Q44462164,Q44462164__commons,Q44462164__met,high_diff_check_frame_or_crop,29.218,1463.000,2024.000,1.885,1.523,0.300,Flowers of Spring and Autumn,2024.000
+composition: grid8_an,Q687182,Q687182__commons,Q687182__commons3,high_diff_check_frame_or_crop,13.129,1.000,2011.000,2.186,1.276,0.400,Whistler's Mother,2011.000
+composition: grid8_an,Q210277,Q210277__commons2,Q210277__commons3,high_diff_check_frame_or_crop,12.525,1832.000,600.000,1.524,1.352,0.200,Music in the Tuileries,1832.000
+composition: grid8_an,Q14866847,Q14866847__commons,Q14866847__commons2,high_diff_check_frame_or_crop,13.968,1778.000,680.000,1.521,1.279,0.300,Sunset at Montmajour,1778.000
+composition: grid8_an,Q1430990,Q1430990__commons,Q1430990__commons3,high_diff_check_frame_or_crop,15.710,1747.000,445.000,1.558,1.338,0.400,"Venus, Cupid, Folly and Time",1747.000
+composition: grid8_an,Q43809958,Q43809958__commons,Q43809958__met,high_diff_check_frame_or_crop,12.984,413.000,1681.000,1.951,1.319,0.400,Seven Sages of the Bamboo Grove,1681.000
+composition: grid8_an,Q1167907,Q1167907__commons2,Q1167907__commons3,high_diff_check_frame_or_crop,17.780,1673.000,1481.000,1.424,1.448,0.500,Luncheon of the Boating Party,1673.000
+composition: grid8_an,Q1464531,Q1464531__commons,Q1464531__commons2,high_diff_check_frame_or_crop,15.682,1593.000,326.000,1.721,1.196,0.500,Starry Night Over the Rhone,1593.000
+composition: grid8_an,Q3937623,Q3937623__commons,Q3937623__met,none,11.733,1039.000,1587.000,1.451,1.382,0.300,Portrait of Maria Portinari,1587.000
+composition: grid8_an,Q1217003,Q1217003__commons,Q1217003__commons2,high_diff_check_frame_or_crop,13.054,20.000,1500.000,1.416,1.403,0.200,Portrait of an Unknown Woman,1500.000

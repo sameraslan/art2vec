@@ -1,0 +1,59 @@
+word,kind,reason
+calm,1,calm induced in the viewer
+tense,1,tension felt
+tender,1,tenderness felt towards what is shown
+eerie,1,uncanny atmosphere
+festive,1,celebratory mood; a feast as subject is kind 3 and is not what is rated
+desolate,1,bleakness felt; an empty land as subject is kind 3
+joyful,1,joy felt
+melancholy,1,sadness the picture puts you in
+awed,1,awe felt; borderline with scale and grandeur (kind 2)
+uneasy,1,unease felt; overlaps tense and eerie and is kept to see whether a describer separates them
+intimate,1,closeness felt; a close viewpoint is kind 2 and is in the closeness scale
+playful,1,lightness and play felt
+solemn,1,gravity felt; a religious subject is kind 3
+alarming,1,fear or shock felt; depicted violence is kind 3 and is in the weapon and body marks
+sensual,1,bodily or erotic charge felt; a nude as subject is kind 3 and is in the checklist
+lonely,1,loneliness felt; a single figure is kind 3 (the people count)
+hopeful,1,hope felt
+oppressive,1,weight or confinement felt
+dreamlike,1,unreality felt; borderline with fantastical subject
+energetic,1,energy felt; borderline with broken handling (kind 2)
+still,1,hush felt; borderline with a static composition (kind 2)
+warm,1,emotional warmth; warm colour is kind 2 and is in the colour_temperature scale
+cold,1,emotional chill; cool colour is kind 2
+mysterious,1,sense of something withheld
+nocturnal,1,night as an atmosphere; left out of the instrument because darkness (kind 2) and sun_or_moon (kind 3) already carry most of it
+serene,1,same as calm; dropped as a duplicate
+disturbing,1,same as alarming and uneasy together; dropped as a duplicate
+nostalgic,1,felt, but it leans on knowing the period (kind 4); dropped
+dark,2,how light the picture is; colour block
+bright,2,lightness; colour block
+colourful,2,palette breadth and saturation; colour block
+muted,2,saturation; colour block
+crowded,2,how full the surface is; composition block
+empty,2,composition block
+rough,2,surface and handling; manner block
+smooth,2,finish; manner block
+flat,2,depth against surface; composition and manner
+detailed,2,manner block
+linear,2,contour; manner block
+painterly,2,contour and finish; manner block
+symmetrical,2,composition block
+monumental,2,scale of forms in the frame; composition (also carries standing, kind 4)
+religious,3,what it is about
+mythological,3,what it is about; needs knowledge beyond the first level
+pastoral,3,rural subject; also a genre word (kind 4)
+maritime,3,sea as subject
+erotic,3,nude or sexual subject; the felt side is sensual
+violent,3,depicted violence; the felt side is alarming
+domestic,3,household subject
+portrait,4,genre
+still life,4,genre; its content is in the checklist
+baroque,4,movement and period
+impressionist,4,movement
+naive,4,a judgement of schooling
+academic,4,school and standing
+iconic,4,standing
+masterful,4,judgement of quality
+modern,4,era

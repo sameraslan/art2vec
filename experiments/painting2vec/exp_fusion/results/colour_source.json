@@ -1,0 +1,695 @@
+{
+ "n": {
+  "pilot Commons file v museum, unflagged": 102,
+  "pilot Commons file v another Commons file, unflagged": 225,
+  "two other Commons files (neither is the pilot image), unflagged": 98,
+  "museum v a second Commons file, unflagged": 14,
+  "  Commons v met, unflagged": 50,
+  "  Commons v nga, unflagged": 27,
+  "  Commons v rijksmuseum, unflagged": 16,
+  "  Commons v aic, unflagged": 7,
+  "  Commons v cleveland, unflagged": 2,
+  "lab_diff 1-3, all rows": 98,
+  "lab_diff 1-3, Commons v museum": 47,
+  "lab_diff 1-3, Commons v Commons": 47,
+  "lab_diff 3-6, all rows": 156,
+  "lab_diff 3-6, Commons v museum": 41,
+  "lab_diff 3-6, Commons v Commons": 108,
+  "lab_diff 6-9, all rows": 136,
+  "lab_diff 6-9, Commons v museum": 18,
+  "lab_diff 6-9, Commons v Commons": 113,
+  "lab_diff 9-12, all rows": 90,
+  "lab_diff 9-12, Commons v museum": 18,
+  "lab_diff 9-12, Commons v Commons": 72,
+  "lab_diff 12-99, all rows": 80,
+  "lab_diff 12-99, Commons v museum": 10,
+  "lab_diff 12-99, Commons v Commons": 70
+ },
+ "variants": {
+  "A old best: palette hist+sw (std), no crop, PCA-64 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.5735294117647058,
+    "pilot Commons file v another Commons file, unflagged": 0.48,
+    "two other Commons files (neither is the pilot image), unflagged": 0.3877551020408163,
+    "museum v a second Commons file, unflagged": 0.5357142857142857,
+    "  Commons v met, unflagged": 0.36,
+    "  Commons v nga, unflagged": 0.7592592592592593,
+    "  Commons v rijksmuseum, unflagged": 0.8125,
+    "  Commons v aic, unflagged": 1.0,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 0.9642857142857143,
+    "lab_diff 1-3, Commons v museum": 0.9680851063829787,
+    "lab_diff 1-3, Commons v Commons": 0.9574468085106383,
+    "lab_diff 3-6, all rows": 0.5737179487179487,
+    "lab_diff 3-6, Commons v museum": 0.6707317073170732,
+    "lab_diff 3-6, Commons v Commons": 0.5370370370370371,
+    "lab_diff 6-9, all rows": 0.3125,
+    "lab_diff 6-9, Commons v museum": 0.19444444444444445,
+    "lab_diff 6-9, Commons v Commons": 0.33185840707964603,
+    "lab_diff 9-12, all rows": 0.2222222222222222,
+    "lab_diff 9-12, Commons v museum": 0.19444444444444445,
+    "lab_diff 9-12, Commons v Commons": 0.22916666666666666,
+    "lab_diff 12-99, all rows": 0.05,
+    "lab_diff 12-99, Commons v museum": 0.1,
+    "lab_diff 12-99, Commons v Commons": 0.04285714285714286
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.3490196078431373,
+    "pilot Commons file v another Commons file, unflagged": 0.28044444444444444,
+    "two other Commons files (neither is the pilot image), unflagged": 0.2295918367346939,
+    "museum v a second Commons file, unflagged": 0.3642857142857143,
+    "  Commons v met, unflagged": 0.25,
+    "  Commons v nga, unflagged": 0.42592592592592593,
+    "  Commons v rijksmuseum, unflagged": 0.49999999999999994,
+    "  Commons v aic, unflagged": 0.5,
+    "  Commons v cleveland, unflagged": 0.05,
+    "lab_diff 1-3, all rows": 0.6061224489795918,
+    "lab_diff 1-3, Commons v museum": 0.6,
+    "lab_diff 1-3, Commons v Commons": 0.6,
+    "lab_diff 3-6, all rows": 0.33141025641025645,
+    "lab_diff 3-6, Commons v museum": 0.3975609756097561,
+    "lab_diff 3-6, Commons v Commons": 0.30370370370370375,
+    "lab_diff 6-9, all rows": 0.19779411764705884,
+    "lab_diff 6-9, Commons v museum": 0.17777777777777776,
+    "lab_diff 6-9, Commons v Commons": 0.20000000000000004,
+    "lab_diff 9-12, all rows": 0.13333333333333333,
+    "lab_diff 9-12, Commons v museum": 0.11666666666666667,
+    "lab_diff 9-12, Commons v Commons": 0.1375,
+    "lab_diff 12-99, all rows": 0.08374999999999999,
+    "lab_diff 12-99, Commons v museum": 0.06999999999999999,
+    "lab_diff 12-99, Commons v Commons": 0.08571428571428572
+   },
+   "source_shift_share": {
+    "met": 0.029078355059027672,
+    "nga": 0.046706538647413254,
+    "rijksmuseum": 0.058482907712459564,
+    "aic": 0.10393808037042618
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.5735294117647058,
+    0.5833333333333334
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.544392523364486,
+     "kept10": 0.32009345794392524
+    },
+    "remove top 4": {
+     "r1": 0.5397196261682243,
+     "kept10": 0.3238317757009346
+    },
+    "remove top 8": {
+     "r1": 0.544392523364486,
+     "kept10": 0.3327102803738317
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.5630841121495327,
+     "kept10": 0.34953271028037386
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.5700934579439252,
+     "kept10": 0.36355140186915885
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.5373831775700935,
+    "r10": 0.647196261682243,
+    "rnn_med": 0.9621329307556152,
+    "rnn_p90": 1.5252141952514648,
+    "under_step": 0.5560747663551402,
+    "ov10": 0.32196261682242994
+   }
+  },
+  "B palette hist+sw (shades-of-grey, std), frame crop, PCA-64 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.6862745098039216,
+    "pilot Commons file v another Commons file, unflagged": 0.54,
+    "two other Commons files (neither is the pilot image), unflagged": 0.45408163265306123,
+    "museum v a second Commons file, unflagged": 0.5714285714285714,
+    "  Commons v met, unflagged": 0.56,
+    "  Commons v nga, unflagged": 0.8518518518518519,
+    "  Commons v rijksmuseum, unflagged": 0.8125,
+    "  Commons v aic, unflagged": 0.8571428571428571,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 0.9693877551020408,
+    "lab_diff 1-3, Commons v museum": 0.9893617021276596,
+    "lab_diff 1-3, Commons v Commons": 0.9574468085106383,
+    "lab_diff 3-6, all rows": 0.6442307692307693,
+    "lab_diff 3-6, Commons v museum": 0.7195121951219512,
+    "lab_diff 3-6, Commons v Commons": 0.6203703703703703,
+    "lab_diff 6-9, all rows": 0.40808823529411764,
+    "lab_diff 6-9, Commons v museum": 0.5,
+    "lab_diff 6-9, Commons v Commons": 0.3893805309734513,
+    "lab_diff 9-12, all rows": 0.31666666666666665,
+    "lab_diff 9-12, Commons v museum": 0.3888888888888889,
+    "lab_diff 9-12, Commons v Commons": 0.2986111111111111,
+    "lab_diff 12-99, all rows": 0.06875,
+    "lab_diff 12-99, Commons v museum": 0.2,
+    "lab_diff 12-99, Commons v Commons": 0.05
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.40294117647058825,
+    "pilot Commons file v another Commons file, unflagged": 0.3088888888888889,
+    "two other Commons files (neither is the pilot image), unflagged": 0.28469387755102044,
+    "museum v a second Commons file, unflagged": 0.3928571428571429,
+    "  Commons v met, unflagged": 0.32,
+    "  Commons v nga, unflagged": 0.48148148148148145,
+    "  Commons v rijksmuseum, unflagged": 0.49374999999999997,
+    "  Commons v aic, unflagged": 0.557142857142857,
+    "  Commons v cleveland, unflagged": 0.15000000000000002,
+    "lab_diff 1-3, all rows": 0.6520408163265305,
+    "lab_diff 1-3, Commons v museum": 0.625531914893617,
+    "lab_diff 1-3, Commons v Commons": 0.6659574468085107,
+    "lab_diff 3-6, all rows": 0.3737179487179488,
+    "lab_diff 3-6, Commons v museum": 0.4341463414634146,
+    "lab_diff 3-6, Commons v Commons": 0.35092592592592603,
+    "lab_diff 6-9, all rows": 0.22647058823529412,
+    "lab_diff 6-9, Commons v museum": 0.2944444444444444,
+    "lab_diff 6-9, Commons v Commons": 0.21327433628318584,
+    "lab_diff 9-12, all rows": 0.18555555555555558,
+    "lab_diff 9-12, Commons v museum": 0.2222222222222222,
+    "lab_diff 9-12, Commons v Commons": 0.17638888888888887,
+    "lab_diff 12-99, all rows": 0.08374999999999999,
+    "lab_diff 12-99, Commons v museum": 0.15,
+    "lab_diff 12-99, Commons v Commons": 0.07428571428571427
+   },
+   "source_shift_share": {
+    "met": 0.02461915649473667,
+    "nga": 0.04538979381322861,
+    "rijksmuseum": 0.06800225377082825,
+    "aic": 0.10144243389368057
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.6862745098039216,
+    0.6862745098039216
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.6214953271028038,
+     "kept10": 0.36308411214953273
+    },
+    "remove top 4": {
+     "r1": 0.6191588785046729,
+     "kept10": 0.36355140186915885
+    },
+    "remove top 8": {
+     "r1": 0.6098130841121495,
+     "kept10": 0.36308411214953273
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.633177570093458,
+     "kept10": 0.3859813084112149
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.6401869158878505,
+     "kept10": 0.39439252336448594
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.6214953271028038,
+    "r10": 0.7219626168224299,
+    "rnn_med": 0.8683149218559265,
+    "rnn_p90": 1.444578766822815,
+    "under_step": 0.6121495327102804,
+    "ov10": 0.3640186915887851
+   }
+  },
+  "C tone bands + hue families (relational), PCA-32 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.5490196078431373,
+    "pilot Commons file v another Commons file, unflagged": 0.32,
+    "two other Commons files (neither is the pilot image), unflagged": 0.32653061224489793,
+    "museum v a second Commons file, unflagged": 0.4642857142857143,
+    "  Commons v met, unflagged": 0.41,
+    "  Commons v nga, unflagged": 0.6666666666666666,
+    "  Commons v rijksmuseum, unflagged": 0.75,
+    "  Commons v aic, unflagged": 0.7857142857142857,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 0.8418367346938775,
+    "lab_diff 1-3, Commons v museum": 0.9148936170212766,
+    "lab_diff 1-3, Commons v Commons": 0.776595744680851,
+    "lab_diff 3-6, all rows": 0.44871794871794873,
+    "lab_diff 3-6, Commons v museum": 0.5975609756097561,
+    "lab_diff 3-6, Commons v Commons": 0.38425925925925924,
+    "lab_diff 6-9, all rows": 0.20588235294117646,
+    "lab_diff 6-9, Commons v museum": 0.19444444444444445,
+    "lab_diff 6-9, Commons v Commons": 0.20353982300884957,
+    "lab_diff 9-12, all rows": 0.18333333333333332,
+    "lab_diff 9-12, Commons v museum": 0.2777777777777778,
+    "lab_diff 9-12, Commons v Commons": 0.1597222222222222,
+    "lab_diff 12-99, all rows": 0.05,
+    "lab_diff 12-99, Commons v museum": 0.2,
+    "lab_diff 12-99, Commons v Commons": 0.02857142857142857
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.3450980392156862,
+    "pilot Commons file v another Commons file, unflagged": 0.2417777777777778,
+    "two other Commons files (neither is the pilot image), unflagged": 0.22346938775510203,
+    "museum v a second Commons file, unflagged": 0.3,
+    "  Commons v met, unflagged": 0.26999999999999996,
+    "  Commons v nga, unflagged": 0.37037037037037035,
+    "  Commons v rijksmuseum, unflagged": 0.4625,
+    "  Commons v aic, unflagged": 0.6,
+    "  Commons v cleveland, unflagged": 0.05,
+    "lab_diff 1-3, all rows": 0.573469387755102,
+    "lab_diff 1-3, Commons v museum": 0.5829787234042555,
+    "lab_diff 1-3, Commons v Commons": 0.5659574468085108,
+    "lab_diff 3-6, all rows": 0.3038461538461539,
+    "lab_diff 3-6, Commons v museum": 0.38048780487804884,
+    "lab_diff 3-6, Commons v Commons": 0.2712962962962963,
+    "lab_diff 6-9, all rows": 0.17205882352941176,
+    "lab_diff 6-9, Commons v museum": 0.18888888888888888,
+    "lab_diff 6-9, Commons v Commons": 0.16991150442477876,
+    "lab_diff 9-12, all rows": 0.12444444444444444,
+    "lab_diff 9-12, Commons v museum": 0.16666666666666666,
+    "lab_diff 9-12, Commons v Commons": 0.1138888888888889,
+    "lab_diff 12-99, all rows": 0.075,
+    "lab_diff 12-99, Commons v museum": 0.15,
+    "lab_diff 12-99, Commons v Commons": 0.06428571428571428
+   },
+   "source_shift_share": {
+    "met": 0.023062704131007195,
+    "nga": 0.049811966717243195,
+    "rijksmuseum": 0.06475088745355606,
+    "aic": 0.09080613404512405
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.5490196078431373,
+    0.553921568627451
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.4439252336448598,
+     "kept10": 0.29485981308411213
+    },
+    "remove top 4": {
+     "r1": 0.45560747663551404,
+     "kept10": 0.311214953271028
+    },
+    "remove top 8": {
+     "r1": 0.4462616822429907,
+     "kept10": 0.3093457943925233
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.4719626168224299,
+     "kept10": 0.3098130841121496
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.47897196261682246,
+     "kept10": 0.31495327102803733
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.4485981308411215,
+    "r10": 0.6051401869158879,
+    "rnn_med": 1.0661656856536865,
+    "rnn_p90": 1.8043766021728516,
+    "under_step": 0.48130841121495327,
+    "ov10": 0.2925233644859814
+   }
+  },
+  "D hue families + warm/cool (coarse), PCA-16 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.24509803921568626,
+    "pilot Commons file v another Commons file, unflagged": 0.14666666666666667,
+    "two other Commons files (neither is the pilot image), unflagged": 0.07142857142857142,
+    "museum v a second Commons file, unflagged": 0.25,
+    "  Commons v met, unflagged": 0.19,
+    "  Commons v nga, unflagged": 0.3148148148148148,
+    "  Commons v rijksmuseum, unflagged": 0.25,
+    "  Commons v aic, unflagged": 0.42857142857142855,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 0.5459183673469388,
+    "lab_diff 1-3, Commons v museum": 0.48936170212765956,
+    "lab_diff 1-3, Commons v Commons": 0.574468085106383,
+    "lab_diff 3-6, all rows": 0.1762820512820513,
+    "lab_diff 3-6, Commons v museum": 0.32926829268292684,
+    "lab_diff 3-6, Commons v Commons": 0.1111111111111111,
+    "lab_diff 6-9, all rows": 0.05514705882352941,
+    "lab_diff 6-9, Commons v museum": 0.05555555555555555,
+    "lab_diff 6-9, Commons v Commons": 0.05752212389380531,
+    "lab_diff 9-12, all rows": 0.027777777777777776,
+    "lab_diff 9-12, Commons v museum": 0.05555555555555555,
+    "lab_diff 9-12, Commons v Commons": 0.020833333333333332,
+    "lab_diff 12-99, all rows": 0.03125,
+    "lab_diff 12-99, Commons v museum": 0.1,
+    "lab_diff 12-99, Commons v Commons": 0.02142857142857143
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.25490196078431376,
+    "pilot Commons file v another Commons file, unflagged": 0.15866666666666668,
+    "two other Commons files (neither is the pilot image), unflagged": 0.11938775510204083,
+    "museum v a second Commons file, unflagged": 0.31428571428571433,
+    "  Commons v met, unflagged": 0.204,
+    "  Commons v nga, unflagged": 0.3185185185185186,
+    "  Commons v rijksmuseum, unflagged": 0.3125,
+    "  Commons v aic, unflagged": 0.3142857142857142,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 0.5204081632653061,
+    "lab_diff 1-3, Commons v museum": 0.4851063829787235,
+    "lab_diff 1-3, Commons v Commons": 0.5340425531914895,
+    "lab_diff 3-6, all rows": 0.18205128205128207,
+    "lab_diff 3-6, Commons v museum": 0.3121951219512195,
+    "lab_diff 3-6, Commons v Commons": 0.12407407407407406,
+    "lab_diff 6-9, all rows": 0.09485294117647058,
+    "lab_diff 6-9, Commons v museum": 0.07777777777777778,
+    "lab_diff 6-9, Commons v Commons": 0.09734513274336283,
+    "lab_diff 9-12, all rows": 0.060000000000000005,
+    "lab_diff 9-12, Commons v museum": 0.08333333333333333,
+    "lab_diff 9-12, Commons v Commons": 0.05416666666666667,
+    "lab_diff 12-99, all rows": 0.0475,
+    "lab_diff 12-99, Commons v museum": 0.15,
+    "lab_diff 12-99, Commons v Commons": 0.03285714285714286
+   },
+   "source_shift_share": {
+    "met": 0.049521204084157944,
+    "nga": 0.06629929691553116,
+    "rijksmuseum": 0.1138349398970604,
+    "aic": 0.16643324494361877
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.24509803921568626,
+    0.23529411764705882
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.2102803738317757,
+     "kept10": 0.21962616822429903
+    },
+    "remove top 4": {
+     "r1": 0.2102803738317757,
+     "kept10": 0.2280373831775701
+    },
+    "remove top 8": {
+     "r1": 0.19626168224299065,
+     "kept10": 0.24299065420560748
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.21495327102803738,
+     "kept10": 0.22149532710280373
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.2266355140186916,
+     "kept10": 0.23037383177570092
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.20327102803738317,
+    "r10": 0.3574766355140187,
+    "rnn_med": 1.7412387132644653,
+    "rnn_p90": 3.5318615436553955,
+    "under_step": 0.2102803738317757,
+    "ov10": 0.20654205607476636
+   }
+  },
+  "E colour layout 6x6 L,a,b (spatial only), PCA-32 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.9215686274509803,
+    "pilot Commons file v another Commons file, unflagged": 0.9733333333333334,
+    "two other Commons files (neither is the pilot image), unflagged": 0.923469387755102,
+    "museum v a second Commons file, unflagged": 1.0,
+    "  Commons v met, unflagged": 0.88,
+    "  Commons v nga, unflagged": 1.0,
+    "  Commons v rijksmuseum, unflagged": 1.0,
+    "  Commons v aic, unflagged": 1.0,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 1.0,
+    "lab_diff 1-3, Commons v museum": 1.0,
+    "lab_diff 1-3, Commons v Commons": 1.0,
+    "lab_diff 3-6, all rows": 0.9839743589743589,
+    "lab_diff 3-6, Commons v museum": 0.9390243902439024,
+    "lab_diff 3-6, Commons v Commons": 1.0,
+    "lab_diff 6-9, all rows": 0.9411764705882353,
+    "lab_diff 6-9, Commons v museum": 0.8888888888888888,
+    "lab_diff 6-9, Commons v Commons": 0.9469026548672567,
+    "lab_diff 9-12, all rows": 0.8444444444444444,
+    "lab_diff 9-12, Commons v museum": 0.8055555555555556,
+    "lab_diff 9-12, Commons v Commons": 0.8541666666666666,
+    "lab_diff 12-99, all rows": 0.36875,
+    "lab_diff 12-99, Commons v museum": 0.25,
+    "lab_diff 12-99, Commons v Commons": 0.38571428571428573
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.6901960784313724,
+    "pilot Commons file v another Commons file, unflagged": 0.6435555555555557,
+    "two other Commons files (neither is the pilot image), unflagged": 0.5867346938775511,
+    "museum v a second Commons file, unflagged": 0.7214285714285715,
+    "  Commons v met, unflagged": 0.622,
+    "  Commons v nga, unflagged": 0.7925925925925926,
+    "  Commons v rijksmuseum, unflagged": 0.7562500000000001,
+    "  Commons v aic, unflagged": 0.8142857142857143,
+    "  Commons v cleveland, unflagged": 0.05,
+    "lab_diff 1-3, all rows": 0.8632653061224489,
+    "lab_diff 1-3, Commons v museum": 0.8680851063829785,
+    "lab_diff 1-3, Commons v Commons": 0.853191489361702,
+    "lab_diff 3-6, all rows": 0.7012820512820513,
+    "lab_diff 3-6, Commons v museum": 0.7146341463414634,
+    "lab_diff 3-6, Commons v Commons": 0.6925925925925925,
+    "lab_diff 6-9, all rows": 0.5727941176470589,
+    "lab_diff 6-9, Commons v museum": 0.5666666666666668,
+    "lab_diff 6-9, Commons v Commons": 0.572566371681416,
+    "lab_diff 9-12, all rows": 0.4955555555555556,
+    "lab_diff 9-12, Commons v museum": 0.5166666666666666,
+    "lab_diff 9-12, Commons v Commons": 0.49027777777777776,
+    "lab_diff 12-99, all rows": 0.21625,
+    "lab_diff 12-99, Commons v museum": 0.19,
+    "lab_diff 12-99, Commons v Commons": 0.22
+   },
+   "source_shift_share": {
+    "met": 0.010919637978076935,
+    "nga": 0.03290482237935066,
+    "rijksmuseum": 0.04804285988211632,
+    "aic": 0.16185371577739716
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.9215686274509803,
+    0.9215686274509803
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.9509345794392523,
+     "kept10": 0.6728971962616821
+    },
+    "remove top 4": {
+     "r1": 0.955607476635514,
+     "kept10": 0.6869158878504673
+    },
+    "remove top 8": {
+     "r1": 0.9485981308411215,
+     "kept10": 0.6794392523364486
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.955607476635514,
+     "kept10": 0.702803738317757
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.9532710280373832,
+     "kept10": 0.7107476635514018
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.9532710280373832,
+    "r10": 0.9602803738317757,
+    "rnn_med": 0.2935780882835388,
+    "rnn_p90": 0.7369999289512634,
+    "under_step": 0.9672897196261683,
+    "ov10": 0.6799065420560748
+   }
+  },
+  "F palette + 4x4 a,b layout (1:1), PCA-32 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.8578431372549019,
+    "pilot Commons file v another Commons file, unflagged": 0.7911111111111111,
+    "two other Commons files (neither is the pilot image), unflagged": 0.6377551020408163,
+    "museum v a second Commons file, unflagged": 0.9285714285714286,
+    "  Commons v met, unflagged": 0.83,
+    "  Commons v nga, unflagged": 0.9444444444444444,
+    "  Commons v rijksmuseum, unflagged": 0.875,
+    "  Commons v aic, unflagged": 0.9285714285714286,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 0.9948979591836735,
+    "lab_diff 1-3, Commons v museum": 0.9893617021276596,
+    "lab_diff 1-3, Commons v Commons": 1.0,
+    "lab_diff 3-6, all rows": 0.842948717948718,
+    "lab_diff 3-6, Commons v museum": 0.8902439024390244,
+    "lab_diff 3-6, Commons v Commons": 0.8194444444444444,
+    "lab_diff 6-9, all rows": 0.6948529411764706,
+    "lab_diff 6-9, Commons v museum": 0.6944444444444444,
+    "lab_diff 6-9, Commons v Commons": 0.6858407079646017,
+    "lab_diff 9-12, all rows": 0.6,
+    "lab_diff 9-12, Commons v museum": 0.7777777777777778,
+    "lab_diff 9-12, Commons v Commons": 0.5555555555555556,
+    "lab_diff 12-99, all rows": 0.16875,
+    "lab_diff 12-99, Commons v museum": 0.35,
+    "lab_diff 12-99, Commons v Commons": 0.14285714285714285
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.530392156862745,
+    "pilot Commons file v another Commons file, unflagged": 0.43288888888888893,
+    "two other Commons files (neither is the pilot image), unflagged": 0.38061224489795914,
+    "museum v a second Commons file, unflagged": 0.5714285714285714,
+    "  Commons v met, unflagged": 0.48200000000000004,
+    "  Commons v nga, unflagged": 0.5814814814814815,
+    "  Commons v rijksmuseum, unflagged": 0.59375,
+    "  Commons v aic, unflagged": 0.6428571428571427,
+    "  Commons v cleveland, unflagged": 0.15,
+    "lab_diff 1-3, all rows": 0.7153061224489795,
+    "lab_diff 1-3, Commons v museum": 0.7212765957446808,
+    "lab_diff 1-3, Commons v Commons": 0.7063829787234043,
+    "lab_diff 3-6, all rows": 0.49743589743589756,
+    "lab_diff 3-6, Commons v museum": 0.5707317073170731,
+    "lab_diff 3-6, Commons v Commons": 0.462962962962963,
+    "lab_diff 6-9, all rows": 0.361764705882353,
+    "lab_diff 6-9, Commons v museum": 0.3611111111111111,
+    "lab_diff 6-9, Commons v Commons": 0.3566371681415929,
+    "lab_diff 9-12, all rows": 0.3022222222222223,
+    "lab_diff 9-12, Commons v museum": 0.41666666666666663,
+    "lab_diff 9-12, Commons v Commons": 0.27361111111111114,
+    "lab_diff 12-99, all rows": 0.11625,
+    "lab_diff 12-99, Commons v museum": 0.22000000000000003,
+    "lab_diff 12-99, Commons v Commons": 0.10142857142857142
+   },
+   "source_shift_share": {
+    "met": 0.02594422549009323,
+    "nga": 0.08442181348800659,
+    "rijksmuseum": 0.06355989724397659,
+    "aic": 0.17868821322917938
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.8578431372549019,
+    0.8676470588235294
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.8504672897196262,
+     "kept10": 0.5018691588785047
+    },
+    "remove top 4": {
+     "r1": 0.8551401869158879,
+     "kept10": 0.5158878504672898
+    },
+    "remove top 8": {
+     "r1": 0.8644859813084113,
+     "kept10": 0.5130841121495326
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.8714953271028038,
+     "kept10": 0.5313084112149533
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.8714953271028038,
+     "kept10": 0.522429906542056
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.852803738317757,
+    "r10": 0.9065420560747663,
+    "rnn_med": 0.5836158990859985,
+    "rnn_p90": 1.152971625328064,
+    "under_step": 0.8738317757009346,
+    "ov10": 0.4967289719626168
+   }
+  },
+  "G palette + 6x6 a,b layout (1:1), PCA-64 w": {
+   "by_group_r1": {
+    "pilot Commons file v museum, unflagged": 0.8921568627450981,
+    "pilot Commons file v another Commons file, unflagged": 0.8844444444444445,
+    "two other Commons files (neither is the pilot image), unflagged": 0.8316326530612245,
+    "museum v a second Commons file, unflagged": 0.9642857142857143,
+    "  Commons v met, unflagged": 0.85,
+    "  Commons v nga, unflagged": 0.9629629629629629,
+    "  Commons v rijksmuseum, unflagged": 0.96875,
+    "  Commons v aic, unflagged": 1.0,
+    "  Commons v cleveland, unflagged": 0.0,
+    "lab_diff 1-3, all rows": 1.0,
+    "lab_diff 1-3, Commons v museum": 1.0,
+    "lab_diff 1-3, Commons v Commons": 1.0,
+    "lab_diff 3-6, all rows": 0.8974358974358975,
+    "lab_diff 3-6, Commons v museum": 0.9024390243902439,
+    "lab_diff 3-6, Commons v Commons": 0.8888888888888888,
+    "lab_diff 6-9, all rows": 0.8529411764705882,
+    "lab_diff 6-9, Commons v museum": 0.75,
+    "lab_diff 6-9, Commons v Commons": 0.8672566371681416,
+    "lab_diff 9-12, all rows": 0.75,
+    "lab_diff 9-12, Commons v museum": 0.8611111111111112,
+    "lab_diff 9-12, Commons v Commons": 0.7222222222222222,
+    "lab_diff 12-99, all rows": 0.25,
+    "lab_diff 12-99, Commons v museum": 0.3,
+    "lab_diff 12-99, Commons v Commons": 0.24285714285714285
+   },
+   "by_group_kept10": {
+    "pilot Commons file v museum, unflagged": 0.553921568627451,
+    "pilot Commons file v another Commons file, unflagged": 0.4497777777777777,
+    "two other Commons files (neither is the pilot image), unflagged": 0.3948979591836735,
+    "museum v a second Commons file, unflagged": 0.5142857142857143,
+    "  Commons v met, unflagged": 0.496,
+    "  Commons v nga, unflagged": 0.5777777777777777,
+    "  Commons v rijksmuseum, unflagged": 0.6625000000000001,
+    "  Commons v aic, unflagged": 0.7,
+    "  Commons v cleveland, unflagged": 0.30000000000000004,
+    "lab_diff 1-3, all rows": 0.7357142857142858,
+    "lab_diff 1-3, Commons v museum": 0.753191489361702,
+    "lab_diff 1-3, Commons v Commons": 0.7170212765957448,
+    "lab_diff 3-6, all rows": 0.5147435897435898,
+    "lab_diff 3-6, Commons v museum": 0.5780487804878048,
+    "lab_diff 3-6, Commons v Commons": 0.48888888888888893,
+    "lab_diff 6-9, all rows": 0.3779411764705882,
+    "lab_diff 6-9, Commons v museum": 0.43333333333333335,
+    "lab_diff 6-9, Commons v Commons": 0.3663716814159292,
+    "lab_diff 9-12, all rows": 0.31888888888888894,
+    "lab_diff 9-12, Commons v museum": 0.4166666666666667,
+    "lab_diff 9-12, Commons v Commons": 0.2944444444444445,
+    "lab_diff 12-99, all rows": 0.135,
+    "lab_diff 12-99, Commons v museum": 0.18,
+    "lab_diff 12-99, Commons v Commons": 0.12857142857142856
+   },
+   "source_shift_share": {
+    "met": 0.023608190938830376,
+    "nga": 0.06026836484670639,
+    "rijksmuseum": 0.06955339014530182,
+    "aic": 0.1356332153081894
+   },
+   "museum_pairs_r1_before_after_shift_removed": [
+    0.8921568627450981,
+    0.8921568627450981
+   ],
+   "photograph_directions_cv": {
+    "remove top 2": {
+     "r1": 0.9018691588785047,
+     "kept10": 0.5392523364485982
+    },
+    "remove top 4": {
+     "r1": 0.9088785046728972,
+     "kept10": 0.5317757009345794
+    },
+    "remove top 8": {
+     "r1": 0.9158878504672897,
+     "kept10": 0.5392523364485982
+    },
+    "within-pair whitening, shrink 0.5": {
+     "r1": 0.9158878504672897,
+     "kept10": 0.5411214953271027
+    },
+    "within-pair whitening, shrink 0.2": {
+     "r1": 0.9112149532710281,
+     "kept10": 0.555607476635514
+    }
+   },
+   "clean": {
+    "n": 214,
+    "r1": 0.8995327102803738,
+    "r10": 0.9299065420560748,
+    "rnn_med": 0.5186915397644043,
+    "rnn_p90": 1.0028879642486572,
+    "under_step": 0.9485981308411215,
+    "ov10": 0.5065420560747664
+   }
+  }
+ }
+}

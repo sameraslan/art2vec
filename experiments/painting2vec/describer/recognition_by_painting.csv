@@ -1,0 +1,61 @@
+qid,fame,group,title,creator_name,n_rec,recog
+Q12418,famous,famous,Mona Lisa,Leonardo da Vinci,3,recognised 3/3
+Q45585,famous,famous,The Starry Night,Vincent van Gogh,3,recognised 3/3
+Q185372,famous,famous,Girl with a Pearl Earring,Johannes Vermeer,3,recognised 3/3
+Q29530,famous,famous,Liberty Leading the People,Eugène Delacroix,3,recognised 3/3
+Q151047,famous,famous,The Birth of Venus,Sandro Botticelli,3,recognised 3/3
+Q219831,famous,famous,The Night Watch,Rembrandt,3,recognised 3/3
+Q208758,famous,famous,Las Meninas,Diego Velázquez,3,recognised 3/3
+Q154469,famous,famous,The Potato Eaters,Vincent van Gogh,3,recognised 3/3
+Q698487,famous,famous,The Kiss,Gustav Klimt,3,recognised 3/3
+Q1752990,famous,famous,The Death of Socrates,Jacques-Louis David,3,recognised 3/3
+Q334138,famous,famous,L'Origine du monde,Gustave Courbet,3,recognised 3/3
+Q321303,famous,famous,The Garden of Earthly Delights,Hieronymus Bosch,3,recognised 3/3
+Q474338,famous,famous,Lady with an Ermine,Leonardo da Vinci,3,recognised 3/3
+Q311243,famous,famous,Wanderer above the Sea of Fog,Caspar David Friedrich,3,recognised 3/3
+Q212616,famous,famous,The Raft of the Medusa,Théodore Géricault,3,recognised 3/3
+Q152509,famous,famous,Luncheon on the Grass,Édouard Manet,3,recognised 3/3
+Q1091086,famous,famous,The Third of May 1808,Francisco Goya,3,recognised 3/3
+Q152867,famous,famous,La maja desnuda,Francisco Goya,3,recognised 3/3
+Q661378,famous,famous,The Anatomy Lesson of Dr. Nicolaes Tulp,Rembrandt,3,recognised 3/3
+Q683274,famous,famous,Bal du moulin de la Galette,Pierre-Auguste Renoir,3,recognised 3/3
+Q948894,mid,mid,La Mousmé,Vincent van Gogh,3,recognised 3/3
+Q664038,mid,mid,Martyrdom of the Ten Thousand,Albrecht Dürer,3,recognised 3/3
+Q2604155,mid,mid,Lamentation of Christ,Rogier van der Weyden,3,recognised 3/3
+Q1087226,mid,mid,Christ in the House of Martha and Mary,Diego Velázquez,3,recognised 3/3
+Q3824214,mid,mid,Lady in Blue,Paul Cézanne,3,recognised 3/3
+Q1224572,mid,mid,Bonaparte Crossing the Alps,Paul Delaroche,3,recognised 3/3
+Q59815,mid,mid,The Old Musician,Édouard Manet,3,recognised 3/3
+Q677682,mid,mid,Resurrection of Christ,Raphael,3,recognised 3/3
+Q5818528,mid,mid,Oedipus and the Sphinx,Jean-Auguste-Dominique Ingres,3,recognised 3/3
+Q644936,mid,mid,The Rape of the Daughters of Leucippus,Peter Paul Rubens|Jan Wildens,3,recognised 3/3
+Q1659383,mid,mid,The Garden of Death,Hugo Simberg,3,recognised 3/3
+Q9397770,mid,mid,Jewess with Oranges,Aleksander Gierymski,3,recognised 3/3
+Q1328065,mid,mid,Portrait of Eleanor of Toledo and her son Giovanni de' Medici,Bronzino,3,recognised 3/3
+Q2446983,mid,mid,Scenes from the Passion of Christ,Hans Memling,3,recognised 3/3
+Q3210841,mid,mid,The Death of Seneca,Jacques-Louis David,1,mixed
+Q3503317,mid,mid,The Duel After the Masquerade,Jean-Léon Gérôme,3,recognised 3/3
+Q1214313,mid,mid,Life stages,Caspar David Friedrich,3,recognised 3/3
+Q8067460,mid,mid,The Hanging of the Sigismund bell at the Cathedral Tower in 1521 in Kraków,Jan Matejko,3,recognised 3/3
+Q1219698,mid,mid,Girl Interrupted at her Music,Johannes Vermeer,3,recognised 3/3
+Q2052008,mid,mid,Jacob’s Dream,Jusepe de Ribera,3,recognised 3/3
+Q116490341,obscure,obscure_non_european,陈师曾墨笔山水图轴,Chen Shizeng,0,never recognised
+Q60466081,obscure,obscure_non_european,Landscapes in Various Styles after Old Masters,Mei Qing,0,never recognised
+Q112340845,obscure,obscure_non_european,Blossoming plum under the moon,Itō Jakuchū,3,recognised 3/3
+Q4373340,obscure,obscure_non_european,Minamoto no Yoritomo,Fujiwara no Takanobu,3,recognised 3/3
+Q78918837,obscure,obscure_non_european,Grapevine in the Wind,,0,never recognised
+Q78856415,obscure,obscure_non_european,Rainy Landscape with Travelers,,0,never recognised
+Q28663534,obscure,obscure_non_european,La perla del mercader,Alfredo Valenzuela Puelma,0,never recognised
+Q7718659,obscure,obscure_non_european,The Blood Compact,Juan Luna,0,never recognised
+Q140716716,obscure,obscure_non_european,Nasir al-Din Shah,,0,never recognised
+Q117191193,obscure,obscure_non_european,A lion attacking a deer,,0,never recognised
+Q50386458,obscure,obscure_non_european,Leaf from an Akarnama manuscript: The Defeat of Hemu,,0,never recognised
+Q78710139,obscure,obscure_non_european,Durga Confronts the Buffalo Demon Mahisha: Scene from the Devi Mahatmya,,0,never recognised
+Q4028318,obscure,obscure_european_floor,A Mayor of Delft and his Daughter,Jan Steen,3,recognised 3/3
+Q3710280,obscure,obscure_european_floor,The Disputation on the Trinity,Andrea del Sarto,3,recognised 3/3
+Q1996494,obscure,obscure_european_floor,Newton,William Blake,3,recognised 3/3
+Q109442292,obscure,obscure_european_floor,Majas on the Balcony,Francisco Goya,3,recognised 3/3
+Q2052275,obscure,obscure_european_floor,Madonna dell'Impannata,Raphael,3,recognised 3/3
+Q9850868,obscure,obscure_european_floor,Jester with lute,Frans Hals,3,recognised 3/3
+Q4191448,obscure,obscure_european_floor,Zenobia found by Shepherds on the banks of the Araxes,William-Adolphe Bouguereau,3,recognised 3/3
+Q463392,obscure,obscure_european_floor,Paradiesgärtlein,Upper Rhenish Master,3,recognised 3/3

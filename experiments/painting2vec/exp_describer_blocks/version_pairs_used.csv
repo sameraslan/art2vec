@@ -1,0 +1,27 @@
+qid_a,qid_b,relation,hand,both,lab_diff,note
+Q2247406,Q3769169,version,same,True,11.41,group=gentileschi_judith; a=Judith Slaying Holofernes; b=Judith Beheading Holofernes
+Q398973,Q19896685,version,same,False,10.09,group=constable_salisbury; a=Salisbury Cathedral from the Bishop's Grounds; b=Salisbury Cathedral from the Bishop's Garden
+Q977777,Q94969317,version,same,False,12.07,group=rossetti_proserpine; a=Proserpine; b=Proserpine
+Q585437,Q131543672,version,same,False,4.83,group=caravaggio_lizard; a=Boy Bitten by a Lizard; b=Boy Bitten by a Lizard
+Q2714617,Q52301456,version,same,False,11.96,group=elgreco_disrobing; a=The Disrobing of Christ; b=The Disrobing of Christ
+Q3633844,Q20668651,based_on_P144,same,False,4.58,same_creator; a=Butcher's Stall with the Flight into Egypt; b=A Meat Stall with the Holy Family Giving Alms
+Q4448822,Q20181478,version,same,False,11.44,group=titian_magdalene; a=Penitent Magdalene; b=The Penitent Magdalene
+Q2610675,Q16534183,version,same,False,14.52,group=caravaggio_fortune_teller; a=The Fortune Teller; b=The Fortune Teller
+Q603703,Q4009571,version,same,False,8.82,group=titian_venus_adonis; a=Venus and Adonis; b=Venus and Adonis
+Q14425553,Q3701422,version,same,False,10.55,group=titian_danae; a=Danaë; b=Danaë
+Q59511250,Q4305932,based_on_P144,same,False,9.53,same_creator; a=The Muse Inspiring the Poet; b=The Muse Inspiring the Poet
+Q23935741,Q23922,based_on_P144,same,False,10.22,same_creator; a=Girl Before the Mirror; b=Woman with a Mirror
+Q2712679,Q27974781,version,same,False,8.31,group=rossetti_beata; a=Beata Beatrix; b=Beata Beatrix
+Q48389324,Q105086910,based_on_P144,other,True,9.98,different_creator; a=Wind God and Thunder God; b=The Gods of Wind and Thunder
+Q2126369,Q12418,based_on_P144,other_anon,True,11.45,different_creator; a=Mona Lisa; b=Mona Lisa
+Q3605057,Q9140602,based_on_P144,other,True,7.36,different_creator; a=The Fall of Man; b=The Fall of Man
+Q20176881,Q6119366,based_on_P144,other_anon,False,8.97,different_creator; a=Saint Martin and the Beggar; b=Saint Martin and the Beggar
+Q20539066,Q3204168,based_on_P144,other_anon,False,6.57,different_creator; a=Infanta Maria Theresa; b=Portrait of the Infanta Maria Theresa of Spain
+Q119712107,Q604761,based_on_P144,other_anon,False,6.03,different_creator; a=The Blue Boy; b=The Blue Boy
+Q18608264,Q219831,based_on_P144,other,False,7.28,different_creator; a=The Company of Captain Banning Cocq; b=The Night Watch
+Q124760517,Q727875,based_on_P144,other,False,11.12,different_creator; a=Reclining Venus; b=Venus of Urbino
+Q55561872,Q474198,based_on_P144,other,False,5.78,different_creator; a=Malle Babbe; b=Malle Babbe
+Q105611620,Q208758,based_on_P144,other,False,6.8,different_creator; a=The Maids of Honor (after Velázquez); b=Las Meninas
+Q27697256,Q563727,based_on_P144,other_anon,False,9.81,"different_creator; a=Saint Anne, the Virgin and the Christ Child; b=The Virgin and Child with Saint Anne"
+Q115472780,Q636537,based_on_P144,other_anon,False,8.76,different_creator; a=Death of Marat (1743-1793); b=The Death of Marat
+Q28092811,Q7920648,based_on_P144,other_anon,False,10.94,different_creator; a=Seated Venus with her Mirror held by Cupid; b=Venus with a Mirror

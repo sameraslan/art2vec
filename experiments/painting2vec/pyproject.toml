@@ -1,0 +1,17 @@
+[project]
+name = "painting2vec-experiments"
+version = "0.0.0"
+description = "Feature extraction for the painting2vec experiments (FRAMEWORK.md sections 8 and 9). Standalone; not part of the art2vec package."
+requires-python = "==3.11.*"
+dependencies = [
+  "numpy>=1.26",
+  "pillow>=10",
+  "scipy>=1.11",
+  "torch>=2.4",
+  "transformers>=4.56",
+  "safetensors>=0.4",
+  "huggingface-hub>=0.30",
+]
+
+[tool.uv]
+package = false

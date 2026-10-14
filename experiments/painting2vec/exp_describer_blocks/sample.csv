@@ -1,0 +1,301 @@
+qid,why,stratum,tradition,title,creator_qid,creator_name,painter,inception_year,sitelinks,genres,broad,movements,px_width,px_height
+Q12418,orig60|version,sitelink_rank,european_american,Mona Lisa,Q762,Leonardo da Vinci,Leonardo da Vinci,1503.0,134,portrait,portrait,Italian Renaissance,687,1024
+Q45585,orig60|painter,sitelink_rank,european_american,The Starry Night,Q5582,Vincent van Gogh,Vincent van Gogh,1889.0,75,landscape painting,landscape,Post-impressionism,1024,811
+Q185372,orig60,sitelink_rank,european_american,Girl with a Pearl Earring,Q41264,Johannes Vermeer,Johannes Vermeer,1665.0,71,tronie,portrait,Dutch Golden Age painting,865,1024
+Q29530,orig60,sitelink_rank,european_american,Liberty Leading the People,Q33477,Eugène Delacroix,Eugène Delacroix,1830.0,67,history painting,narrative,Romanticism,1024,819
+Q151047,orig60,sitelink_rank,european_american,The Birth of Venus,Q5669,Sandro Botticelli,Sandro Botticelli,1485.0,56,mythological painting|nude,narrative|nude,Early Renaissance,1024,643
+Q219831,orig60|version|painter,sitelink_rank,european_american,The Night Watch,Q5598,Rembrandt,Rembrandt,1642.0,56,schutterstuk,,Dutch Golden Age painting,1024,833
+Q208758,orig60|version|painter,sitelink_rank,european_american,Las Meninas,Q297,Diego Velázquez,Diego Velázquez,1656.0,55,group portrait,portrait,Baroque,890,1024
+Q154469,orig60|painter,sitelink_rank,european_american,The Potato Eaters,Q5582,Vincent van Gogh,Vincent van Gogh,1885.0,52,Naturalism,,Post-impressionism,1024,724
+Q698487,orig60,sitelink_rank,european_american,The Kiss,Q34661,Gustav Klimt,Gustav Klimt,1907.0,50,portrait,portrait,Art Nouveau,1021,1024
+Q1752990,orig60,sitelink_rank,european_american,The Death of Socrates,Q83155,Jacques-Louis David,Jacques-Louis David,1787.0,50,history painting,narrative,Neoclassical painting|academic art,1024,682
+Q334138,orig60|painter,sitelink_rank,european_american,L'Origine du monde,Q34618,Gustave Courbet,Gustave Courbet,1866.0,50,nude|allegory|figure painting,genre|narrative|nude,French Realism,1024,848
+Q321303,orig60,sitelink_rank,european_american,The Garden of Earthly Delights,Q130531,Hieronymus Bosch,Hieronymus Bosch,1490.0,48,religious art,narrative,Early Netherlandish painting,1024,578
+Q474338,orig60,sitelink_rank,european_american,Lady with an Ermine,Q762,Leonardo da Vinci,Leonardo da Vinci,1490.0,48,portrait,portrait,High Renaissance,761,1024
+Q311243,orig60,sitelink_rank,european_american,Wanderer above the Sea of Fog,Q104884,Caspar David Friedrich,Caspar David Friedrich,1818.0,47,landscape painting|figure painting,genre|landscape,,804,1024
+Q212616,orig60,sitelink_rank,european_american,The Raft of the Medusa,Q184212,Théodore Géricault,Théodore Géricault,1819.0,46,marine art,landscape,Romanticism,1024,699
+Q152509,orig60|painter,sitelink_rank,european_american,Luncheon on the Grass,Q40599,Édouard Manet,Édouard Manet,1863.0,44,nude|landscape painting|still life|genre art,genre|landscape|nude|stilllife,French Realism,1024,795
+Q1091086,orig60|painter,sitelink_rank,european_american,The Third of May 1808,Q5432,Francisco Goya,Francisco Goya,1814.0,44,history painting,narrative,Romanticism,1024,782
+Q152867,orig60|painter,sitelink_rank,european_american,La maja desnuda,Q5432,Francisco Goya,Francisco Goya,1795.0,44,nude|portrait,nude|portrait,Romanticism,1024,519
+Q661378,orig60|painter,sitelink_rank,european_american,The Anatomy Lesson of Dr. Nicolaes Tulp,Q5598,Rembrandt,Rembrandt,1632.0,43,group portrait|portrait,portrait,Dutch Golden Age painting,1024,771
+Q683274,orig60,sitelink_rank,european_american,Bal du moulin de la Galette,Q39931,Pierre-Auguste Renoir,Pierre-Auguste Renoir,1876.0,43,genre art,genre,,1024,761
+Q948894,orig60|painter,sitelink_rank,european_american,La Mousmé,Q5582,Vincent van Gogh,Vincent van Gogh,1888.0,16,portrait,portrait,,837,1024
+Q664038,orig60|painter,sitelink_rank,european_american,Martyrdom of the Ten Thousand,Q5580,Albrecht Dürer,Albrecht Dürer,1508.0,13,religious art,narrative,German Renaissance,900,1024
+Q2604155,orig60,sitelink_rank,european_american,Lamentation of Christ,Q68631,Rogier van der Weyden,Rogier van der Weyden,1450.0,12,religious art,narrative,Early Netherlandish painting,873,1024
+Q1087226,orig60|painter,sitelink_rank,european_american,Christ in the House of Martha and Mary,Q297,Diego Velázquez,Diego Velázquez,1618.0,13,religious art|bodegón|inverted still-life,narrative,,1024,594
+Q3824214,orig60,sitelink_rank,european_american,Lady in Blue,Q35548,Paul Cézanne,Paul Cézanne,1904.0,12,portrait,portrait,Post-impressionism,822,1024
+Q1224572,orig60,sitelink_rank,european_american,Bonaparte Crossing the Alps,Q322582,Paul Delaroche,Paul Delaroche,1848.0,13,portrait|history painting,narrative|portrait,,780,1024
+Q59815,orig60|painter,sitelink_rank,european_american,The Old Musician,Q40599,Édouard Manet,Édouard Manet,1862.0,17,genre art,genre,,1024,774
+Q677682,orig60,sitelink_rank,european_american,Resurrection of Christ,Q5597,Raphael,Raphael,1500.0,16,religious art,narrative,High Renaissance,841,1024
+Q5818528,orig60,sitelink_rank,european_american,Oedipus and the Sphinx,Q23380,Jean-Auguste-Dominique Ingres,Jean-Auguste-Dominique Ingres,1808.0,14,mythological painting|nude,narrative|nude,Neoclassicism,783,1024
+Q644936,orig60|painter,sitelink_rank,european_american,The Rape of the Daughters of Leucippus,Q5599|Q1375268,Peter Paul Rubens|Jan Wildens,Peter Paul Rubens,1618.0,20,nude|mythological painting|landscape painting|Baroque,landscape|narrative|nude,Baroque,965,1024
+Q1659383,orig60,sitelink_rank,european_american,The Garden of Death,Q263080,Hugo Simberg,Hugo Simberg,1896.0,12,,,,1024,924
+Q9397770,orig60,sitelink_rank,european_american,Jewess with Oranges,Q958927,Aleksander Gierymski,Aleksander Gierymski,1880.0,16,portrait,portrait,,857,1024
+Q1328065,orig60,sitelink_rank,unknown,Portrait of Eleanor of Toledo and her son Giovanni de' Medici,Q7803,Bronzino,Bronzino,1544.0,19,portrait,portrait,Mannerism,844,1024
+Q2446983,orig60,sitelink_rank,european_american,Scenes from the Passion of Christ,Q106851,Hans Memling,Hans Memling,1470.0,12,religious art,narrative,Early Netherlandish painting,1024,634
+Q3210841,orig60,sitelink_rank,european_american,The Death of Seneca,Q83155,Jacques-Louis David,Jacques-Louis David,1773.0,13,history painting,narrative,Neoclassicism,1024,829
+Q3503317,orig60,sitelink_rank,european_american,The Duel After the Masquerade,Q212499,Jean-Léon Gérôme,Jean-Léon Gérôme,1857.0,12,genre art,genre,academic art,1024,700
+Q1214313,orig60,sitelink_rank,european_american,Life stages,Q104884,Caspar David Friedrich,Caspar David Friedrich,1834.0,18,allegory,narrative,Romanticism,1024,795
+Q8067460,orig60,sitelink_rank,european_american,The Hanging of the Sigismund bell at the Cathedral Tower in 1521 in Kraków,Q189117,Jan Matejko,Jan Matejko,1874.0,13,history painting,narrative,,1024,518
+Q1219698,orig60,sitelink_rank,european_american,Girl Interrupted at her Music,Q41264,Johannes Vermeer,Johannes Vermeer,1660.0,16,genre art,genre,Dutch Golden Age painting,1024,908
+Q2052008,orig60,sitelink_rank,european_american,Jacob’s Dream,Q297838,Jusepe de Ribera,Jusepe de Ribera,1639.0,19,religious art,narrative,Baroque painting,1024,774
+Q116490341,orig60,non_european:chinese,chinese,陈师曾墨笔山水图轴,Q3170503,Chen Shizeng,Chen Shizeng,1916.0,0,ink wash painting,,,554,1024
+Q60466081,orig60,non_european:chinese,chinese,Landscapes in Various Styles after Old Masters,Q2029414,Mei Qing,Mei Qing,1690.0,0,landscape painting,landscape,,1024,681
+Q112340845,orig60|painter,non_european:japanese,japanese,Blossoming plum under the moon,Q1240575,Itō Jakuchū,Itō Jakuchū,1800.0,1,,,,573,1024
+Q4373340,orig60,non_european:japanese,japanese,Minamoto no Yoritomo,Q2245281,Fujiwara no Takanobu,Fujiwara no Takanobu,1179.0,1,portrait,portrait,,804,1024
+Q78918837,orig60,non_european:korean,korean,Grapevine in the Wind,,,,1549.0,0,,,,551,1024
+Q78856415,orig60,non_european:korean,korean,Rainy Landscape with Travelers,,,,1449.0,0,landscape painting,landscape,,570,1024
+Q28663534,orig60,non_european:other_non_european,other_non_european,La perla del mercader,Q2646381,Alfredo Valenzuela Puelma,Alfredo Valenzuela Puelma,1884.0,2,,,,651,1024
+Q7718659,orig60,non_european:other_non_european,other_non_european,The Blood Compact,Q28867,Juan Luna,Juan Luna,1886.0,2,,,academic art,794,670
+Q140716716,orig60,non_european:persian_ottoman,persian_ottoman,Nasir al-Din Shah,,,,1848.0,0,,,,749,1024
+Q117191193,orig60,non_european:persian_ottoman,persian_ottoman,A lion attacking a deer,,,,1600.0,0,,,,682,1024
+Q50386458,orig60,non_european:south_asian,south_asian,Leaf from an Akarnama manuscript: The Defeat of Hemu,,,,1597.0,0,,,,618,1024
+Q78710139,orig60,non_european:south_asian,south_asian,Durga Confronts the Buffalo Demon Mahisha: Scene from the Devi Mahatmya,,,,1780.0,0,,,,1024,729
+Q4028318,orig60,sitelink_rank,european_american,A Mayor of Delft and his Daughter,Q205863,Jan Steen,Jan Steen,1655.0,8,portrait,portrait,,859,1024
+Q3710280,orig60,sitelink_rank,european_american,The Disputation on the Trinity,Q5571,Andrea del Sarto,Andrea del Sarto,1517.0,8,religious art,narrative,High Renaissance,849,1024
+Q1996494,orig60,sitelink_rank,european_american,Newton,Q41513,William Blake,William Blake,1795.0,8,portrait,portrait,,1024,788
+Q109442292,orig60|painter,sitelink_rank,european_american,Majas on the Balcony,Q5432,Francisco Goya,Francisco Goya,1850.0,8,genre art,genre,,683,1024
+Q2052275,orig60,sitelink_rank,european_american,Madonna dell'Impannata,Q5597,Raphael,Raphael,1513.0,8,religious art,narrative,High Renaissance,829,1024
+Q9850868,orig60,sitelink_rank,european_american,Jester with lute,Q167654,Frans Hals,Frans Hals,1623.0,8,tronie,portrait,,897,1024
+Q4191448,orig60,sitelink_rank,european_american,Zenobia found by Shepherds on the banks of the Araxes,Q483992,William-Adolphe Bouguereau,William-Adolphe Bouguereau,1850.0,8,history painting,narrative,academic art,764,1000
+Q463392,orig60,sitelink_rank,european_american,Paradiesgärtlein,Q1567352,Upper Rhenish Master,Upper Rhenish Master,1410.0,8,religious art,narrative,,1024,818
+Q2247406,version,sitelink_rank,european_american,Judith Slaying Holofernes,Q212657,Artemisia Gentileschi,Artemisia Gentileschi,1613.0,23,religious art,narrative,,804,1024
+Q3769169,version,sitelink_rank,european_american,Judith Beheading Holofernes,Q212657,Artemisia Gentileschi,Artemisia Gentileschi,1620.0,13,religious art,narrative,,927,1024
+Q398973,version,sitelink_rank,european_american,Salisbury Cathedral from the Bishop's Grounds,Q159297,John Constable,John Constable,1823.0,16,landscape painting,landscape,,1024,797
+Q977777,version,sitelink_rank,european_american,Proserpine,Q186748,Dante Gabriel Rossetti,Dante Gabriel Rossetti,1874.0,16,mythological painting,narrative,Pre-Raphaelite Brotherhood,463,1024
+Q585437,version,sitelink_rank,european_american,Boy Bitten by a Lizard,Q42207,Caravaggio,Caravaggio,1594.0,21,genre art,genre,Italian Baroque painting,762,1024
+Q2714617,version,sitelink_rank,european_american,The Disrobing of Christ,Q301,El Greco,El Greco,1578.0,20,religious art,narrative,,596,1024
+Q20668651,version,sitelink_rank,european_american,A Meat Stall with the Holy Family Giving Alms,Q326548,Pieter Aertsen,Pieter Aertsen,1551.0,9,inverted still-life,,Northern Renaissance,1024,713
+Q4448822,version|painter,sitelink_rank,european_american,Penitent Magdalene,Q47551,Titian,Titian,1563.0,15,religious art,narrative,Venetian school,840,1024
+Q2610675,version,sitelink_rank,european_american,The Fortune Teller,Q42207,Caravaggio,Caravaggio,1594.0,25,genre art,genre,Italian Baroque painting,1024,774
+Q603703,version|painter,sitelink_rank,european_american,Venus and Adonis,Q47551,Titian,Titian,1554.0,12,mythological painting|nude,narrative|nude,Venetian school,1024,914
+Q14425553,version|painter,sitelink_rank,european_american,Danaë,Q47551,Titian,Titian,1560.0,10,mythological painting|nude,narrative|nude,Venetian school,1024,729
+Q59511250,version,sitelink_rank,european_american,The Muse Inspiring the Poet,Q156386,Henri Rousseau,Henri Rousseau,1909.0,8,double portrait,portrait,naïve art,671,1024
+Q23922,version|painter,sitelink_rank,european_american,Woman with a Mirror,Q47551,Titian,Titian,1515.0,17,portrait,portrait,Venetian school|High Renaissance,825,1024
+Q2712679,version,sitelink_rank,european_american,Beata Beatrix,Q186748,Dante Gabriel Rossetti,Dante Gabriel Rossetti,1872.0,16,portrait,portrait,Pre-Raphaelite Brotherhood,793,1024
+Q48389324,version,non_european:japanese,japanese,Wind God and Thunder God,Q952938,Ogata Kōrin,Ogata Kōrin,1800.0,6,,,,1024,461
+Q105086910,version,non_european:japanese,japanese,The Gods of Wind and Thunder,Q1281252,Tawara Sōtatsu,Tawara Sōtatsu,,2,,,,1024,468
+Q2126369,version,sitelink_rank,european_american,Mona Lisa,,,,1511.0,14,portrait,portrait,,786,1024
+Q3605057,version|painter,sitelink_rank,european_american,The Fall of Man,Q5599,Peter Paul Rubens,Peter Paul Rubens,1628.0,14,religious art|nude,narrative|nude,,792,1024
+Q9140602,version|painter,sitelink_rank,european_american,The Fall of Man,Q47551,Titian,Titian,1550.0,10,religious art|nude,narrative|nude,Venetian school,793,1024
+Q6119366,version,sitelink_rank,european_american,Saint Martin and the Beggar,Q301,El Greco,El Greco,1597.0,14,religious art,narrative,Mannerism,553,1024
+Q3204168,version|painter,sitelink_rank,european_american,Portrait of the Infanta Maria Theresa of Spain,Q297,Diego Velázquez,Diego Velázquez,1652.0,10,portrait,portrait,,800,1024
+Q604761,version,sitelink_rank,european_american,The Blue Boy,Q192720,Thomas Gainsborough,Thomas Gainsborough,1770.0,37,portrait,portrait,Romanticism,704,1024
+Q727875,version|painter,sitelink_rank,european_american,Venus of Urbino,Q47551,Titian,Titian,1538.0,39,mythological painting|nude,narrative|nude,Venetian school,1024,726
+Q474198,version,sitelink_rank,european_american,Malle Babbe,Q167654,Frans Hals,Frans Hals,1640.0,13,portrait,portrait,Dutch Golden Age painting,868,1024
+Q563727,version,sitelink_rank,european_american,The Virgin and Child with Saint Anne,Q762,Leonardo da Vinci,Leonardo da Vinci,1511.0,38,religious art,narrative,High Renaissance|Florentine Renaissance art,775,1024
+Q636537,version,sitelink_rank,european_american,The Death of Marat,Q83155,Jacques-Louis David,Jacques-Louis David,1793.0,39,history painting,narrative,Neoclassical painting,796,1024
+Q7920648,version|painter,sitelink_rank,european_american,Venus with a Mirror,Q47551,Titian,Titian,1555.0,14,mythological painting|nude,narrative|nude,Venetian school,853,1024
+Q5930190,photo|painter,sitelink_rank,european_american,Road with Cypress and Star,Q5582,Vincent van Gogh,Vincent van Gogh,1890.0,24,Post-impressionism,,,812,1024
+Q19912179,photo|painter,sitelink_rank,european_american,The Fishing Boat,Q34618,Gustave Courbet,Gustave Courbet,1865.0,8,marine art,landscape,,1024,826
+Q3937623,photo,sitelink_rank,european_american,Portrait of Maria Portinari,Q106851,Hans Memling,Hans Memling,1470.0,10,portrait,portrait,Early Netherlandish painting,756,1024
+Q27033728,photo,sitelink_rank,european_american,Madonna and Child Enthroned with Saints,Q5597,Raphael,Raphael,1504.0,11,religious art,narrative,,792,1024
+Q6382435,photo,sitelink_rank,european_american,The Bridge at Villeneuve-la-Garenne,Q175130,Alfred Sisley,Alfred Sisley,1872.0,8,landscape painting,landscape,Impressionism,1024,778
+Q1070896,photo,sitelink_rank,european_american,The Ninth Wave,Q181568,Ivan Aivazovsky,Ivan Aivazovsky,1850.0,35,marine art,landscape,,1024,688
+Q354396,photo,sitelink_rank,european_american,Portrait of Adele Bloch-Bauer I,Q34661,Gustav Klimt,Gustav Klimt,1907.0,34,portrait,portrait,Art Nouveau,1024,1023
+Q9392232,photo,sitelink_rank,european_american,Annunciation,Q106851,Hans Memling,Hans Memling,1480.0,14,religious art,narrative,Early Netherlandish painting,739,1024
+Q2270778,photo,sitelink_rank,european_american,The Denial of Saint Peter,Q42207,Caravaggio,Caravaggio,1610.0,9,religious art,narrative,Baroque,1024,738
+Q2408910,photo,sitelink_rank,european_american,A Goldsmith in His Shop,Q312616,Petrus Christus,Petrus Christus,1449.0,11,genre art,genre,Early Netherlandish painting,891,1024
+Q17338051,photo,sitelink_rank,european_american,"Allegory of the Dutch victory over the Spanish fleet at Gibraltar, 25 April 1607",Q2824028,Adam Willaerts,Adam Willaerts,1615.0,9,allegory,narrative,,1024,701
+Q472037,photo,sitelink_rank,european_american,By the Seashore,Q39931,Pierre-Auguste Renoir,Pierre-Auguste Renoir,1883.0,9,portrait,portrait,Impressionism,812,1024
+Q500812,photo,sitelink_rank,european_american,Sleeping Venus,Q8459|Q47551,Giorgione|Titian,Giorgione,1509.0,36,mythological painting|nude,narrative|nude,High Renaissance|Venetian school,1024,631
+Q328079,photo,sitelink_rank,european_american,Sistine Madonna,Q5597,Raphael,Raphael,1512.0,35,religious art,narrative,High Renaissance,754,1024
+Q1231009,photo,sitelink_rank,european_american,The Coronation of Gabo Napoleon,Q83155,Jacques-Louis David,Jacques-Louis David,1807.0,37,history painting,narrative,,1024,637
+Q44461629,photo,non_european:japanese,japanese,Scenes in and around the Capital,,,,1650.0,2,landscape painting|Rakuchū Rakugai zu,landscape,,1024,467
+Q686105,photo,sitelink_rank,european_american,Madame Georges Charpentier and her Children,Q39931,Pierre-Auguste Renoir,Pierre-Auguste Renoir,1878.0,12,genre art|family portrait,genre|portrait,,1024,826
+Q15290965,photo|painter,sitelink_rank,european_american,Boating,Q40599,Édouard Manet,Édouard Manet,1874.0,12,genre art,genre,realism|Impressionism,1024,773
+Q948034,photo,sitelink_rank,european_american,La velata,Q5597,Raphael,Raphael,1513.0,24,portrait,portrait,High Renaissance,795,1024
+Q1651874,photo,sitelink_rank,european_american,A Journalist Lecturing on the Orrery,Q214062,Joseph Wright of Derby,Joseph Wright of Derby,1766.0,28,genre art,genre,,1024,718
+Q5442918,photo,sitelink_rank,european_american,Femme Lisant,Q148475,Jean-Baptiste Camille Corot,Jean-Baptiste Camille Corot,1869.0,8,genre art,genre,,714,1024
+Q1926628,photo|painter,sitelink_rank,european_american,The Red Vineyard,Q5582,Vincent van Gogh,Vincent van Gogh,1888.0,36,landscape painting,landscape,,1024,816
+Q60471909,photo,non_european:south_asian,south_asian,"Circumcision ceremony for Akbar’s sons, painting 126 from an Akbar-nama (Book of Akbar) of Abu’l Fazl (Indian, 1551–1602)",Q73078292,Dharam Das,Dharam Das,1603.0,0,,,,643,1024
+Q700251,photo,sitelink_rank,european_american,Girl Reading a Letter at an Open Window,Q41264,Johannes Vermeer,Johannes Vermeer,1658.0,26,genre art,genre,Dutch Golden Age painting,793,1024
+Q972196,photo,sitelink_rank,european_american,Saint Jerome in the Wilderness,Q762,Leonardo da Vinci,Leonardo da Vinci,1480.0,23,religious art,narrative,Early Renaissance|Florentine Renaissance art,726,1024
+Q94802,photo,sitelink_rank,european_american,The Burial of the Count of Orgaz,Q301,El Greco,El Greco,1586.0,28,religious art|group portrait|catafalque portrait,narrative|portrait,Mannerism,836,1024
+Q2200610,photo|painter,sitelink_rank,european_american,The Yellow House,Q5582,Vincent van Gogh,Vincent van Gogh,1888.0,35,cityscape|landscape painting,landscape,,1024,794
+Q7769468,photo,sitelink_rank,european_american,The Titan's Goblet,Q334001,Thomas Cole,Thomas Cole,1833.0,9,landscape painting,landscape,,865,1024
+Q1220013,photo,sitelink_rank,european_american,Opening of the Fifth Seal,Q301,El Greco,El Greco,1610.0,19,religious art,narrative,Mannerism,910,1024
+Q7536969,photo|painter,sitelink_rank,european_american,Skull of a Skeleton with Burning Cigarette,Q5582,Vincent van Gogh,Vincent van Gogh,1884.0,24,vanitas,stilllife,,772,1024
+Q7617071,painter,sitelink_rank,european_american,Still Life: Vase with Pink Roses,Q5582,Vincent van Gogh,Vincent van Gogh,1890.0,8,floral painting,stilllife,,1024,811
+Q768333,painter,sitelink_rank,european_american,Titus as a Monk,Q5598,Rembrandt,Rembrandt,1660.0,11,portrait,portrait,Dutch Golden Age painting,866,1024
+Q3766162,painter,sitelink_rank,european_american,A Woman Bathing in a Stream (Hendrickje Stoffels?),Q5598,Rembrandt,Rembrandt,1654.0,10,genre art,genre,Dutch Golden Age painting,776,1024
+Q153788,painter,sitelink_rank,european_american,Diana Bathing with her Nymphs with Actaeon and Callisto,Q5598,Rembrandt,Rembrandt,1634.0,10,mythological painting,narrative,Dutch Golden Age painting,1024,806
+Q2404992,painter,sitelink_rank,european_american,Aristotle with a Bust of Homer,Q5598,Rembrandt,Rembrandt,1653.0,22,historiated portrait,,Dutch Golden Age painting,975,1024
+Q3646498,painter,sitelink_rank,european_american,A Slaughtered Ox,Q5598,Rembrandt,Rembrandt,1655.0,13,still life,stilllife,Dutch Golden Age painting,729,1024
+Q3224802,painter,sitelink_rank,european_american,The Mill,Q5598,Rembrandt,Rembrandt,1645.0,10,landscape painting,landscape,Dutch Golden Age painting,1024,851
+Q8341785,painter,sitelink_rank,european_american,The Madhouse,Q5432,Francisco Goya,Francisco Goya,1814.0,10,genre art,genre,,1024,629
+Q3819135,painter,sitelink_rank,european_american,The Inquisition Tribunal,Q5432,Francisco Goya,Francisco Goya,1812.0,10,history painting,narrative,,1024,624
+Q21728497,painter,sitelink_rank,european_american,Portrait of the Actress Antonia Zarate,Q5432,Francisco Goya,Francisco Goya,1810.0,8,portrait,portrait,,829,1024
+Q926809,painter,sitelink_rank,european_american,Portrait of the Marchioness of Santa Cruz,Q5432,Francisco Goya,Francisco Goya,1805.0,11,historiated portrait,,,1024,618
+Q500936,painter,sitelink_rank,european_american,The Dog,Q5432,Francisco Goya,Francisco Goya,1819.0,18,landscape painting|animal art,landscape|stilllife,,603,1024
+Q2899286,painter,sitelink_rank,european_american,Berthe Morisot with a Bouquet of Violets,Q40599,Édouard Manet,Édouard Manet,1872.0,17,portrait,portrait,Impressionism,754,1024
+Q3088614,painter,sitelink_rank,european_american,La Nymphe surprise,Q40599,Édouard Manet,Édouard Manet,1860.0,14,mythological painting|nude,narrative|nude,realism,792,1024
+Q3203711,painter,sitelink_rank,european_american,The Dead Toreador,Q40599,Édouard Manet,Édouard Manet,1864.0,9,genre art,genre,Impressionism|French Realism,1024,501
+Q737062,painter,sitelink_rank,european_american,Olympia,Q40599,Édouard Manet,Édouard Manet,1863.0,40,nude,nude,French Realism,1024,698
+Q15973357,painter,sitelink_rank,european_american,L'Asperge,Q40599,Édouard Manet,Édouard Manet,1880.0,9,still life,stilllife,,1024,800
+Q3930498,painter,sitelink_rank,european_american,The Rape of Ganymede,Q5599,Peter Paul Rubens,Peter Paul Rubens,1637.0,12,mythological painting,narrative,,494,1024
+Q3630731,painter,sitelink_rank,european_american,Self-portrait,Q5599,Peter Paul Rubens,Peter Paul Rubens,1638.0,9,self-portrait,portrait,,793,1024
+Q4009226,painter,sitelink_rank,european_american,A View of Het Steen in the Early Morning,Q5599,Peter Paul Rubens,Peter Paul Rubens,1636.0,10,landscape painting,landscape,Baroque,1024,601
+Q3788158,painter,sitelink_rank,european_american,Helena Fourment in a Fur Robe,Q5599,Peter Paul Rubens,Peter Paul Rubens,1638.0,14,nude|portrait,nude|portrait,,486,1024
+Q544488,painter,sitelink_rank,european_american,The Tiger Hunt,Q5599,Peter Paul Rubens,Peter Paul Rubens,1617.0,9,genre art,genre,,1024,822
+Q9366873,painter,sitelink_rank,european_american,The Fall of Phaeton,Q5599,Peter Paul Rubens,Peter Paul Rubens,1605.0,9,mythological painting,narrative,,1024,764
+Q2459887,painter,sitelink_rank,european_american,The Tribute Money,Q47551,Titian,Titian,1516.0,14,religious art,narrative,Venetian school|High Renaissance,748,1024
+Q1293985,painter,sitelink_rank,european_american,Young Ladies Beside the Seine,Q34618,Gustave Courbet,Gustave Courbet,1857.0,19,genre art,genre,French Realism,1024,862
+Q19912693,painter,sitelink_rank,european_american,"Madame Auguste Cuoq (Mathilde Desportes, 1827–1910)",Q34618,Gustave Courbet,Gustave Courbet,1852.0,9,portrait,portrait,academic art,627,1024
+Q18578012,painter,sitelink_rank,european_american,The Wrestlers,Q34618,Gustave Courbet,Gustave Courbet,1853.0,9,,,,776,1024
+Q4891521,painter,sitelink_rank,european_american,The Source,Q34618,Gustave Courbet,Gustave Courbet,1862.0,16,nude,nude,academic art,630,1024
+Q19905247,painter,sitelink_rank,european_american,The Calm Sea,Q34618,Gustave Courbet,Gustave Courbet,1869.0,9,marine art,landscape,,1024,835
+Q12901580,painter,sitelink_rank,european_american,After Dinner at Ornans,Q34618,Gustave Courbet,Gustave Courbet,1848.0,11,genre art,genre,realism,1024,762
+Q2273901,painter,sitelink_rank,european_american,Joseph's Tunic,Q297,Diego Velázquez,Diego Velázquez,1630.0,11,religious art,narrative,Baroque,1024,783
+Q1133844,painter,sitelink_rank,european_american,View of the Garden of the Villa Medici,Q297,Diego Velázquez,Diego Velázquez,1630.0,8,landscape painting|figure painting,genre|landscape,,903,1024
+Q1240092,painter,sitelink_rank,european_american,Portrait of Innocent X,Q297,Diego Velázquez,Diego Velázquez,1700.0,22,portrait,portrait,Spanish Baroque painting,854,1024
+Q3075292,painter,sitelink_rank,european_american,Saint Paul,Q297,Diego Velázquez,Diego Velázquez,1618.0,9,religious art,narrative,,808,1024
+Q4717953,painter,sitelink_rank,european_american,Portrait of Juan de Pareja,Q297,Diego Velázquez,Diego Velázquez,1650.0,16,portrait,portrait,Spanish Baroque painting,881,1024
+Q698219,painter,sitelink_rank,european_american,The Gloomy Day,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1565.0,18,landscape painting,landscape,,1024,746
+Q95562,painter,sitelink_rank,european_american,The Peasant Dance,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1568.0,14,genre art,genre,,1024,712
+Q1192570,painter,sitelink_rank,european_american,The Blind Leading the Blind,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1568.0,29,religious art,narrative,Early Netherlandish painting,1024,575
+Q873639,painter,sitelink_rank,european_american,Winter Landscape with a Bird Trap,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1565.0,15,genre art|landscape painting,genre|landscape,,1024,679
+Q80869,painter,sitelink_rank,european_american,Dull Gret,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1561.0,19,religious art,narrative,,1024,740
+Q1434332,painter,sitelink_rank,european_american,Parable of the Sower,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1557.0,13,religious art|landscape painting,landscape|narrative,,1024,734
+Q1211030,painter,sitelink_rank,european_american,Adoration of the Magi in a Winter Landscape,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1563.0,10,religious art,narrative,,1024,645
+Q500985,painter,sitelink_rank,european_american,The Hunters in the Snow,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1565.0,38,genre art|landscape painting,genre|landscape,Northern Renaissance,1024,729
+Q2598223,painter,sitelink_rank,european_american,Mary and Child,Q5580,Albrecht Dürer,Albrecht Dürer,1512.0,10,religious art,narrative,German Renaissance|High Renaissance,780,1024
+Q2546309,painter,sitelink_rank,european_american,Self-Portrait with Fur-Trimmed Robe,Q5580,Albrecht Dürer,Albrecht Dürer,1500.0,28,self-portrait,portrait,German Renaissance,727,1024
+Q4827756,painter,sitelink_rank,european_american,Avarice,Q5580,Albrecht Dürer,Albrecht Dürer,1507.0,10,allegory,narrative,,839,1024
+Q3937568,painter,sitelink_rank,european_american,Portrait of Hieronymus Holzschuher,Q5580,Albrecht Dürer,Albrecht Dürer,1526.0,12,portrait,portrait,German Renaissance,740,1024
+Q3947309,painter,sitelink_rank,european_american,St. Jerome in the Wilderness,Q5580,Albrecht Dürer,Albrecht Dürer,1496.0,12,religious art,narrative,German Renaissance,760,1024
+Q2428778,painter,sitelink_rank,european_american,Portrait of the Artist Holding a Thistle,Q5580,Albrecht Dürer,Albrecht Dürer,1493.0,17,self-portrait,portrait,German Renaissance,770,1024
+Q3685113,painter,sitelink_rank,european_american,Lamentation of Christ,Q5580,Albrecht Dürer,Albrecht Dürer,1500.0,9,religious art,narrative,German Renaissance,815,1024
+Q4528214,painter,sitelink_rank,european_american,Study of a Nude,Q37693,Paul Gauguin,Paul Gauguin,1880.0,13,nude,nude,Impressionism,710,1024
+Q2872722,painter,sitelink_rank,european_american,Self-portrait with hat,Q37693,Paul Gauguin,Paul Gauguin,1893.0,9,self-portrait,portrait,,827,1024
+Q1422666,painter,sitelink_rank,european_american,Vairumati,Q37693,Paul Gauguin,Paul Gauguin,1897.0,9,genre art|figure painting|portrait,genre|portrait,,1024,809
+Q1764395,painter,sitelink_rank,european_american,Vision After the Sermon,Q37693,Paul Gauguin,Paul Gauguin,1888.0,18,religious art,narrative,Pont-Aven School,1024,802
+Q7617093,painter,sitelink_rank,european_american,Still Life with Profile of Laval,Q37693,Paul Gauguin,Paul Gauguin,1886.0,9,still life|portrait,portrait|stilllife,cloisonnism|Pont-Aven School,837,1024
+Q890678,painter,sitelink_rank,european_american,Where Do We Come From? What Are We? Where Are We Going?,Q37693,Paul Gauguin,Paul Gauguin,1897.0,31,genre art,genre,Post-impressionism,1024,377
+Q2504917,painter,sitelink_rank,european_american,The Green Christ,Q37693,Paul Gauguin,Paul Gauguin,1889.0,16,religious art,narrative,,810,1024
+Q4179482,painter,sitelink_rank,european_american,Tahitian Woman with a Flower,Q37693,Paul Gauguin,Paul Gauguin,1891.0,12,portrait,portrait,,682,1024
+Q112421542,painter,non_european:japanese,japanese,Rose mallows and fowl,Q1240575,Itō Jakuchū,Itō Jakuchū,1800.0,1,,,,595,1024
+Q112422022,painter,non_european:japanese,japanese,Cockatoos in an old pine,Q1240575,Itō Jakuchū,Itō Jakuchū,1800.0,1,,,,596,1024
+Q113632250,painter,non_european:japanese,japanese,Mandarin ducks in the snow,Q1240575,Itō Jakuchū,Itō Jakuchū,1759.0,1,,,,596,1024
+Q135982351,painter,non_european:japanese,japanese,百犬図,Q1240575,Itō Jakuchū,Itō Jakuchū,1799.0,1,,,,607,1024
+Q131010308,painter,non_european:japanese,japanese,Autumn Millet and Sparrows,Q1240575,Itō Jakuchū,Itō Jakuchū,1759.0,1,,,,598,1024
+Q113632072,painter,non_european:japanese,japanese,Herbaceous peonies and butterflies,Q1240575,Itō Jakuchū,Itō Jakuchū,1758.0,1,,,,575,1024
+Q112304102,painter,non_european:japanese,japanese,Rooster and Hen with Hydrangeas,Q1240575,Itō Jakuchū,Itō Jakuchū,1759.0,1,,,,571,1024
+Q115235589,genre:portrait,non_european:japanese,japanese,Lakeside,Q910913,Kuroda Seiki,Kuroda Seiki,1897.0,2,landscape painting|portrait,landscape|portrait,Yōga,1024,838
+Q115483334,genre:portrait,non_european:south_asian,south_asian,Self-Portrait of Mir Sayyid Ali,Q1937873,Mir Sayyid Ali,Mir Sayyid Ali,1555.0,0,portrait|self-portrait,portrait,,683,1024
+Q50812736,genre:portrait,non_european:south_asian,south_asian,"Page from a dispersed muraqqa‘, or album, with a standing portrait of Prince Kam Bakhsh",,,,1670.0,0,portrait,portrait,,778,1024
+Q1813497,genre:portrait,sitelink_rank,unknown,Wilton Diptych,,,,1397.0,14,portrait|religious art,narrative|portrait,International Gothic,1024,794
+Q3399440,genre:portrait,sitelink_rank,european_american,Portrait of Louis XIV,Q49898,Hyacinthe Rigaud,Hyacinthe Rigaud,1701.0,10,portrait,portrait,Classicist painting|Baroque painting|Grand Siècle,735,1024
+Q1913390,genre:portrait,sitelink_rank,european_american,Max Schmitt in a Single Scull,Q214905,Thomas Eakins,Thomas Eakins,1871.0,9,landscape painting|portrait,landscape|portrait,French Realism,1024,710
+Q2529703,genre:portrait,sitelink_rank,european_american,Emile Zola,Q40599,Édouard Manet,Édouard Manet,1868.0,16,portrait,portrait,,797,1024
+Q220859,genre:portrait,sitelink_rank,european_american,Arnolfini Portrait,Q102272,Jan van Eyck,Jan van Eyck,1434.0,42,portrait,portrait,Early Netherlandish painting,749,1024
+Q18655609,genre:portrait,sitelink_rank,european_american,Self-portrait with breastplate,Q5598,Rembrandt,Rembrandt,1629.0,9,self-portrait,portrait,,832,1024
+Q4896868,genre:portrait,sitelink_rank,european_american,La belle Angèle,Q37693,Paul Gauguin,Paul Gauguin,1889.0,9,portrait,portrait,,803,1024
+Q2574120,genre:portrait,sitelink_rank,european_american,Boy Peeling Fruit,Q42207,Caravaggio,Caravaggio,1592.0,13,portrait|genre art,genre|portrait,Italian Baroque painting,831,1024
+Q970968,genre:portrait,sitelink_rank,european_american,"Symphony in White, No. 1: The White Girl",Q203643,James McNeill Whistler,James McNeill Whistler,1860.0,17,portrait,portrait,,511,1024
+Q614047,genre:portrait,sitelink_rank,european_american,Girl with a Red Hat,Q41264,Johannes Vermeer,Johannes Vermeer,1669.0,18,portrait,portrait,Dutch Golden Age painting,810,1024
+Q24657567,genre:portrait,sitelink_rank,european_american,The Ladies Waldegrave,Q194402,Joshua Reynolds,Joshua Reynolds,1780.0,8,family portrait,portrait,,1024,875
+Q43720115,genre:landscape,non_european:japanese,japanese,Landscape with Rocky Precipice,Q3480606,Sesson Shukei,Sesson Shukei,1550.0,2,landscape painting,landscape,,1024,769
+Q44461289,genre:landscape,non_european:japanese,japanese,Jinshan Island and West Lake,Q3064625,Kanō Sanraku,Kanō Sanraku,1630.0,4,landscape painting,landscape,,1024,470
+Q10904213,genre:landscape,non_european:chinese,chinese,Mt. K'uang-lu,Q2665475,Jing Hao,Jing Hao,900.0,1,shan shui,landscape,,592,1024
+Q7761325,genre:landscape,sitelink_rank,european_american,"The Rocky Mountains, Lander's Peak",Q77132,Albert Bierstadt,Albert Bierstadt,1863.0,8,landscape painting,landscape,Hudson River school|Düsseldorf school of painting,1024,614
+Q5966011,genre:landscape,sitelink_rank,european_american,The Market Cart,Q192720,Thomas Gainsborough,Thomas Gainsborough,1786.0,9,landscape painting,landscape,,845,1024
+Q3832428,genre:landscape,sitelink_rank,european_american,Lilac Bush,Q5582,Vincent van Gogh,Vincent van Gogh,1889.0,13,landscape painting,landscape,,1024,805
+Q2246489,genre:landscape,sitelink_rank,european_american,The Storm on the Sea of Galilee,Q5598,Rembrandt,Rembrandt,1633.0,31,religious art|marine art,landscape|narrative,Dutch Golden Age painting,824,1024
+Q698254,genre:landscape,sitelink_rank,european_american,The Return of the Herd,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1565.0,19,landscape painting,landscape,,1024,748
+Q877191,genre:landscape,sitelink_rank,european_american,The Three Philosophers,Q8459,Giorgione,Giorgione,1500.0,27,landscape painting,landscape,,1024,871
+Q24283,genre:landscape,sitelink_rank,european_american,The Bridge at Narni,Q148475,Jean-Baptiste Camille Corot,Jean-Baptiste Camille Corot,1826.0,9,landscape painting,landscape,,1024,696
+Q4110167,genre:landscape,sitelink_rank,european_american,Evening in Ukraine,Q353628,Arkhip Kuindzhi,Arkhip Kuindzhi,1878.0,10,landscape painting,landscape,,1024,502
+Q3373691,genre:landscape,sitelink_rank,european_american,Winter landscape with skaters,Q212593,Hendrick Avercamp,Hendrick Avercamp,1608.0,15,genre art|landscape painting,genre|landscape,,1024,591
+Q3897210,genre:landscape,sitelink_rank,european_american,Landscape with Charon Crossing the Styx,Q442491,Joachim Patinir,Joachim Patinir,1515.0,10,mythological painting|landscape painting,landscape|narrative,,1024,634
+Q884782,genre:landscape,sitelink_rank,european_american,Altarpiece Tetschen,Q104884,Caspar David Friedrich,Caspar David Friedrich,1807.0,14,landscape painting|mythological painting,landscape|narrative,Romanticism,983,1024
+Q122441388,genre:still_life,non_european:other_non_european,other_non_european,San Pascual Bailón,Q5660541,Agustín Arrieta,Agustín Arrieta,1852.0,1,religious art|genre art|still life,genre|narrative|stilllife,,808,1024
+Q30678575,genre:still_life,non_european:persian_ottoman,persian_ottoman,Still life. Plums,Q8065007,Zakar Zakarian,Zakar Zakarian,1900.0,0,still life,stilllife,,666,510
+Q99486841,genre:still_life,non_european:persian_ottoman,persian_ottoman,Flowers in a White Vase,Q1190012,Osman Hamdi Bey,Osman Hamdi Bey,1876.0,1,still life,stilllife,,831,1024
+Q131819944,genre:still_life,non_european:persian_ottoman,persian_ottoman,,Q6067211,Süleyman Seyyid,Süleyman Seyyid,1904.0,0,still life,stilllife,,665,519
+Q2627810,genre:still_life,sitelink_rank,european_american,The Waterseller of Seville,Q297,Diego Velázquez,Diego Velázquez,1620.0,17,genre art|still life,genre|stilllife,Baroque,759,1024
+Q2270291,genre:still_life,sitelink_rank,european_american,Basket of Fruit,Q42207,Caravaggio,Caravaggio,1600.0,13,still life,stilllife,Italian Baroque painting,1024,786
+Q1432536,genre:still_life,sitelink_rank,european_american,Almond Blossom,Q5582,Vincent van Gogh,Vincent van Gogh,1890.0,20,floral painting,stilllife,,1024,809
+Q3212142,genre:still_life,sitelink_rank,european_american,The Ray,Q207447,Jean-Baptiste-Siméon Chardin,Jean-Baptiste-Siméon Chardin,1727.0,9,still life,stilllife,Rococo|still life,1024,799
+Q2349652,genre:still_life,sitelink_rank,european_american,Still-Life with Partridge and Iron Gloves,Q927350,Jacopo de' Barbari,Jacopo de' Barbari,1504.0,9,still life,stilllife,,826,1024
+Q3956440,genre:still_life,sitelink_rank,european_american,The Basket of Apples,Q35548,Paul Cézanne,Paul Cézanne,1893.0,13,still life,stilllife,,1024,820
+Q4008601,genre:still_life,sitelink_rank,european_american,Vanity,Q47551,Titian,Titian,1515.0,10,allegory|vanitas,narrative|stilllife,Venetian school|High Renaissance,851,1024
+Q780466,genre:religious,sitelink_rank,unknown,Saint George and the Dragon,Q192488,Paolo Uccello,Paolo Uccello,1470.0,9,religious art,narrative,Early Renaissance,1024,784
+Q546241,genre:religious,sitelink_rank,unknown,Theotokos of Vladimir,,,,1125.0,32,religious art,narrative,,681,1024
+Q6980131,genre:religious,sitelink_rank,unknown,Nativity at Night,Q360888,Geertgen tot Sint Jans,Geertgen tot Sint Jans,1490.0,9,religious art,narrative,,759,1024
+Q368788,genre:religious,sitelink_rank,unknown,Pietà,Q5827,Pietro Perugino,Pietro Perugino,1483.0,9,religious art,narrative,Early Renaissance,1024,994
+Q2415259,genre:religious,sitelink_rank,european_american,Saint Michael Vanquishing Satan,Q5597,Raphael,Raphael,1504.0,13,religious art,narrative,High Renaissance,890,1024
+Q2632688,genre:religious,sitelink_rank,european_american,The Baptism of Christ,Q5822,Piero della Francesca,Piero della Francesca,1448.0,17,religious art,narrative,Early Renaissance,713,1024
+Q29784129,genre:religious,sitelink_rank,european_american,Scene from the Great Flood,Q2363367,Joseph-Désiré Court,Joseph-Désiré Court,1827.0,8,religious art,narrative,,791,1024
+Q597114,genre:religious,sitelink_rank,european_american,Death of the Virgin,Q42207,Caravaggio,Caravaggio,1603.0,26,religious art,narrative,Italian Baroque painting,678,1024
+Q27157216,genre:religious,sitelink_rank,european_american,After the Deluge,Q183245,George Frederic Watts,George Frederic Watts,1886.0,18,religious art|marine art,landscape|narrative,Symbolism,1024,591
+Q5916308,genre:religious,sitelink_rank,european_american,The Immaculate Conception,Q186202,Giovanni Battista Tiepolo,Giovanni Battista Tiepolo,1767.0,11,religious art,narrative,,557,1024
+Q1410866,genre:religious,sitelink_rank,european_american,Martyrdom of Saint Sebastian,Q707046|Q318640,Piero del Pollaiuolo|Antonio del Pollaiuolo,Piero del Pollaiuolo,1475.0,10,religious art,narrative,,711,1024
+Q20354732,genre:religious,sitelink_rank,european_american,The Destruction of Sodom And Gomorrah,Q937096,John Martin,John Martin,1852.0,12,religious art,narrative,,1024,653
+Q1227679,genre:religious,sitelink_rank,european_american,Domine quo vadis?,Q7824,Annibale Carracci,Annibale Carracci,1601.0,9,religious art,narrative,,740,1024
+Q185255,genre:religious,sitelink_rank,european_american,The Wedding at Cana,Q9440,Paolo Veronese,Paolo Veronese,1562.0,30,religious art,narrative,Mannerism|Venetian school,1024,686
+Q19860050,genre:interior,non_european:other_non_european,other_non_european,Caipira Cutting Tobacco,Q569859,José Ferraz de Almeida Júnior,José Ferraz de Almeida Júnior,1893.0,1,genre art,genre,,720,1024
+Q17636322,genre:interior,non_european:other_non_european,other_non_european,La vuelta del malón,Q6173611,Ángel della Valle,Ángel della Valle,1892.0,2,genre art,genre,Naturalism,1024,642
+Q17224235,genre:interior,sitelink_rank,japanese,Hikone screen,,,,1700.0,10,genre art|nikuhitsu-ga,genre,Kanō school,1024,355
+Q2155289,genre:interior,sitelink_rank,unknown,The Conjurer,,,,1502.0,14,genre art,genre,Early Netherlandish painting|High Renaissance,1024,851
+Q1632817,genre:interior,sitelink_rank,european_american,At the Père Lathuille Restaurant,Q40599,Édouard Manet,Édouard Manet,1879.0,10,genre art,genre,,1024,838
+Q325981,genre:interior,sitelink_rank,european_american,Réunion de famille,Q207298,Frédéric Bazille,Frédéric Bazille,1867.0,11,genre art|family portrait|self-portrait,genre|portrait,,1024,671
+Q2059447,genre:interior,sitelink_rank,european_american,The Misanthrope,Q43270,Pieter Brueghel the Elder,Pieter Brueghel the Elder,1568.0,17,genre art,genre,,1024,1024
+Q3207931,genre:interior,sitelink_rank,european_american,The Needlewoman,Q297,Diego Velázquez,Diego Velázquez,1635.0,10,genre art,genre,,836,1024
+Q3825327,genre:interior,sitelink_rank,european_american,Blind Man's Bluff,Q5432,Francisco Goya,Francisco Goya,1788.0,12,genre art,genre,,1024,818
+Q9169712,genre:interior,sitelink_rank,european_american,Bathsheba at her Bath,Q106851,Hans Memling,Hans Memling,1485.0,10,religious art|nude|genre art,genre|narrative|nude,Early Netherlandish painting,442,1024
+Q5966403,genre:interior,sitelink_rank,european_american,The Cradle,Q105320,Berthe Morisot,Berthe Morisot,1872.0,10,genre art|portrait,genre|portrait,Impressionism,840,1024
+Q3929306,genre:interior,sitelink_rank,european_american,Jeune Fille au piano (Girl at the Piano - The Overture to Tannhauser),Q35548,Paul Cézanne,Paul Cézanne,1869.0,11,genre art,genre,Impressionism,1024,630
+Q6025982,genre:interior,sitelink_rank,european_american,A Woman Peeling Apples,Q314889,Pieter de Hooch,Pieter de Hooch,1663.0,9,genre art,genre,,659,799
+Q2467082,genre:interior,sitelink_rank,european_american,Visitation,Q5597|Q2327761|Q215305,Raphael|Gianfrancesco Penni|Giulio Romano,Raphael,1517.0,15,religious art|genre art,genre|narrative,High Renaissance,740,1024
+Q52301882,genre:crowd,non_european:other_non_european,other_non_european,"Avenida Paulista no dia da Inauguração, 8 de Dezembro de 1891",Q29404268,Jules-Victor-André Martin,Jules-Victor-André Martin,1891.0,2,history painting,narrative,,1024,674
+Q42568752,genre:crowd,non_european:other_non_european,other_non_european,Passagem de Humaitá,Q727060,Victor Meirelles,Victor Meirelles,1872.0,2,history painting,narrative,,1022,619
+Q10301958,genre:crowd,non_european:other_non_european,other_non_european,Independence or Death,Q540219,Pedro Américo,Pedro Américo,1888.0,6,history painting,narrative,Brazilian academic art|Brazilian nationalism,1024,548
+Q42573725,genre:crowd,non_european:other_non_european,other_non_european,Paisagem com rio e barco ao seco em São Paulo (Ponte Grande),Q1401969,Giovanni Battista Castagneto,Giovanni Battista Castagneto,1895.0,1,history painting,narrative,,1024,622
+Q29016880,genre:crowd,sitelink_rank,european_american,Lucretia,Q212657,Artemisia Gentileschi,Artemisia Gentileschi,1626.0,8,history painting,narrative,,877,1024
+Q1065493,genre:crowd,sitelink_rank,european_american,Ophelia,Q159606,John Everett Millais,John Everett Millais,1851.0,32,history painting,narrative,Pre-Raphaelite Brotherhood,1024,697
+Q476458,genre:crowd,sitelink_rank,european_american,The Oath of the Horatii,Q83155,Jacques-Louis David,Jacques-Louis David,1784.0,41,history painting,narrative,Neoclassicism,1024,794
+Q276174,genre:crowd,sitelink_rank,european_american,The Roses of Heliogabalus,Q240526,Lawrence Alma-Tadema,Lawrence Alma-Tadema,1888.0,20,history painting,narrative,Romanticism,1024,630
+Q1996932,genre:crowd,sitelink_rank,european_american,The Battle of the Milvian Bridge,Q215305,Giulio Romano,Giulio Romano,1520.0,10,history painting,narrative,,1024,666
+Q1115514,genre:crowd,sitelink_rank,european_american,The Story of Lucretia,Q5669,Sandro Botticelli,Sandro Botticelli,1500.0,12,history painting,narrative,Early Renaissance,1024,482
+Q4095553,genre:crowd,sitelink_rank,european_american,Boyarina Morozova,Q110228,Vasily Surikov,Vasily Surikov,1887.0,10,religious art|group portrait|history painting,narrative|portrait,,1024,527
+Q1787460,genre:crowd,sitelink_rank,european_american,Watson and the Shark,Q316016,John Singleton Copley,John Singleton Copley,1778.0,15,history painting,narrative,Pre-romanticism,1024,812
+Q938115,genre:crowd,sitelink_rank,european_american,Rejtan,Q189117,Jan Matejko,Jan Matejko,1866.0,13,history painting,narrative,,1024,592
+Q3224378,genre:crowd,sitelink_rank,european_american,Massacre of the Innocents,Q41554,Nicolas Poussin,Nicolas Poussin,1620.0,11,religious art|history painting,narrative,Classicism,1024,872
+Q59149401,genre:animal,non_european:chinese,chinese,Emaciated Horse,Q3110486,Gong Kai,Gong Kai,1280.0,2,animal art,stilllife,,1024,408
+Q29385249,genre:animal,non_european:south_asian,south_asian,Black Stork in a Landscape,,,,1780.0,2,animal art,stilllife,,736,1024
+Q960447,genre:animal,sitelink_rank,european_american,Tiger in a Tropical Storm,Q156386,Henri Rousseau,Henri Rousseau,1891.0,17,animal art,stilllife,naïve art,1024,818
+Q3402890,genre:animal,sitelink_rank,european_american,The Scapegoat,Q211763,William Holman Hunt,William Holman Hunt,1854.0,12,animal art|religious art,narrative|stilllife,Pre-Raphaelite Brotherhood,1024,628
+Q2917717,genre:animal,sitelink_rank,european_american,The Bull,Q355406,Paulus Potter,Paulus Potter,1647.0,9,animal art,stilllife,Dutch Golden Age painting,1024,710
+Q3012259,genre:animal,sitelink_rank,european_american,Whistlejacket,Q381728,George Stubbs,George Stubbs,1762.0,11,animal art,stilllife,,839,1024
+Q40432,genre:animal,sitelink_rank,european_american,The Horse Fair,Q241732,Rosa Bonheur,Rosa Bonheur,1853.0,15,genre art|animal art,genre|stilllife,French Realism,1024,485
+Q5047026,genre:animal,sitelink_rank,european_american,Cart with Black Ox,Q5582,Vincent van Gogh,Vincent van Gogh,1884.0,11,genre art|animal art,genre|stilllife,realism,1000,746
+Q4693305,genre:animal,sitelink_rank,european_american,Agnus Dei,Q209615,Francisco de Zurbarán,Francisco de Zurbarán,1635.0,13,religious art|animal art,narrative|stilllife,,1024,607
+Q17319634,genre:animal,sitelink_rank,european_american,The Threatened Swan,Q541976,Jan Asselijn,Jan Asselijn,1650.0,12,animal art|allegory,narrative|stilllife,,1024,863
+Q2592400,genre:animal,sitelink_rank,european_american,Blue Horse I,Q44054,Franz Marc,Franz Marc,1911.0,10,animal art,stilllife,,765,1024
+Q18209192,genre:animal,sitelink_rank,european_american,"Man Proposes, God Disposes",Q328369,Edwin Landseer,Edwin Landseer,1864.0,12,animal art,stilllife,,1024,388
+Q13726073,genre:animal,sitelink_rank,european_american,The Goldfinch,Q352954,Carel Fabritius,Carel Fabritius,1654.0,19,animal art,stilllife,Dutch Golden Age painting,671,1024
+Q78711320,fill_non_european,non_european:korean,korean,The Tenth King of Hell,,,,1798.0,0,,,,718,1024
+Q20880303,fill_non_european,non_european:korean,korean,Landscape,Q7517274,Sim Sa-jeong,Sim Sa-jeong,1750.0,0,landscape painting,landscape,,847,1024
+Q109344915,fill_non_european,non_european:chinese,chinese,Emperor Ming-huang's Flight to Szechuan,Q698174,Li Zhaodao,Li Zhaodao,1150.0,1,,,,1024,708
+Q78821319,fill_non_european,non_european:korean,korean,Water-Moon Avalokiteshvara,,,,1346.0,0,,,,768,1024
+Q104557381,fill_non_european,non_european:persian_ottoman,persian_ottoman,Portrait of a woman,Q216018,Jan Rustem,Jan Rustem,,0,portrait,portrait,,770,1024
+Q15934860,fill_non_european,non_european:chinese,chinese,Auspicious Giraffe,Q11138243,Shen Tu,Shen Tu,1414.0,2,,,,516,1024
+Q78857490,fill_non_european,non_european:korean,korean,Wise Men and Children,,,,1849.0,0,,,,490,900
+Q138756220,fill_non_european,non_european:south_asian,south_asian,Achala with His Consort Vishvavajri,,,,1525.0,0,,,,775,1024
+Q111842356,fill_non_european,non_european:persian_ottoman,persian_ottoman,Jesus the Bridegroom,,,,1850.0,0,religious art,narrative,,391,1024
+Q10828655,fill_non_european,non_european:chinese,chinese,The Mahasattva of Truc Lam Coming out from the Mountains,,,,1363.0,2,,,,660,370
+Q78856684,fill_non_european,non_european:korean,korean,Grapevine and Squirrels,,,,1816.0,0,,,,492,1024
+Q19897960,fill_non_european,sitelink_rank,unknown,The Fountain of Life,,,,1440.0,8,religious art,narrative,Early Netherlandish painting,718,1024
+Q64491318,fill_non_european,non_european:persian_ottoman,persian_ottoman,Old man in front of children's graves,Q1190012,Osman Hamdi Bey,Osman Hamdi Bey,1903.0,3,,,,767,1024
+Q78872061,fill_non_european,non_european:chinese,chinese,Riverbank,Q890613,Dong Yuan,Dong Yuan,,1,landscape painting,landscape,,711,1024
+Q78713996,fill_non_european,non_european:south_asian,south_asian,Manuscript Cover with Four Vidyadevis Accompanied by a Protective Deity,,,,1399.0,0,religious art,narrative,,1024,356
+Q78857550,fill_non_european,non_european:korean,korean,Scholars Strolling by the Waterfall,,,,1650.0,0,,,,500,760
+Q542066,fill_non_european,sitelink_rank,unknown,Gabrielle d'Estrées et une de ses sœurs,,,,1594.0,21,nude,nude,School of Fontainebleau,1024,762
+Q15895516,fill_non_european,non_european:chinese,chinese,Epang Palace,Q8060022,Yuan Jiang,Yuan Jiang,,1,ink and color painting,,,539,1024
+Q78714648,fill_non_european,non_european:south_asian,south_asian,Maharana Raj Singh II in Procession with Members of His Court,,,,1755.0,0,,,,774,905
+Q54098065,fill_non_european,non_european:persian_ottoman,persian_ottoman,Portrait of Karolina Kublicka née Sołtan(ca. 1780–?),Q216018,Jan Rustem,Jan Rustem,1805.0,0,portrait,portrait,,887,1000
+Q78821243,fill_non_european,non_european:korean,korean,Bamboo in the Wind,,,,1616.0,0,,,,453,1024
+Q429753,fill,sitelink_rank,european_american,The 1821 Derby at Epsom,Q184212,Théodore Géricault,Théodore Géricault,1821.0,12,genre art,genre,,1024,745
+Q26990816,fill,sitelink_rank,european_american,Roman Widow,Q186748,Dante Gabriel Rossetti,Dante Gabriel Rossetti,1874.0,9,portrait,portrait,Pre-Raphaelite Brotherhood,908,1024
+Q3850306,fill,sitelink_rank,european_american,Martyrdom of Four Saints,Q8457,Antonio da Correggio,Antonio da Correggio,1524.0,9,religious art,narrative,,1024,886

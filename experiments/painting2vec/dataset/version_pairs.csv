@@ -1,0 +1,196 @@
+qid_a,qid_b,relation,note,composition_match,lab_diff
+Q21948567,Q20809059,version,group=vangogh_sunflowers; a=Sunflowers; b=Sunflowers,yes,14.67
+Q21948567,Q18689440,version,group=vangogh_sunflowers; a=Sunflowers; b=Sunflowers,yes,10.5
+Q21948567,Q26220282,version,group=vangogh_sunflowers; a=Sunflowers; b=Still Life: Vase with Fifteen Sunflowers,yes,10.25
+Q18891157,Q18891156,version,group=munch_scream; a=The Scream; b=The Scream,yes,11.44
+Q18891157,Q18891155,version,group=munch_scream; a=The Scream; b=The Scream,yes,14.01
+Q18891157,Q18891158,version,group=munch_scream; a=The Scream; b=The Scream,yes,12.68
+Q11935346,Q4009972,version,group=leonardo_virgin_rocks; a=Virgin of the Rocks; b=Virgin of the Rocks,yes,9.28
+Q11935346,Q20268078,version,group=leonardo_virgin_rocks; a=Virgin of the Rocks; b=Virgin of the Rocks,yes,8.98
+Q18713070,Q18543956,version,group=vangogh_bedroom; a=Bedroom in Arles; b=Bedroom in Arles,yes,11.37
+Q18713070,Q18713076,version,group=vangogh_bedroom; a=Bedroom in Arles; b=Bedroom in Arles,yes,10.85
+Q17519173,Q26221140,version,group=vangogh_arlesienne; a=L'Arlésienne; b=L'Arlésienne,yes,19.06
+Q17519173,Q26221124,version,group=vangogh_arlesienne; a=L'Arlésienne; b=L'Arlésienne,yes,12.05
+Q20265518,Q3820656,version,group=vangogh_berceuse; a=Madame Roulin Rocking the Cradle (La Berceuse); b=La Berceuse,yes,11.71
+Q20265518,Q18689442,version,group=vangogh_berceuse; a=Madame Roulin Rocking the Cradle (La Berceuse); b=La Berceuse,yes,8.57
+Q20265518,Q19911437,version,group=vangogh_berceuse; a=Madame Roulin Rocking the Cradle (La Berceuse); b=La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot,yes,9.55
+Q20265518,Q20630411,version,group=vangogh_berceuse; a=Madame Roulin Rocking the Cradle (La Berceuse); b=Lullaby: Madame Augustine Roulin Rocking a Cradle (La Berceu,yes,15.0
+Q843044,Q17023940,version,group=vangogh_gachet; a=Portrait of Dr. Gachet; b=Portrait of Dr. Gachet,yes,17.78
+Q18009719,Q18009720,version,group=bocklin_isle_dead; a=Isle of the Dead; b=Isle of the Dead,yes,14.58
+Q18009719,Q18009717,version,group=bocklin_isle_dead; a=Isle of the Dead; b=Isle of the Dead,yes,6.95
+Q18009719,Q18009721,version,group=bocklin_isle_dead; a=Isle of the Dead; b=Isle of the Dead,yes,16.48
+Q18009719,Q18009722,version,group=bocklin_isle_dead; a=Isle of the Dead; b=Isle of the Dead,yes,15.77
+Q19801102,Q19801071,version,group=david_napoleon_alps; a=Napoleon Crossing the Alps; b=Napoleon Crossing the Alps,yes,9.52
+Q19801102,Q23650268,version,group=david_napoleon_alps; a=Napoleon Crossing the Alps; b=Napoleon Crossing the Alps,yes,11.18
+Q19801102,Q19801150,version,group=david_napoleon_alps; a=Napoleon Crossing the Alps; b=Napoleon Crossing the Alps,yes,9.83
+Q1165042,Q46276042,version,group=cezanne_card_players; a=The Card Players; b=The Card Players,yes,13.76
+Q26756023,Q20539185,version,group=manet_maximilian; a=The Execution of Emperor Maximilian; b=The Execution of Emperor Maximilian,yes,11.49
+Q26756023,Q26493276,version,group=manet_maximilian; a=The Execution of Emperor Maximilian; b=The Execution of Emperor Maximilian,variant,13.18
+Q26756023,Q20267393,version,group=manet_maximilian; a=The Execution of Emperor Maximilian; b=The Execution of Emperor Maximilian,yes,10.12
+Q2714617,Q52301456,version,group=elgreco_disrobing; a=The Disrobing of Christ; b=The Disrobing of Christ,yes,11.96
+Q2714617,Q66245041,version,group=elgreco_disrobing; a=The Disrobing of Christ; b=The Disrobing of Christ. Contini Bonacossi Collection,yes,6.7
+Q2714617,Q66245507,version,group=elgreco_disrobing; a=The Disrobing of Christ; b=The Disrobing of Christ,yes,11.17
+Q20812911,Q76475336,series_motif,group=hicks_peaceable; a=The Peaceable Kingdom; b=The Peaceable Kingdom,variant,13.67
+Q20812911,Q115631596,series_motif,group=hicks_peaceable; a=The Peaceable Kingdom; b=Peaceable Kingdom of the Branch,variant,14.45
+Q20812911,Q39029723,series_motif,group=hicks_peaceable; a=The Peaceable Kingdom; b=The Peaceable Kingdom (WAM),variant,13.65
+Q20812911,Q111620632,series_motif,group=hicks_peaceable; a=The Peaceable Kingdom; b=Peaceable Kingdom,variant,17.99
+Q20812911,Q49197168,series_motif,group=hicks_peaceable; a=The Peaceable Kingdom; b=The Peaceable Kingdom of the Branch,variant,12.01
+Q585437,Q131543672,version,group=caravaggio_lizard; a=Boy Bitten by a Lizard; b=Boy Bitten by a Lizard,yes,4.83
+Q2610675,Q16534183,version,group=caravaggio_fortune_teller; a=The Fortune Teller; b=The Fortune Teller,yes,14.52
+Q55647114,Q55647084,version,group=caravaggio_lute; a=The Lute Player; b=The Lute Player,yes,12.05
+Q55647114,Q131627548,version,group=caravaggio_lute; a=The Lute Player; b=The Lute Player,yes,13.37
+Q18890421,Q18890420,version,group=munch_madonna; a=Madonna; b=Madonna,yes,6.63
+Q18890421,Q18890424,version,group=munch_madonna; a=Madonna; b=Madonna,yes,11.04
+Q18890421,Q18890422,version,group=munch_madonna; a=Madonna; b=Madonna,yes,15.13
+Q18891171,Q18891173,version,group=munch_sick_child; a=The Sick Child; b=The Sick Child,yes,7.94
+Q18891171,Q18891175,version,group=munch_sick_child; a=The Sick Child; b=The Sick Child,yes,8.23
+Q18891171,Q55421856,version,group=munch_sick_child; a=The Sick Child; b=The Sick Child,yes,6.51
+Q1683743,Q18891335,version,group=munch_vampire; a=Vampire; b=Vampire,yes,7.89
+Q1683743,Q18891339,version,group=munch_vampire; a=Vampire; b=Vampire,variant,22.17
+Q1683743,Q18891336,version,group=munch_vampire; a=Vampire; b=Vampire,yes,10.64
+Q1683743,Q18891338,version,group=munch_vampire; a=Vampire; b=Vampire,yes,8.93
+Q1683743,Q18891337,version,group=munch_vampire; a=Vampire; b=Vampire,yes,15.67
+Q2247406,Q3769169,version,group=gentileschi_judith; a=Judith Slaying Holofernes; b=Judith Beheading Holofernes,yes,11.41
+Q3808227,Q27968452,version,group=renoir_girls_piano; a=Girls at the Piano; b=Young Girls at the Piano,yes,9.91
+Q3808227,Q20183500,version,group=renoir_girls_piano; a=Girls at the Piano; b=Two Young Girls at the Piano,yes,10.16
+Q14425553,Q14425558,version,group=titian_danae; a=Danaë; b=Danaë,yes,10.78
+Q14425553,Q3701421,version,group=titian_danae; a=Danaë; b=Danaë,yes,10.5
+Q14425553,Q3701422,version,group=titian_danae; a=Danaë; b=Danaë,yes,10.55
+Q14425553,Q124940185,version,group=titian_danae; a=Danaë; b=Danaë,yes,11.27
+Q603703,Q4009571,version,group=titian_venus_adonis; a=Venus and Adonis; b=Venus and Adonis,yes,8.82
+Q603703,Q4009574,version,group=titian_venus_adonis; a=Venus and Adonis; b=Venus and Adonis,yes,7.69
+Q603703,Q4009570,version,group=titian_venus_adonis; a=Venus and Adonis; b=Venus and Adonis,yes,10.65
+Q603703,Q4009572,version,group=titian_venus_adonis; a=Venus and Adonis; b=Venus and Adonis,yes,8.74
+Q603703,Q4009569,version,group=titian_venus_adonis; a=Venus and Adonis; b=Venus and Adonis,yes,11.49
+Q4448822,Q106766907,version,group=titian_magdalene; a=Penitent Magdalene; b=Penitent Magdalene,yes,7.19
+Q4448822,Q20181478,version,group=titian_magdalene; a=Penitent Magdalene; b=The Penitent Magdalene,yes,11.44
+Q4448822,Q126476490,version,group=titian_magdalene; a=Penitent Magdalene; b=The Penitent Magdalene,yes,7.82
+Q4448822,Q122700620,version,group=titian_magdalene; a=Penitent Magdalene; b=Saint Mary Magdalene as a penitent,yes,7.47
+Q27965863,Q27970282,version,group=leonardo_yarnwinder; a=Madonna of the Yarnwinder; b=Madonna of the Yarnwinder,yes,14.92
+Q27965863,Q56280397,version,group=leonardo_yarnwinder; a=Madonna of the Yarnwinder; b=Madonna of the Yarnwinder,yes,13.85
+Q1757920,Q119150391,version,group=hunt_light_world; a=The Light of the World; b=The Light of the World,yes,11.68
+Q1757920,Q105103891,version,group=hunt_light_world; a=The Light of the World; b=The Light of the World,yes,10.04
+Q977777,Q94969317,version,group=rossetti_proserpine; a=Proserpine; b=Proserpine,yes,12.07
+Q2712679,Q58018788,version,group=rossetti_beata; a=Beata Beatrix; b=Beata Beatrix,variant,15.42
+Q2712679,Q119802835,version,group=rossetti_beata; a=Beata Beatrix; b=Beata Beatrix,yes,10.0
+Q2712679,Q98147987,version,group=rossetti_beata; a=Beata Beatrix; b=Beata Beatrix,yes,10.22
+Q2712679,Q27974781,version,group=rossetti_beata; a=Beata Beatrix; b=Beata Beatrix,yes,8.31
+Q232087,Q3139782,version,group=friedrich_moon; a=Two men contemplating the Moon; b=Man and Woman contemplating the moon,yes,9.68
+Q232087,Q17281208,version,group=friedrich_moon; a=Two men contemplating the Moon; b=Two men contemplating the Moon,yes,10.48
+Q509806,Q110819859,version,group=leutze_delaware; a=Washington Crossing the Delaware; b=Washington Crossing the Delaware,yes,12.74
+Q398973,Q119891153,version,group=constable_salisbury; a=Salisbury Cathedral from the Bishop's Grounds; b=Salisbury Cathedral from the Bishop's Grounds,yes,9.32
+Q398973,Q19896698,version,group=constable_salisbury; a=Salisbury Cathedral from the Bishop's Grounds; b=Salisbury Cathedral from the Bishop's Garden,yes,10.24
+Q398973,Q19896685,version,group=constable_salisbury; a=Salisbury Cathedral from the Bishop's Grounds; b=Salisbury Cathedral from the Bishop's Garden,yes,10.09
+Q398973,Q114502918,version,group=constable_salisbury; a=Salisbury Cathedral from the Bishop's Grounds; b=Salisbury Cathedral from the Bishop's Grounds,yes,12.9
+Q3696344,Q138911799,series_motif,group=monet_haystacks; a=Haystack near Giverny; b=Haystacks at Giverny,variant,12.31
+Q3696344,Q20538838,series_motif,group=monet_haystacks; a=Haystack near Giverny; b=Grainstack (Sunset),variant,14.68
+Q3696344,Q18683354,series_motif,group=monet_haystacks; a=Haystack near Giverny; b=Haystacks: Snow Effect,variant,14.89
+Q3696344,Q79790733,series_motif,group=monet_haystacks; a=Haystack near Giverny; b=Haystacks at Giverny,variant,15.12
+Q3820708,Q3820706,series_motif,"group=monet_rouen; a=Rouen Cathedral, Portal and Tower d'Albane, Midday; b=Rouen Cathedral, Portal and Tower Saint-Romain, Morning Ligh",variant,6.36
+Q3820708,Q3820703,series_motif,"group=monet_rouen; a=Rouen Cathedral, Portal and Tower d'Albane, Midday; b=Rouen Cathedral, End of the Day",variant,10.35
+Q3820708,Q17491876,series_motif,"group=monet_rouen; a=Rouen Cathedral, Portal and Tower d'Albane, Midday; b=Rouen Cathedral, Portal, Front View",variant,7.76
+Q3820708,Q17436689,series_motif,"group=monet_rouen; a=Rouen Cathedral, Portal and Tower d'Albane, Midday; b=Rouen Cathedral, the Façade in Sunlight",variant,6.06
+Q3820708,Q17436692,series_motif,"group=monet_rouen; a=Rouen Cathedral, Portal and Tower d'Albane, Midday; b=Rouen Cathedral, Portal",variant,12.27
+Q50433805,Q20267587,series_motif,"group=monet_parliament; a=Seagulls, the River Thames and the Houses of Parliament; b=Houses of Parliament, London",variant,8.23
+Q50433805,Q113482581,series_motif,"group=monet_parliament; a=Seagulls, the River Thames and the Houses of Parliament; b=Houses of Parliament, Sunset",variant,10.35
+Q50433805,Q20190858,series_motif,"group=monet_parliament; a=Seagulls, the River Thames and the Houses of Parliament; b=The Houses of Parliament, Sunset",variant,16.0
+Q50433805,Q48977647,series_motif,"group=monet_parliament; a=Seagulls, the River Thames and the Houses of Parliament; b=Houses of Parliament, Effect of Fog",variant,6.25
+Q50433805,Q48609824,series_motif,"group=monet_parliament; a=Seagulls, the River Thames and the Houses of Parliament; b=Houses of Parliament, Sunset",variant,7.69
+Q3905455,Q20538828,series_motif,group=monet_poplars; a=Poplars on the Epte; b=Meadow with Poplars,variant,15.17
+Q3905455,Q79139231,series_motif,"group=monet_poplars; a=Poplars on the Epte; b=Poplars, Pink Effect",variant,11.3
+Q27895187,Q52152294,series_motif,"group=monet_charing_cross; a=Charing Cross Bridge; b=Pont de Londres (Charing Cross Bridge, London)",variant,12.82
+Q27895187,Q67585046,series_motif,group=monet_charing_cross; a=Charing Cross Bridge; b=Charing Cross Bridge,variant,4.71
+Q27895187,Q18683967,series_motif,group=monet_charing_cross; a=Charing Cross Bridge; b=Charing Cross Bridge,variant,6.31
+Q27895187,Q67197624,series_motif,group=monet_charing_cross; a=Charing Cross Bridge; b=Charing Cross Bridge,variant,5.71
+Q27895187,Q67188271,series_motif,"group=monet_charing_cross; a=Charing Cross Bridge; b=Charing Cross Bridge, reflets sur la Tamise",variant,6.6
+Q3795194,Q47782162,series_motif,group=monet_waterloo; a=Waterloo Bridge. Effect of Fog; b=Waterloo Bridge,variant,11.19
+Q3795194,Q96198895,series_motif,group=monet_waterloo; a=Waterloo Bridge. Effect of Fog; b=Waterloo Bridge,variant,12.42
+Q3795194,Q19198168,series_motif,group=monet_waterloo; a=Waterloo Bridge. Effect of Fog; b=Waterloo Bridge in London,variant,8.21
+Q3795194,Q28777026,series_motif,"group=monet_waterloo; a=Waterloo Bridge. Effect of Fog; b=Waterloo Bridge, Sunlight Effect",variant,7.68
+Q3795194,Q132151460,series_motif,group=monet_waterloo; a=Waterloo Bridge. Effect of Fog; b=Waterloo Bridge,variant,4.69
+Q17519174,Q17519249,version,group=vangogh_arlesienne_1890; a=L'Arlésienne; b=L'Arlésienne,yes,8.11
+Q17519174,Q17519255,version,group=vangogh_arlesienne_1890; a=L'Arlésienne; b=L'Arlésienne,yes,11.73
+Q19911459,Q28126478,version,group=cezanne_card_players_multi; a=The Card Players; b=The Card Players,yes,10.23
+Q2126369,Q12418,based_on_P144,different_creator; a=Mona Lisa; b=Mona Lisa,yes,11.45
+Q580853,Q1055111,based_on_P144,different_creator; a=Madonna and Child with an Angel; b=Madonna and Child,variant,15.87
+Q3605057,Q9140602,based_on_P144,different_creator; a=The Fall of Man; b=The Fall of Man,yes,7.36
+Q10296499,Q24090,based_on_P144,same_creator; a=The Crowning with Thorns; b=The Crowning with Thorns,variant,9.37
+Q3627380,Q3627381,based_on_P144,same_creator; a=Passerini Assumption; b=Panciatichi Assumption,variant,11.75
+Q19947331,Q2354251,based_on_P144,different_creator; a=The Barque of Dante; b=The Barque of Dante,yes,6.94
+Q2397593,Q2045726,based_on_P144,same_creator; a=Tavola Doria; b=The Battle of Anghiari,yes,18.33
+Q13571594,Q18002417,based_on_P144,different_creator; a=The Rape of Europa; b=The Rape of Europa,yes,9.47
+Q19890804,Q3701418,based_on_P144,same_creator; a=Death of Cleopatra; b=Danaë,variant,12.26
+Q29021053,Q3769173,based_on_P144,same_creator; a=Judith and Maidservant with Head of Holofernes; b=Judith and Maidservant with Head of Holofernes,variant,11.61
+Q29021098,Q3769173,based_on_P144,same_creator; a=Judith and Maidservant with Head of Holofernes; b=Judith and Maidservant with Head of Holofernes,variant,12.01
+Q21723084,Q12418,based_on_P144,different_creator; a=Portrait of Gioconda (copy); b=Mona Lisa,yes,10.06
+Q6119715,Q14940739,based_on_P144,different_creator; a=Saint Sebastian tended by Saint Irene; b=Saint Sebastian Attended by Saint Irene,yes,6.09
+Q7448169,Q2872711,based_on_P144,same_creator; a=Self-portrait; b=Self-portrait,variant,6.15
+Q28127547,Q2714617,based_on_P144,different_creator; a=Disrobing of Christ (Espolio); b=The Disrobing of Christ,yes,9.84
+Q20810246,Q4358442,based_on_P144,different_creator; a=A Lady Playing the Guitar; b=The Guitar Player,yes,9.55
+Q3047015,Q18010742,based_on_P144,same_creator; a=Odalisque with Slave; b=Odalisque à l'esclave,yes,6.66
+Q3633844,Q20668651,based_on_P144,same_creator; a=Butcher's Stall with the Flight into Egypt; b=A Meat Stall with the Holy Family Giving Alms,yes,4.58
+Q27698013,Q7920622,based_on_P144,same_creator; a=Venus with an Organist and Cupid; b=Venus and Music,variant,9.18
+Q49878096,Q3464081,based_on_P144,same_creator; a=Saint Sebastian; b=Saint Sebastian,variant,13.56
+Q48389324,Q105086910,based_on_P144,different_creator; a=Wind God and Thunder God; b=The Gods of Wind and Thunder,yes,9.98
+Q16908837,Q16954398,based_on_P144,same_creator; a=The Descent from the Cross; b=The Descent from the Cross,variant,8.12
+Q24928532,Q3705716,based_on_P144,different_creator; a=The Entombment; b=The Entombment of Christ,yes,12.17
+Q20801666,Q20801653,based_on_P144,same_creator; a=Landscape with a Windmill in the Evening; b=Landscape with a Windmill,variant,6.54
+Q16620523,Q83799350,based_on_P144,same_creator; a=The Annunciation; b=The Annunciation,yes,9.53
+Q17813694,Q20767567,based_on_P144,same_creator; a=View on the Amstel from Amsteldijk; b=View on the Amstel Looking towards Amsterdam,variant,9.8
+Q27996276,Q21685592,based_on_P144,different_creator; a=Madonna of the Holy Trinity Church; b=Madonna of Roudnice,variant,14.98
+Q5395006,Q83799350,based_on_P144,same_creator; a=The Annunciation; b=The Annunciation,yes,13.47
+Q19905418,Q22075037,based_on_P144,different_creator; a=Young Woman with a Pearl Necklace; b=Young Woman with a Pearl Necklace,yes,7.28
+Q130369461,Q21121925,based_on_P144,"same_creator; a=Napoleon I, Emperor; b=Napoleon I as Emperor",yes,8.26
+Q107273576,Q2610729,based_on_P144,different_creator; a=Portrait of Leo X with Cardinals Giulio de' Medici and Luigi; b=Portrait of Leo X,yes,11.42
+Q23935741,Q23922,based_on_P144,same_creator; a=Girl Before the Mirror; b=Woman with a Mirror,yes,10.22
+Q13571543,Q2270768,based_on_P144,same_creator; a=Cutting the Stone; b=Cutting the Stone,variant,21.38
+Q20176881,Q6119366,based_on_P144,different_creator; a=Saint Martin and the Beggar; b=Saint Martin and the Beggar,yes,8.97
+Q28092811,Q7920648,based_on_P144,different_creator; a=Seated Venus with her Mirror held by Cupid; b=Venus with a Mirror,yes,10.94
+Q55561872,Q474198,based_on_P144,different_creator; a=Malle Babbe; b=Malle Babbe,yes,5.78
+Q19798137,Q19802104,based_on_P144,different_creator; a=Portrait of Charles V with a Dog; b=Portrait of Charles V with a Dog,yes,11.59
+Q19973874,Q10749451,based_on_P144,same_creator; a=Sacrifice of Abraham; b=Abraham's Sacrifice,yes,9.5
+Q47414451,Q28796116,based_on_P144,same_creator; a=George Washington; b=Athenaeum Portrait,variant,19.52
+Q20539066,Q3204168,based_on_P144,different_creator; a=Infanta Maria Theresa; b=Portrait of the Infanta Maria Theresa of Spain,yes,6.57
+Q62399736,Q7718578,based_on_P144,same_creator; a=The Blessed Damozel; b=The Blessed Damozel,variant,19.97
+Q17319836,Q9850868,based_on_P144,different_creator; a=The lute player; b=Jester with lute,yes,8.07
+Q19904792,Q1113824,based_on_P144,"different_creator; a=Don Gaspar de Guzmán (1587–1645), Count-Duke of Olivares; b=Equestrian Portrait of the Count-Duke of Olivares",variant,12.05
+Q59511250,Q4305932,based_on_P144,same_creator; a=The Muse Inspiring the Poet; b=The Muse Inspiring the Poet,yes,9.53
+Q29018356,Q3978273,based_on_P144,same_creator; a=Susannah and the Elders; b=Susanna and the Elders,variant,13.01
+Q18414562,Q72554025,based_on_P144,different_creator; a=Cows; b=Study of five cows,variant,21.09
+Q131432389,Q11772156,based_on_P144,different_creator; a=The Little Fruit Seller; b=The Little Fruit Seller,yes,7.21
+Q11750094,Q600033,based_on_P144,same_creator; a=Portrait of Charles IV of Spain; b=Charles IV in Red,variant,9.78
+Q28796712,Q5965729,based_on_P144,same_creator; a=The Annunciation; b=The Annunciation,yes,8.74
+Q117269037,Q3842521,based_on_P144,different_creator; a=Vierge à l'Enfant avec le jeune saint Jean-Baptiste; b=Madonna and Child and the Young St John the Baptist,yes,16.27
+Q20787925,Q20886860,based_on_P144,different_creator; a=A Dutch Harbour; b=Ships in stormy weather off the coast,yes,15.03
+Q30093604,Q138777826,based_on_P144,different_creator; a=Die büßende Magdalena (Kopie nach); b=Penitent Magdalene,yes,8.72
+Q52212991,Q52213499,based_on_P144,same_creator; a=Northern River; b=Study for Northern River,variant,9.5
+Q83285045,Q23409549,based_on_P144,same_creator; a=Four-in-Hand; b=Four abreast,yes,7.67
+Q29855481,Q19008597,derivative_P4969,same_creator; a=Dido and Aeneas; b=Dido and Aeneas,variant,11.58
+Q69426118,Q18782296,based_on_P144,"same_creator; a=Empress Josephine in Coronation Robes; b=Joséphine de Beauharnais, Empress of the French",yes,9.66
+Q22329820,Q22329818,based_on_P144,same_creator; a=Lamentation over the Dead Christ; b=Lamentation of Christ,variant,14.42
+Q28781995,Q83799350,based_on_P144,same_creator; a=Annunciation; b=The Annunciation,yes,11.0
+Q3842398,Q106262020,based_on_P144,same_creator; a=Madonna with child; b=Doria Madonna,variant,16.92
+Q19911412,Q50811851,based_on_P144,same_creator; a=Venus and the Lute Player; b=Venus and Cupid with a lute-player,variant,10.41
+Q21725478,Q115315211,based_on_P144,"same_creator; a=Portrait of Pope Clement IX (1600-1669); b=Portrait of Clement IX (Rospigliosi, 1667-1669)",yes,7.78
+Q31187841,Q61867583,based_on_P144,same_creator; a=St. Francis receiving the Stigmata; b=Saint Francis receiving stigmata,yes,13.1
+Q78163101,Q123267361,based_on_P144,same_creator; a=Back from the ball; b=Midnight Ride,variant,9.34
+Q104745256,Q12142551,based_on_P144,same_creator; a=Portrait of Stanislaus Augustus Poniatowski (1732–1798) Dres; b=Stanisław Augustus with masonic emblem on his breast,yes,5.84
+Q29946540,Q12418,based_on_P144,different_creator; a=Mona Lisa; b=Mona Lisa,yes,13.19
+Q18608264,Q219831,based_on_P144,different_creator; a=The Company of Captain Banning Cocq; b=The Night Watch,yes,7.28
+Q105611620,Q208758,based_on_P144,different_creator; a=The Maids of Honor (after Velázquez); b=Las Meninas,yes,6.8
+Q109815934,Q208758,based_on_P144,different_creator; a=Vélasquez faisant le portrait de l'Infante Marguerite Thérès; b=Las Meninas,yes,12.46
+Q24314879,Q208758,based_on_P144,different_creator; a=The Handmaidens of the Infanta Margarita in the Household of; b=Las Meninas,yes,9.9
+Q137125540,Q1892745,based_on_P144,different_creator; a=Head of Christ the Redeemer; b=Salvator Mundi,variant,8.63
+Q108691913,Q212616,based_on_P144,different_creator; a=Raft of the Medusa; b=The Raft of the Medusa,yes,9.27
+Q17885557,Q661378,based_on_P144,different_creator; a=Anatomical lesson of Dr. Nicolaas Tulp (after Rembrandt); b=The Anatomy Lesson of Dr. Nicolaes Tulp,variant,7.85
+Q28097164,Q549847,based_on_P144,different_creator; a=Allegorie van de lente; b=Primavera,yes,9.48
+Q117379785,Q737062,based_on_P144,"different_creator; a=Olympia, copie d'après Manet; b=Olympia",yes,6.07
+Q124760517,Q727875,based_on_P144,different_creator; a=Reclining Venus; b=Venus of Urbino,yes,11.12
+Q18748858,Q727875,based_on_P144,different_creator; a=Reclining Venus; b=Venus of Urbino,yes,7.03
+Q120464482,Q727875,based_on_P144,different_creator; a=Venus of Urbino; b=Venus of Urbino,yes,6.22
+Q29862482,Q636537,based_on_P144,different_creator; a=The Death of Marat; b=The Death of Marat,yes,6.55
+Q115472780,Q636537,based_on_P144,different_creator; a=Death of Marat (1743-1793); b=The Death of Marat,yes,8.76
+Q105222017,Q563727,based_on_P144,different_creator; a=The Virgin and Child with Saint Anne; b=The Virgin and Child with Saint Anne,yes,14.52
+Q105296832,Q563727,based_on_P144,different_creator; a=Madonna and Child with the lamb.; b=The Virgin and Child with Saint Anne,variant,14.9
+Q27697256,Q563727,based_on_P144,"different_creator; a=Saint Anne, the Virgin and the Christ Child; b=The Virgin and Child with Saint Anne",yes,9.81
+Q119712107,Q604761,based_on_P144,different_creator; a=The Blue Boy; b=The Blue Boy,yes,6.03

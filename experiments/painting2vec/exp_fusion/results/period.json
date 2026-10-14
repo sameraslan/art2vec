@@ -1,0 +1,262 @@
+{
+ "whole": {
+  "plain": {
+   "broad_p10": 0.714664202094886,
+   "genre_p10": 0.5344457687723481,
+   "within25": 0.3543455497382199,
+   "within50": 0.49240837696335077,
+   "within100": 0.6400523560209425,
+   "beyond150": 0.28340314136125655,
+   "lists_entirely_within50": 0.06806282722513089,
+   "lists_with_a_150y_neighbour": 0.7994764397905759,
+   "median_gap": 56.5
+  },
+  "far50": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.6678989525569933,
+   "genre_p10": 0.46793802145411206,
+   "broad_chance": 0.28634834783613267,
+   "dist_ratio_1st": 1.0087299346923828,
+   "dist_ratio_10th": 1.0180690288543701,
+   "rank_of_1st_median": 2.0,
+   "rank_of_10th_median": 17.5,
+   "ten_within_top100": 0.9979057591623036,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.7520418848167539
+  },
+  "far150": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.618052988293284,
+   "genre_p10": 0.38200238379022644,
+   "broad_chance": 0.259562150665635,
+   "dist_ratio_1st": 1.0428273677825928,
+   "dist_ratio_10th": 1.043113112449646,
+   "rank_of_1st_median": 4.0,
+   "rank_of_10th_median": 35.0,
+   "ten_within_top100": 0.9413612565445026,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.7134554973821989
+  },
+  "far300": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.5203327171903882,
+   "genre_p10": 0.28492252681764,
+   "broad_chance": 0.24436267029470352,
+   "dist_ratio_1st": 1.0941823720932007,
+   "dist_ratio_10th": 1.0848932266235352,
+   "rank_of_1st_median": 14.0,
+   "rank_of_10th_median": 99.0,
+   "ten_within_top100": 0.5089005235602094,
+   "ten_within_top300": 0.8094240837696335,
+   "same_tradition": 0.5734554973821989
+  }
+ },
+ "picture": {
+  "plain": {
+   "broad_p10": 0.7304374614910659,
+   "genre_p10": 0.5555423122765196,
+   "within25": 0.3543979057591623,
+   "within50": 0.4907853403141361,
+   "within100": 0.6382198952879581,
+   "beyond150": 0.278848167539267,
+   "lists_entirely_within50": 0.08691099476439791,
+   "lists_with_a_150y_neighbour": 0.7554973821989529,
+   "median_gap": 58.0
+  },
+  "far50": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.6844731977818854,
+   "genre_p10": 0.48784266984505364,
+   "broad_chance": 0.28634834783613267,
+   "dist_ratio_1st": 1.042778491973877,
+   "dist_ratio_10th": 1.0618757009506226,
+   "rank_of_1st_median": 2.0,
+   "rank_of_10th_median": 17.0,
+   "ten_within_top100": 0.9958115183246073,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.7544502617801047
+  },
+  "far150": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.6348736906962416,
+   "genre_p10": 0.4052443384982122,
+   "broad_chance": 0.259562150665635,
+   "dist_ratio_1st": 1.170824408531189,
+   "dist_ratio_10th": 1.155811071395874,
+   "rank_of_1st_median": 4.0,
+   "rank_of_10th_median": 36.0,
+   "ten_within_top100": 0.9214659685863874,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.7116753926701571
+  },
+  "far300": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.5372766481823783,
+   "genre_p10": 0.300119189511323,
+   "broad_chance": 0.24436267029470352,
+   "dist_ratio_1st": 1.3932318687438965,
+   "dist_ratio_10th": 1.3185436725616455,
+   "rank_of_1st_median": 16.0,
+   "rank_of_10th_median": 105.0,
+   "ten_within_top100": 0.48534031413612566,
+   "ten_within_top300": 0.7994764397905759,
+   "same_tradition": 0.574607329842932
+  }
+ },
+ "form": {
+  "plain": {
+   "broad_p10": 0.4127541589648798,
+   "genre_p10": 0.24117997616209774,
+   "within25": 0.2242931937172775,
+   "within50": 0.33842931937172777,
+   "within100": 0.4756020942408377,
+   "beyond150": 0.44157068062827226,
+   "lists_entirely_within50": 0.0031413612565445027,
+   "lists_with_a_150y_neighbour": 0.9801047120418848,
+   "median_gap": 122.25
+  },
+  "far50": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.3596426370918053,
+   "genre_p10": 0.18539928486293206,
+   "broad_chance": 0.28634834783613267,
+   "dist_ratio_1st": 1.0,
+   "dist_ratio_10th": 1.0074200630187988,
+   "rank_of_1st_median": 1.0,
+   "rank_of_10th_median": 14.0,
+   "ten_within_top100": 1.0,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.6863350785340314
+  },
+  "far150": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.3158964879852126,
+   "genre_p10": 0.13772348033373064,
+   "broad_chance": 0.259562150665635,
+   "dist_ratio_1st": 1.0104598999023438,
+   "dist_ratio_10th": 1.0173418521881104,
+   "rank_of_1st_median": 2.0,
+   "rank_of_10th_median": 22.0,
+   "ten_within_top100": 1.0,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.6716230366492146
+  },
+  "far300": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.28324091189155887,
+   "genre_p10": 0.10733015494636472,
+   "broad_chance": 0.24436267029470352,
+   "dist_ratio_1st": 1.0392862558364868,
+   "dist_ratio_10th": 1.0343518257141113,
+   "rank_of_1st_median": 4.0,
+   "rank_of_10th_median": 42.5,
+   "ten_within_top100": 0.7628272251308901,
+   "ten_within_top300": 0.8780104712041885,
+   "same_tradition": 0.5469109947643979
+  }
+ },
+ "composition": {
+  "plain": {
+   "broad_p10": 0.3698706099815157,
+   "genre_p10": 0.20530393325387367,
+   "within25": 0.17795811518324609,
+   "within50": 0.28089005235602094,
+   "within100": 0.41968586387434553,
+   "beyond150": 0.49031413612565444,
+   "lists_entirely_within50": 0.0,
+   "lists_with_a_150y_neighbour": 0.9968586387434555,
+   "median_gap": 145.5
+  },
+  "far50": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.32963647566235366,
+   "genre_p10": 0.16537544696066747,
+   "broad_chance": 0.28634834783613267,
+   "dist_ratio_1st": 1.0,
+   "dist_ratio_10th": 1.0063116550445557,
+   "rank_of_1st_median": 1.0,
+   "rank_of_10th_median": 13.0,
+   "ten_within_top100": 1.0,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.6690575916230367
+  },
+  "far150": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.29488601355514477,
+   "genre_p10": 0.1297973778307509,
+   "broad_chance": 0.259562150665635,
+   "dist_ratio_1st": 1.0048028230667114,
+   "dist_ratio_10th": 1.0160317420959473,
+   "rank_of_1st_median": 2.0,
+   "rank_of_10th_median": 20.0,
+   "ten_within_top100": 1.0,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.6614136125654451
+  },
+  "far300": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.2698706099815157,
+   "genre_p10": 0.10137067938021455,
+   "broad_chance": 0.24436267029470352,
+   "dist_ratio_1st": 1.0348856449127197,
+   "dist_ratio_10th": 1.0336155891418457,
+   "rank_of_1st_median": 4.0,
+   "rank_of_10th_median": 37.0,
+   "ten_within_top100": 0.756544502617801,
+   "ten_within_top300": 0.8916230366492146,
+   "same_tradition": 0.5429842931937173
+  }
+ },
+ "colour": {
+  "plain": {
+   "broad_p10": 0.40388170055452866,
+   "genre_p10": 0.23224076281287248,
+   "within25": 0.2282198952879581,
+   "within50": 0.34596858638743455,
+   "within100": 0.4773821989528796,
+   "beyond150": 0.4376439790575916,
+   "lists_entirely_within50": 0.011518324607329843,
+   "lists_with_a_150y_neighbour": 0.962303664921466,
+   "median_gap": 119.0
+  },
+  "far50": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.35243376463339493,
+   "genre_p10": 0.17485101311084625,
+   "broad_chance": 0.28634834783613267,
+   "dist_ratio_1st": 1.0,
+   "dist_ratio_10th": 1.0220355987548828,
+   "rank_of_1st_median": 1.0,
+   "rank_of_10th_median": 14.0,
+   "ten_within_top100": 1.0,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.6887434554973823
+  },
+  "far150": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.30979667282809614,
+   "genre_p10": 0.12717520858164483,
+   "broad_chance": 0.259562150665635,
+   "dist_ratio_1st": 1.031693935394287,
+   "dist_ratio_10th": 1.05177640914917,
+   "rank_of_1st_median": 2.0,
+   "rank_of_10th_median": 22.0,
+   "ten_within_top100": 1.0,
+   "ten_within_top300": 1.0,
+   "same_tradition": 0.6699476439790576
+  },
+  "far300": {
+   "paintings_with_10": 1.0,
+   "broad_p10": 0.27837338262476896,
+   "genre_p10": 0.099642431466031,
+   "broad_chance": 0.24436267029470352,
+   "dist_ratio_1st": 1.1162683963775635,
+   "dist_ratio_10th": 1.1053217649459839,
+   "rank_of_1st_median": 5.0,
+   "rank_of_10th_median": 45.0,
+   "ten_within_top100": 0.7596858638743456,
+   "ten_within_top300": 0.8780104712041885,
+   "same_tradition": 0.5457068062827225
+  }
+ }
+}

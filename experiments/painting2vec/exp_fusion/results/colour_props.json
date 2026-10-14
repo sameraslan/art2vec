@@ -1,0 +1,42 @@
+{
+ "mean lightness": {
+  "spearman": 0.8604957281178924,
+  "same_tercile": 0.7242990654205608,
+  "same_or_adjacent_quintile": 0.9065420560747663
+ },
+ "lightness spread (sd)": {
+  "spearman": 0.644336962877023,
+  "same_tercile": 0.5700934579439252,
+  "same_or_adjacent_quintile": 0.794392523364486
+ },
+ "mean chroma (how saturated)": {
+  "spearman": 0.6917779662106522,
+  "same_tercile": 0.6355140186915887,
+  "same_or_adjacent_quintile": 0.8457943925233645
+ },
+ "warm/cool balance": {
+  "spearman": 0.6882465844840835,
+  "same_tercile": 0.6635514018691588,
+  "same_or_adjacent_quintile": 0.8317757009345794
+ },
+ "warm share of coloured pixels": {
+  "spearman": 0.7176115854350831,
+  "same_tercile": 0.6822429906542056,
+  "same_or_adjacent_quintile": 0.8644859813084113
+ },
+ "lights warmer than darks": {
+  "spearman": 0.8469603974641152,
+  "same_tercile": 0.7242990654205608,
+  "same_or_adjacent_quintile": 0.9158878504672897
+ },
+ "achromatic share": {
+  "spearman": 0.6954709784462042,
+  "same_tercile": 0.6682242990654206,
+  "same_or_adjacent_quintile": 0.8551401869158879
+ },
+ "dominant hue family (of 6)": {
+  "same": 0.7383177570093458,
+  "dominant_in_other_top2": 0.9485981308411215,
+  "largest_family_share_in_pilot": 0.684077079107505
+ }
+}

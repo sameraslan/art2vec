@@ -1,0 +1,108 @@
+{
+ "chance": {
+  "genre_p10": 0.17019364179703253,
+  "depicts_j10": 0.024838002689877885,
+  "move_p10": 0.06802355823279696,
+  "painter_p10": 0.010927911828567638
+ },
+ "n_kept": 1972,
+ "describer_n": 60,
+ "excluded": [
+  "Q10296754",
+  "Q106864313",
+  "Q10881982",
+  "Q11135165",
+  "Q112971367",
+  "Q113167718",
+  "Q113180355",
+  "Q113260443",
+  "Q121362966",
+  "Q121363572",
+  "Q12615728",
+  "Q134744239",
+  "Q15592269",
+  "Q15904093",
+  "Q1778000",
+  "Q2395137",
+  "Q24833100",
+  "Q4807363",
+  "Q59168132",
+  "Q59198712",
+  "Q59208406",
+  "Q60849429",
+  "Q706846",
+  "Q7194972",
+  "Q78727757",
+  "Q78761942",
+  "Q78834676",
+  "Q78875327"
+ ],
+ "hand_counts": [
+  {
+   "relation": "based_on_P144",
+   "composition_match": "variant",
+   "hand": "other_hand",
+   "n": 8
+  },
+  {
+   "relation": "based_on_P144",
+   "composition_match": "variant",
+   "hand": "same_hand",
+   "n": 19
+  },
+  {
+   "relation": "based_on_P144",
+   "composition_match": "variant",
+   "hand": "unknown",
+   "n": 1
+  },
+  {
+   "relation": "based_on_P144",
+   "composition_match": "yes",
+   "hand": "other_hand",
+   "n": 21
+  },
+  {
+   "relation": "based_on_P144",
+   "composition_match": "yes",
+   "hand": "same_hand",
+   "n": 14
+  },
+  {
+   "relation": "based_on_P144",
+   "composition_match": "yes",
+   "hand": "unknown",
+   "n": 19
+  },
+  {
+   "relation": "derivative_P4969",
+   "composition_match": "variant",
+   "hand": "same_hand",
+   "n": 1
+  },
+  {
+   "relation": "series_motif",
+   "composition_match": "variant",
+   "hand": "same_hand",
+   "n": 31
+  },
+  {
+   "relation": "version",
+   "composition_match": "variant",
+   "hand": "same_hand",
+   "n": 3
+  },
+  {
+   "relation": "version",
+   "composition_match": "yes",
+   "hand": "same_hand",
+   "n": 75
+  },
+  {
+   "relation": "version",
+   "composition_match": "yes",
+   "hand": "unknown",
+   "n": 3
+  }
+ ]
+}
