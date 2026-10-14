@@ -6,6 +6,20 @@ Two rules and one exception: reception picks the set, the work picks the neighbo
 
 Media are plugins that answer three questions: `canon()` which works are in the set, `encode()` what a work is as content vectors, `describe()` how it makes people feel. One chore, `fetch()`, puts the artefacts in the cache first. The first medium is [album2vec](src/art2vec/album2vec/FRAMEWORK.md), extracted from [recmyrecord](https://github.com/sameraslan/recmyrecord).
 
+## film2vec proof of concept
+
+film2vec places films by their frames, motion, sound and transcript. A first test ran on 128 films from 1916 to 1968 that are in the US public domain.
+
+![Look-block neighbours of All Quiet on the Western Front](experiments/film2vec/figures/neighbours_war.jpg)
+
+By look alone, the three nearest films to All Quiet on the Western Front are First World War films by other directors.
+
+![Top-10 overlap of look neighbours with each other block](experiments/film2vec/figures/block_agreement.png)
+
+Words, motion, sound, colour and time each share only 16% to 35% of the look block's top-10 neighbours, so each block gives its own list.
+
+More figures, including a neighbour list that fails, are in the [gallery](experiments/film2vec/figures/README.md). The full tables are in [RESULTS.md](experiments/film2vec/results/RESULTS.md).
+
 ## Status
 
 Early. The framework, the layout, the medium protocol and the descriptor table are in place; the album code is being extracted from recmyrecord's pipeline with no behaviour change, and `canon`, `fetch` and `sound` raise until it lands. Nothing is on PyPI yet and the licence is still to be chosen.
